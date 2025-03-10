@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>RGC Portfolio Site</label>
-    <site>
-        <urlPathPrefix>rgcportfolio</urlPathPrefix>
-    </site>
-    <space>site/RGC_Portfolio_Site1</space>
-</DigitalExperienceConfig>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Legal Leader [LEGACY] --></label>
-    <name>Legal_Leader__c</name>
-    <relationshipLabel><!-- Collaboration Opportunities (Legal Leader [LEGACY]) --></relationshipLabel>
-</CustomFieldTranslation>

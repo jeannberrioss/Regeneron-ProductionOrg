@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Date all components of the RCA are complete, move to Collaboration Signoff --></help>
-    <label><!-- All RCA Components Completed Date --></label>
-    <name>All_RCA_Components_Completed__c</name>
-</CustomFieldTranslation>

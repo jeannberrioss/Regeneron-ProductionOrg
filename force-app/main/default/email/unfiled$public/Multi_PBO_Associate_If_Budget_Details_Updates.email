@@ -1,9 +1,0 @@
-***UPDATE NOTIFICATION***
-
-Collaboration ID: {!Opportunity.Id}
-
-Collaboration Name: {!Opportunity.Name}
-
-Collaborator Institution: {!Opportunity.Collaboration_Institution_Name_Text__c}
-
-Budget is needed for this Collaboration. Please add the Budget Leader to the Deal Team.

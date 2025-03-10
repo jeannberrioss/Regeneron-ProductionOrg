@@ -1,6 +1,0 @@
-***UPDATE NOTIFICATION***
-
-Collaboration ID: {!Opportunity.Id}
-Collaboration Name: {!Opportunity.Name}
-
-Collaboration Agreement successfully signed. Proceed to collaboration kickoff activities.

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>DetailsReason_for_Other_is_Mandatory</fullName>
-    <active>true</active>
-    <errorConditionFormula>IF( AND(ISPICKVAL(Case_Reason__c , &apos;Other&apos;) ,ISCHANGED(Case_Reason__c ), ISBLANK(Reason_Details_Other__c) ) , True, False)</errorConditionFormula>
-    <errorDisplayField>Reason_Details_Other__c</errorDisplayField>
-    <errorMessage>Reason Details can not be blank when case reason is Other</errorMessage>
-</ValidationRule>

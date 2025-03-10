@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Assigned To --></label>
-    <lookupFilter>
-        <errorMessage><!-- User selected is not a member of Internal Support Team. --></errorMessage>
-    </lookupFilter>
-    <name>Assigned_To__c</name>
-    <relationshipLabel><!-- RGC Salesforce Support (Assigned To) --></relationshipLabel>
-</CustomFieldTranslation>

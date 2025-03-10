@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- (e.g., itepekimab for IL33 antibody, fianlimab for LAG-3 antibody, etc.) --></help>
-    <label><!-- Molecule --></label>
-    <name>Molecule__c</name>
-</CustomFieldTranslation>

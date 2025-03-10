@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- PMT Project --></label>
-    <name>inov8__PMT_Project__c</name>
-    <relationshipLabel><!-- Cases (Related Project) --></relationshipLabel>
-</CustomFieldTranslation>

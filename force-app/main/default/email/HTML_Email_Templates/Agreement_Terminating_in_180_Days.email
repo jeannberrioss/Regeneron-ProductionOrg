@@ -1,1 +1,0 @@
-This email is to notify you that {!Opportunity.Name} with {!Opportunity.Account} will be terminating on {!Opportunity.Active_End_Date__c}. Budget amount is {!Opportunity.Total_Budget_Master__c}. Agreement type is {!Opportunity.Agreement_Type__c}.

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Add any necessary screenshots above. To attach a file, upload to &quot;Notes &amp; Attachments&quot; after you save your request. --></help>
-    <label><!-- Instructions --></label>
-    <name>Instructions__c</name>
-</CustomFieldTranslation>

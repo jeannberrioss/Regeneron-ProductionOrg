@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- (e.g., REGN6569 for GITR antibody, REGN5458 for BCMA x CD3 antibody, etc.) --></help>
-    <label><!-- REGN No. --></label>
-    <name>REGN_No__c</name>
-</CustomFieldTranslation>

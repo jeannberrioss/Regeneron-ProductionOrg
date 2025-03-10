@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Patients with production phenotype data --></label>
-    <name>Patients_with_production_phenotype_data__c</name>
-</CustomFieldTranslation>

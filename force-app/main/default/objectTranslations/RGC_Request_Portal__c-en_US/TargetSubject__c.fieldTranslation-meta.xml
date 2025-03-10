@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- (e.g., ANGPTL3, IL4R, VEGF, etc.) --></help>
-    <label><!-- Target/Subject --></label>
-    <name>TargetSubject__c</name>
-</CustomFieldTranslation>

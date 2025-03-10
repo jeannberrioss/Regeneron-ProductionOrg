@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Lead CTL --></label>
-    <name>Lead_CTL__c</name>
-    <picklistValues>
-        <masterLabel>Marta Zuk</masterLabel>
-        <translation><!-- Marta Zuk --></translation>
-    </picklistValues>
-</CustomFieldTranslation>

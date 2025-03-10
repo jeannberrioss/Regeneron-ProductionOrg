@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customNotifTypeName>Task in Review</customNotifTypeName>
-    <desktop>true</desktop>
-    <masterLabel>Task in Review</masterLabel>
-    <mobile>true</mobile>
-    <slack>false</slack>
-</CustomNotificationType>

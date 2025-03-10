@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Please elaborate on the business priority, including the impact and any critical deadlines (maximum 3 sentences) --></help>
-    <label><!-- Business Priority &amp; Justification --></label>
-    <name>Business_Priority_Justification__c</name>
-</CustomFieldTranslation>

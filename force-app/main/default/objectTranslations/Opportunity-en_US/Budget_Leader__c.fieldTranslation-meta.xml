@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Budget Leader --></label>
-    <name>Budget_Leader__c</name>
-    <relationshipLabel><!-- Collaboration Opportunities (Budget Leader) --></relationshipLabel>
-</CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- RGC Related Data Asset --></label>
-    <name>RGC_Related_Data_Assets__c</name>
-    <relationshipLabel><!-- RGC Data Assets --></relationshipLabel>
-</CustomFieldTranslation>

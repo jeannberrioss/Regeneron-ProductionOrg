@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Controls Received (RGN Archived) (M) --></label>
-    <name>Controls_Received_RGN_Archived_RollUp__c</name>
-</CustomFieldTranslation>

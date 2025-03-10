@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Status of AllxAll association analyses --></label>
-    <name>Status_of_AllxAll_association_analyses__c</name>
-</CustomFieldTranslation>

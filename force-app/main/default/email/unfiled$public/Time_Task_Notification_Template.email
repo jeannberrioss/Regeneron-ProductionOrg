@@ -1,9 +1,0 @@
-*** OVERDUE TASK ***
-
-The following task is Overdue, please take action:
-Collaboration Opportunities: {!Opportunity.Name}
-Task: {!Task.Subject}
-Due Date: {!Task.ActivityDate}
-Status: {!Task.Status}
-
-Click on the link to access the Task: {!Task.Link}

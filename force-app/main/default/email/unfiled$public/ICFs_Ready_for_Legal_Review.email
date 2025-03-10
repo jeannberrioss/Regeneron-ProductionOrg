@@ -1,8 +1,0 @@
-***UPDATE NOTIFICATION***
-
-Collaboration ID: {!Opportunity.Id}
-Collaboration Name: {!Opportunity.Name}
-
-Informed Consent Forms available for Legal Review.
-
-Informed Consent Form Link: {!Opportunity.ICF__c}

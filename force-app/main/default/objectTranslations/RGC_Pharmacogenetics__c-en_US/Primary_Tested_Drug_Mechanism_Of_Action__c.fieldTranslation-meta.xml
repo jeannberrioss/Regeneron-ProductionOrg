@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Primary Tested Drug: Mechanism Of Action --></label>
-    <name>Primary_Tested_Drug_Mechanism_Of_Action__c</name>
-</CustomFieldTranslation>
