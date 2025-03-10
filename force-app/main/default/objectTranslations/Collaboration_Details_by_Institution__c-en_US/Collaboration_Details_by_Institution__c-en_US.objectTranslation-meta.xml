@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Collaboration Details by Institution</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Collaboration Details by Institution</value>
+    </caseValues>
+    <layouts>
+        <layout>Collaboration Layout</layout>
+        <sections>
+            <label><!-- Active --></label>
+            <section>Active</section>
+        </sections>
+        <sections>
+            <label><!-- Agreement --></label>
+            <section>Agreement</section>
+        </sections>
+        <sections>
+            <label><!-- Agreement Details --></label>
+            <section>Agreement Details</section>
+        </sections>
+        <sections>
+            <label><!-- Budget --></label>
+            <section>Budget</section>
+        </sections>
+        <sections>
+            <label><!-- Case/Sample Details --></label>
+            <section>Case/Sample Details</section>
+        </sections>
+        <sections>
+            <label><!-- Collaboration Signoff --></label>
+            <section>Collaboration Signoff</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Due Diligence --></label>
+            <section>Due Diligence</section>
+        </sections>
+        <sections>
+            <label><!-- Early Discussions --></label>
+            <section>Early Discussions</section>
+        </sections>
+        <sections>
+            <label><!-- Research &amp; Ops Planning --></label>
+            <section>Research &amp; Ops Planning</section>
+        </sections>
+        <sections>
+            <label><!-- Signatures &amp; Execution --></label>
+            <section>Signatures &amp; Execution</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Atleast one deal them member should be present to update Budget field,Please add deal team member on Details tab --></errorMessage>
+        <name>Add_Deal_Team_Member_on_Details_Tab</name>
+    </validationRules>
+</CustomObjectTranslation>

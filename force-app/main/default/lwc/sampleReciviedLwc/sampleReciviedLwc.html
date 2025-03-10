@@ -1,0 +1,42 @@
+<template>
+    <template if:true={isLoaded}>
+        <lightning-spinner 
+            alternative-text="Loading" 
+            size="large">
+        </lightning-spinner>
+    </template>
+    <lightning-card variant="Narrow" icon-name="standard:file" title="File Upload" >
+    <div style="margin: 25px;
+    width: 90%;
+    height: 200px;
+    outline: dashed 1px black;
+    position: relative;">
+    <p class="slds-var-p-horizontal_small" style="position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);">
+        <lightning-file-upload 
+            accept={acceptedFormats} 
+            label="Upload Order Recivied File (CSV)" 
+            multiple="multiple" 
+            onuploadfinished={uploadFileHandler}>
+        </lightning-file-upload>
+       
+    </p>
+    </div>
+    <template if:true={data}>
+        <div style="height: 100%;">
+            <lightning-datatable
+                    key-field="Id"
+                    data={data}
+                    hide-checkbox-column
+                    onsave={handleSave}
+                    draft-values={draftValues}
+                   
+                    columns={columns}>
+            </lightning-datatable>
+        </div>
+    </template>
+
+    </lightning-card>
+</template>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>TAG_Team__c</columns>
+    <columns>RGC_Champion__c</columns>
+    <columns>Collaborator_Key__c</columns>
+    <columns>Samples_Total_All__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Collaboration_Status_1__c</columns>
+    <columns>Active_End_Date__c</columns>
+    <columns>Finalize_Research_Plan__c</columns>
+    <columns>Priority__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Collaboration_Status_1__c</field>
+        <operation>notContain</operation>
+        <value>Active,End of Term</value>
+    </filters>
+    <label>All Collaboration Opportunities</label>
+</ListView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CSL --></label>
+    <name>CSL__c</name>
+    <picklistValues>
+        <masterLabel>Alexis Wistermayer</masterLabel>
+        <translation><!-- Alexis Wistermayer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ana-Maria Visoiu-Knapp</masterLabel>
+        <translation><!-- Ana-Maria Visoiu-Knapp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dhanesh Patel-External</masterLabel>
+        <translation><!-- Dhanesh Patel-External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ileana Alexander</masterLabel>
+        <translation><!-- Ileana Alexander --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jessica D&apos;Antonio</masterLabel>
+        <translation><!-- Jessica D&apos;Antonio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maria Gurbo-External</masterLabel>
+        <translation><!-- Maria Gurbo-External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sarah Maitland-Jones-External</masterLabel>
+        <translation><!-- Sarah Maitland-Jones-External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vinh Nuce</masterLabel>
+        <translation><!-- Vinh Nuce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_Clinical Study Leader (GEN)</masterLabel>
+        <translation><!-- _Clinical Study Leader (GEN) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

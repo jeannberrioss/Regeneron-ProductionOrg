@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Department Expense --></label>
+    <name>Department_Expense__c</name>
+    <picklistValues>
+        <masterLabel>Analytical Genetics</masterLabel>
+        <translation><!-- Analytical Genetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Informatics</masterLabel>
+        <translation><!-- Clinical Informatics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genome Informatics &amp; Data Engineering</masterLabel>
+        <translation><!-- Genome Informatics &amp; Data Engineering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC Biology</masterLabel>
+        <translation><!-- RGC Biology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC Management</masterLabel>
+        <translation><!-- RGC Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC Research, Business &amp; Operations Mgmt</masterLabel>
+        <translation><!-- RGC Research, Business &amp; Operations Mgmt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sequencing &amp; Lab Operations</masterLabel>
+        <translation><!-- Sequencing &amp; Lab Operations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Therapeutic Area Genetics</masterLabel>
+        <translation><!-- Therapeutic Area Genetics --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

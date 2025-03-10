@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RGC Must Return/Destroy Samples at Term --></label>
+    <name>RGC_Must_Return_Destroy_Samples_at_Term__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes per RCA Terms</masterLabel>
+        <translation><!-- Yes per RCA Terms --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

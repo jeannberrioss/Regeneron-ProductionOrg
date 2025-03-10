@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please include information like the object/tab name, record type, field name, report/dashboard name, etc --></help>
+    <label><!-- Where should this change be made? --></label>
+    <name>Where_should_this_change_be_made__c</name>
+</CustomFieldTranslation>

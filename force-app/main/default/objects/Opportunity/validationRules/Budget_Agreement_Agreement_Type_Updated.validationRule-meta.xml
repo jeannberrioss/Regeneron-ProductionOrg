@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_Agreement_Agreement_Type_Updated</fullName>
+    <active>true</active>
+    <description>RCA Template type include Budget, please update Budget Agreement Status or update RCA Template Type</description>
+    <errorConditionFormula>AND(Total_Amendment_Budget__c &lt; 1 , AND(
+  ISPICKVAL(Budget_Agreement__c ,&quot;Not Applicable&quot;),
+ ISPICKVAL(Budget__c,&quot;Budget&quot;)
+
+   ))</errorConditionFormula>
+    <errorMessage>Agreement includes Budget, Budget Approval Status cannot be set to Not Applicable.</errorMessage>
+</ValidationRule>

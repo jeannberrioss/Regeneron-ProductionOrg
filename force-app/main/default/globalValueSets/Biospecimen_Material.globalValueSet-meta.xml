@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DNA</fullName>
+        <default>false</default>
+        <label>DNA</label>
+    </customValue>
+    <customValue>
+        <fullName>RNA</fullName>
+        <default>false</default>
+        <label>RNA</label>
+    </customValue>
+    <customValue>
+        <fullName>Protein</fullName>
+        <default>false</default>
+        <label>Protein</label>
+    </customValue>
+    <customValue>
+        <fullName>Blood</fullName>
+        <default>false</default>
+        <label>Blood</label>
+    </customValue>
+    <customValue>
+        <fullName>Tissue</fullName>
+        <default>false</default>
+        <label>Tissue</label>
+    </customValue>
+    <customValue>
+        <fullName>Cells</fullName>
+        <default>false</default>
+        <label>Cells</label>
+    </customValue>
+    <customValue>
+        <fullName>Saliva</fullName>
+        <default>false</default>
+        <label>Saliva</label>
+    </customValue>
+    <customValue>
+        <fullName>RNA stabilized blood</fullName>
+        <default>false</default>
+        <label>RNA stabilized blood</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Biospecimen Material</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

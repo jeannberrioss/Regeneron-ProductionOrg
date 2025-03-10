@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Publication Forum --></label>
+    <name>Publication_Forum__c</name>
+    <picklistValues>
+        <masterLabel>Journal</masterLabel>
+        <translation><!-- Journal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-preprint Online</masterLabel>
+        <translation><!-- Pre-preprint Online --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

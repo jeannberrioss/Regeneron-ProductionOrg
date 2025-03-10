@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- POL --></label>
+    <name>POL__c</name>
+    <picklistValues>
+        <masterLabel>Amy Harman</masterLabel>
+        <translation><!-- Amy Harman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Daya Gulabani</masterLabel>
+        <translation><!-- Daya Gulabani --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jaclyn Patterson</masterLabel>
+        <translation><!-- Jaclyn Patterson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keri Aitchison</masterLabel>
+        <translation><!-- Keri Aitchison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paula Harding</masterLabel>
+        <translation><!-- Paula Harding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shaun Langdon</masterLabel>
+        <translation><!-- Shaun Langdon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_Program Operations Leader (GEN)</masterLabel>
+        <translation><!-- _Program Operations Leader (GEN) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

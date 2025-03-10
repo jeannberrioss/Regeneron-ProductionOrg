@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Expense --></label>
+    <name>Expense__c</name>
+    <picklistValues>
+        <masterLabel>DEPRECIATION</masterLabel>
+        <translation><!-- DEPRECIATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT EXTERNAL EXPENSES</masterLabel>
+        <translation><!-- IT EXTERNAL EXPENSES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAB SUPPLIES</masterLabel>
+        <translation><!-- LAB SUPPLIES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LICENSES, RESEARCH CONTRACTS, REGULATORY FEES</masterLabel>
+        <translation><!-- LICENSES, RESEARCH CONTRACTS, REGULATORY FEES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTHER</masterLabel>
+        <translation><!-- OTHER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OUTSIDE TESTING SERVICES</masterLabel>
+        <translation><!-- OUTSIDE TESTING SERVICES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PEOPLE EXPENSE</masterLabel>
+        <translation><!-- PEOPLE EXPENSE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

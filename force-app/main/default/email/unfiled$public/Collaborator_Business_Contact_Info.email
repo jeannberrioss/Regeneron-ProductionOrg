@@ -1,0 +1,6 @@
+***UPDATE NOTIFICATION***
+
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Collaborator Business Contact Info has been updated.

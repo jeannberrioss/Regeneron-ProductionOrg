@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kicked_Off_Collaboration_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Country_of_Sample_Origin__c</columns>
+    <columns>Agreement_Type__c</columns>
+    <columns>Samples_Total_All__c</columns>
+    <columns>RGC_Champion__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Primary_Collaboration_Type__c</columns>
+    <columns>Health_System__c</columns>
+    <columns>Collaborator_Key__c</columns>
+    <columns>Active_End_Date__c</columns>
+    <columns>Total_Amendments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>7- Active</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Single_Collaboration_Opportunity</value>
+    </filters>
+    <filters>
+        <field>Samples_Total_All__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Active Collaboration Opportunities</label>
+</ListView>

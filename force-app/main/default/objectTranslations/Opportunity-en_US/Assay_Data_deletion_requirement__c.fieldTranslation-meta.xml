@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Assay Data deletion requirement --></label>
+    <name>Assay_Data_deletion_requirement__c</name>
+    <picklistValues>
+        <masterLabel>End Of Term</masterLabel>
+        <translation><!-- End Of Term --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Date</masterLabel>
+        <translation><!-- Other Date --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

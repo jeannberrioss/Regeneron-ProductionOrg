@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AGDS_CI_Executive_Matrix_Summary</fullName>
+    <columns>NAME</columns>
+    <columns>Raw_QA_Completion_Date__c</columns>
+    <columns>Total_patients_with_phenotype_data__c</columns>
+    <columns>Samples_Sequenced__c</columns>
+    <columns>Reviewed_at_PDR__c</columns>
+    <columns>CDM_Status__c</columns>
+    <columns>Priority_Flag__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>equals</operation>
+        <value>CHDI Phenotype Freeze 1,GHS CDM Updates,IAMDGC Freeze 1,iGeneTrain-Salford Phenotype Matrix,iGeneTrain-UCSF Freeze 1,iGeneTrain-Vienna Freeze 1,TEC-Monterrey Phenotype Freeze 1,UKB CDM Updates,UNC-Bulik Freeze 1</value>
+    </filters>
+    <label>AGDS-CI Executive Matrix Summary</label>
+</ListView>

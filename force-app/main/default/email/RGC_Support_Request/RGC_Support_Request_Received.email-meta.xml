@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RGC Support Request Received</name>
+    <style>none</style>
+    <subject>{!RGC_Salesforce_Support__c.Name}: RGC Support Request Received</subject>
+    <textOnly>Your RGC Support Request has been received.
+
+Request#: {!RGC_Salesforce_Support__c.Name}
+Subject: {!RGC_Salesforce_Support__c.Subject__c}
+
+Check your support request in Salesforce to view status updated and details regarding your submission. You can access your request here.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

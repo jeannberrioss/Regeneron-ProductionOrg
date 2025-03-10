@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Diligence_Stage_Gate_2_to_3</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED( StageName ),
+    NOT (ISPICKVAL (StageName,&quot;1- Early Discussions&quot;)),
+    NOT (ISPICKVAL (StageName,&quot;2- Due Diligence&quot;)),
+    OR(
+       NOT(ISPICKVAL(Initial_Discussions__c,&quot;Completed&quot;)),
+
+       NOT(ISPICKVAL(Research_Plan__c,&quot;Completed&quot;)),
+
+       NOT(OR(ISPICKVAL(Informed_Consent_Forms__c,&quot;Approved&quot;),
+              ISPICKVAL(Informed_Consent_Forms__c,&quot;In Progress&quot;),
+              ISPICKVAL(Informed_Consent_Forms__c,&quot;Completed&quot;),
+              ISPICKVAL(Informed_Consent_Forms__c,&quot;Not Applicable&quot;)
+           )),
+
+       NOT (OR(ISPICKVAL(Obtain_Data_Dictionary__c,&quot;In Progress&quot;), 
+               ISPICKVAL(Obtain_Data_Dictionary__c,&quot;Completed&quot;)
+            )),
+
+       NOT(
+         OR(ISPICKVAL(Budget_Assessment__c,&quot;In Progress&quot;),
+            ISPICKVAL(Budget_Assessment__c,&quot;Completed&quot;),
+            ISPICKVAL(Budget_Assessment__c,&quot;Not Applicable&quot;)
+         )    
+    )
+))</errorConditionFormula>
+    <errorMessage>Please complete all necessary Due Diligence stage requirements and/or previous requirements before advancing.</errorMessage>
+</ValidationRule>

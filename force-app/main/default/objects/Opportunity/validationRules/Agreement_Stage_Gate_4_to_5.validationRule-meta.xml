@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_Stage_Gate_4_to_5</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED( StageName ),
+NOT (ISPICKVAL (StageName,&quot;1- Early Discussions&quot;)),
+NOT (ISPICKVAL (StageName,&quot;2- Due Diligence&quot;)),
+NOT (ISPICKVAL (StageName,&quot;3- Research &amp; Ops Planning&quot;)),
+NOT (ISPICKVAL (StageName,&quot;4- Agreement&quot;)),
+OR(
+NOT(ISPICKVAL(Initial_Discussions__c,&quot;Completed&quot;)),
+
+/* Stage 2 */
+NOT(ISPICKVAL(Research_Plan__c,&quot;Completed&quot;)),
+
+NOT(OR(ISPICKVAL(Informed_Consent_Forms__c,&quot;Approved&quot;),
+ISPICKVAL(Informed_Consent_Forms__c,&quot;In Progress&quot;),
+ISPICKVAL(Informed_Consent_Forms__c,&quot;Not Applicable&quot;),
+ISPICKVAL(Informed_Consent_Forms__c,&quot;Completed&quot;)
+)),
+
+NOT (OR(ISPICKVAL(Obtain_Data_Dictionary__c,&quot;In Progress&quot;),
+ISPICKVAL(Obtain_Data_Dictionary__c,&quot;Completed&quot;)
+)),
+
+NOT(OR(ISPICKVAL(Budget_Assessment__c,&quot;In Progress&quot;),
+ISPICKVAL(Budget_Assessment__c,&quot;Completed&quot;),
+ISPICKVAL(Budget_Assessment__c,&quot;Not Applicable&quot;))
+),
+
+/* Stage 3 */
+NOT(ISPICKVAL(Research_Plan_Review__c,&quot;Approved&quot;)),
+
+/* Stage 4 */
+NOT(ISPICKVAL(Research_Collaboration_Agreement__c,&quot;Completed&quot;)),
+NOT(ISPICKVAL(Finalize_Research_Plan__c,&quot;Completed&quot;)),
+
+NOT (OR(ISPICKVAL(ABAC_Compliance__c,&quot;Not Applicable&quot;),
+ISPICKVAL(ABAC_Compliance__c,&quot;Completed&quot;)
+)),
+NOT (OR(ISPICKVAL(Informed_Consent_Forms__c,&quot;Not Applicable&quot;),
+ISPICKVAL(Informed_Consent_Forms__c,&quot;Approved&quot;)
+)),
+
+NOT (OR(ISPICKVAL(Budget_Agreement__c,&quot;Not Applicable&quot;),
+ISPICKVAL(Budget_Agreement__c,&quot;Completed&quot;))
+)
+))</errorConditionFormula>
+    <errorMessage>Please complete all necessary Agreement stage gate requirements, and/or previous requirements before advancing.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- IRB Protocol Status --></label>
+    <name>IRB_Protocol_Status__c</name>
+    <picklistValues>
+        <masterLabel>Cleared</masterLabel>
+        <translation><!-- Cleared --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Cleared</masterLabel>
+        <translation><!-- Not Cleared --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

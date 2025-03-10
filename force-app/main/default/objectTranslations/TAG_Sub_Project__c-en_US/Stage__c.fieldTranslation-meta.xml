@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stage --></label>
+    <name>Stage__c</name>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nomination</masterLabel>
+        <translation><!-- Nomination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC HPT</masterLabel>
+        <translation><!-- RGC HPT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC Internal Review</masterLabel>
+        <translation><!-- RGC Internal Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAG Meeting</masterLabel>
+        <translation><!-- TAG Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weekly Review/Future Target Discussion</masterLabel>
+        <translation><!-- Weekly Review/Future Target Discussion --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

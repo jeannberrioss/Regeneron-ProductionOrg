@@ -1,0 +1,7 @@
+***UPDATE NOTIFICATION***
+
+Notification Details:
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Requested funds are available. Please proceed to next steps.

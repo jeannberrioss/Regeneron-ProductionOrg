@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Amd RGC To Delete Phenotype Data at Term --></label>
+    <name>Amd_RGC_To_Delete_Phenotype_Data_at_Term__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes per RCA Terms</masterLabel>
+        <translation><!-- Yes per RCA Terms --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

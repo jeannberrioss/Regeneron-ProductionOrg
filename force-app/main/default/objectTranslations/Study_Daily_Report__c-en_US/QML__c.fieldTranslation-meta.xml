@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- QML --></label>
+    <name>QML__c</name>
+    <picklistValues>
+        <masterLabel>Amanda Rozner</masterLabel>
+        <translation><!-- Amanda Rozner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gail Boyer</masterLabel>
+        <translation><!-- Gail Boyer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joel Wolf</masterLabel>
+        <translation><!-- Joel Wolf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>John Blanchette</masterLabel>
+        <translation><!-- John Blanchette --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kechelsa Rawlins</masterLabel>
+        <translation><!-- Kechelsa Rawlins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lumi Nemteanu</masterLabel>
+        <translation><!-- Lumi Nemteanu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marc Dickens</masterLabel>
+        <translation><!-- Marc Dickens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Margaret Seaman</masterLabel>
+        <translation><!-- Margaret Seaman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Martin Delgado</masterLabel>
+        <translation><!-- Martin Delgado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natalie Frappier</masterLabel>
+        <translation><!-- Natalie Frappier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Philippe Beltran</masterLabel>
+        <translation><!-- Philippe Beltran --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sheree Hairston</masterLabel>
+        <translation><!-- Sheree Hairston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBD</masterLabel>
+        <translation><!-- TBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teresa Zubel</masterLabel>
+        <translation><!-- Teresa Zubel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vicki Buss</masterLabel>
+        <translation><!-- Vicki Buss --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

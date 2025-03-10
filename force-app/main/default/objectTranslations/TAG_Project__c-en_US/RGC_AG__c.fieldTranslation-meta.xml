@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RGC AG --></label>
+    <name>RGC_AG__c</name>
+    <picklistValues>
+        <masterLabel>Adam Locke</masterLabel>
+        <translation><!-- Adam Locke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alex Li</masterLabel>
+        <translation><!-- Alex Li --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carlo Sidore</masterLabel>
+        <translation><!-- Carlo Sidore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charlie Paulding</masterLabel>
+        <translation><!-- Charlie Paulding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cris Van Hout</masterLabel>
+        <translation><!-- Cris Van Hout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dylan Ferreira</masterLabel>
+        <translation><!-- Dylan Ferreira --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eli Stahl</masterLabel>
+        <translation><!-- Eli Stahl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jack Kosmicki</masterLabel>
+        <translation><!-- Jack Kosmicki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonathan Marchini</masterLabel>
+        <translation><!-- Jonathan Marchini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joshua Backman</masterLabel>
+        <translation><!-- Joshua Backman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lauren Gurski</masterLabel>
+        <translation><!-- Lauren Gurski --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manuel Ferreira</masterLabel>
+        <translation><!-- Manuel Ferreira --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maria Suciu</masterLabel>
+        <translation><!-- Maria Suciu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michael Kessler</masterLabel>
+        <translation><!-- Michael Kessler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olu Sosina</masterLabel>
+        <translation><!-- Olu Sosina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parsa Akbari</masterLabel>
+        <translation><!-- Parsa Akbari --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shane McCarthy</masterLabel>
+        <translation><!-- Shane McCarthy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suganthi</masterLabel>
+        <translation><!-- Suganthi --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

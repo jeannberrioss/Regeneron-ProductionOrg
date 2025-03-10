@@ -1,0 +1,6 @@
+***UPDATE NOTIFICATION***
+
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Initial Assessment has been reviewed by RPR. Decision to proceed to Research Plan development.

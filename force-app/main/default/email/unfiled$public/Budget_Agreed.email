@@ -1,0 +1,6 @@
+***UPDATE NOTIFICATION***
+
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Budget agreed. Proceeding with Research Collaboration Agreement negotiations.

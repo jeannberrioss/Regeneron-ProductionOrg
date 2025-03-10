@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Agreement Type --></label>
+    <name>Agreement_Type__c</name>
+    <picklistValues>
+        <masterLabel>CA - Collaboration Agreement</masterLabel>
+        <translation><!-- CA - Collaboration Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consort - Consortium Agreement</masterLabel>
+        <translation><!-- Consort - Consortium Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DSA - Data Sharing Agreement</masterLabel>
+        <translation><!-- DSA - Data Sharing Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Dataset</masterLabel>
+        <translation><!-- External Dataset --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FA - Funding Agreement</masterLabel>
+        <translation><!-- FA - Funding Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MCRU - Master Clinical Research Unit Agreement</masterLabel>
+        <translation><!-- MCRU - Master Clinical Research Unit Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTA - Material Transfer Agreements</masterLabel>
+        <translation><!-- MTA - Material Transfer Agreements --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Agreement Type</masterLabel>
+        <translation><!-- Other Agreement Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RCA - Other</masterLabel>
+        <translation><!-- RCA - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RCA - Research Collaboration Agreement</masterLabel>
+        <translation><!-- RCA - Research Collaboration Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RPI - Regeneron Pharmaceuticals, Inc</masterLabel>
+        <translation><!-- RPI - Regeneron Pharmaceuticals, Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RSA - Results Sharing Agreement</masterLabel>
+        <translation><!-- RSA - Results Sharing Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SA - Sequencing Agreement</masterLabel>
+        <translation><!-- SA - Sequencing Agreement --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

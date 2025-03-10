@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RGC-RPM Contact --></label>
+    <name>RGCRPM_Contact__c</name>
+    <picklistValues>
+        <masterLabel>Ashley Paynter</masterLabel>
+        <translation><!-- Ashley Paynter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jason Mighty</masterLabel>
+        <translation><!-- Jason Mighty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Larizbeth Romero</masterLabel>
+        <translation><!-- Larizbeth Romero --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michelle LeBlanc</masterLabel>
+        <translation><!-- Michelle LeBlanc --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

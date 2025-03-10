@@ -1,0 +1,1969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Budget_Itemization_Available</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_11_A1</name>
+        <label>Budget Itemization Available</label>
+        <locationX>1100</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Budget_Itemization_Available</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision12</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Budget_Itemization_Available</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>ICFs_Ready_for_Legal_Review</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_13_A1</name>
+        <label>ICFs Ready for Legal Review Email</label>
+        <locationX>1300</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.ICFs_Ready_for_Legal_Review</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision14</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.ICFs_Ready_for_Legal_Review</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>RCA_Ready_for_Legal_Review</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_15_A1</name>
+        <label>RCA Ready for Legal Review Email</label>
+        <locationX>1500</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.RCA_Ready_for_Legal_Review</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision16</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.RCA_Ready_for_Legal_Review</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Proceed_based_on_Initial_Assessment</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_17_A1</name>
+        <label>Proceed based on Initial Assessment Email</label>
+        <locationX>1700</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Proceed_based_on_Initial_Assessment</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision18</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Proceed_based_on_Initial_Assessment</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Proceed_Based_on_Research_Plan</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_19_A1</name>
+        <label>Proceed Based on Research Plan Email</label>
+        <locationX>1900</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Proceed_Based_on_Research_Plan</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision20</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Proceed_Based_on_Research_Plan</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Research_Plan_Successfully_Agreed</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Research Plan Agreed</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Research_Plan_Successfully_Agreed</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision2</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Research_Plan_Successfully_Agreed</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Term_Sheet_Agreed</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_21_A1</name>
+        <label>Term Sheet Agreed Email</label>
+        <locationX>2100</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Term_Sheet_Agreed</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision22</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Term_Sheet_Agreed</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Informed_Consent_Forms_Approved</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_23_A1</name>
+        <label>Informed Consent Forms Approved Email</label>
+        <locationX>2300</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Informed_Consent_Forms_Approved</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision24</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Informed_Consent_Forms_Approved</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Research_Plan_Finalized</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_25_A1</name>
+        <label>Research Plan Finalized Email</label>
+        <locationX>2500</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Research_Plan_Finalized</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision26</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Research_Plan_Finalized</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>All_RCA_Components_Completed</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_27_A1</name>
+        <label>All RCA Components Completed Email</label>
+        <locationX>2700</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.All_RCA_Components_Completed</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision28</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.All_RCA_Components_Completed</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Term_Sheet_Agreed_by_RGC_LT</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_29_A1</name>
+        <label>Term Sheet Agreed by RGC LT Email</label>
+        <locationX>2900</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Term_Sheet_Agreed_by_RGC_LT</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision30</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Term_Sheet_Agreed_by_RGC_LT</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>ICFs_Available</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_31_A1</name>
+        <label>ICFs Available Email</label>
+        <locationX>3100</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.ICFs_Available</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision32</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.ICFs_Available</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Email_to_PBO_Associate</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_33_A1</name>
+        <label>Email to PBO Associate</label>
+        <locationX>3300</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Email_to_PBO_Associate</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Email_to_PBO_Associate</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Budget_Agreed</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_3_A1</name>
+        <label>Budget Agreed</label>
+        <locationX>300</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Budget_Agreed</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision4</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Budget_Agreed</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>RPR_Final_Approval_Date</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_5_A1</name>
+        <label>RPR Final Approval Date Action</label>
+        <locationX>500</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.RPR_Final_Approval_Date</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision6</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.RPR_Final_Approval_Date</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>RCA_Signatures</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_7_A1</name>
+        <label>RCA Signatures Email Alert</label>
+        <locationX>700</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.RCA_Signatures</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision8</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.RCA_Signatures</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Funds_Available</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_9_A1</name>
+        <label>Funds Available Email Alert</label>
+        <locationX>900</locationX>
+        <locationY>200</locationY>
+        <actionName>Opportunity.Funds_Available</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision10</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Funds_Available</nameSegment>
+    </actionCalls>
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Research Plan Agreed Criteria</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>5.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision10</name>
+        <label>myDecision10</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision12</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_11</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_11</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_11_A1</targetReference>
+            </connector>
+            <label>Budget Itemization Available</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>6.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision12</name>
+        <label>myDecision12</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision14</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_13</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_13</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_13_A1</targetReference>
+            </connector>
+            <label>ICFs Ready for Legal Review</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>7.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision14</name>
+        <label>myDecision14</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision16</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_15</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_15</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_15_A1</targetReference>
+            </connector>
+            <label>RCA Ready for Legal Review</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>8.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision16</name>
+        <label>myDecision16</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision18</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_17</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_17</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_17_A1</targetReference>
+            </connector>
+            <label>Proceed based on Initial Assessment</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>9.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision18</name>
+        <label>myDecision18</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision20</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_19</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_19</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_19_A1</targetReference>
+            </connector>
+            <label>Proceed Based on Research Plan</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision2</name>
+        <label>myDecision2</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>Budget Agreed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>10.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision20</name>
+        <label>myDecision20</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision22</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_21</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_21</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_21_A1</targetReference>
+            </connector>
+            <label>Term Sheet Agreed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>11.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision22</name>
+        <label>myDecision22</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision24</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_23</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_23</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_23_A1</targetReference>
+            </connector>
+            <label>Informed Consent Forms Approved</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>12.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision24</name>
+        <label>myDecision24</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision26</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_25</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_25</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_25_A1</targetReference>
+            </connector>
+            <label>Research Plan Finalized</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>13.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision26</name>
+        <label>myDecision26</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision28</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_27</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_27</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_27_A1</targetReference>
+            </connector>
+            <label>All RCA Components Completed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>14.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision28</name>
+        <label>myDecision28</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision30</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_29</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_29</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_29_A1</targetReference>
+            </connector>
+            <label>Term Sheet Agreed by RGC LT</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>15.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision30</name>
+        <label>myDecision30</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision32</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_31</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_31</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_31_A1</targetReference>
+            </connector>
+            <label>ICFs Available</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>16.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision32</name>
+        <label>myDecision32</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_33</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_33</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_33_A1</targetReference>
+            </connector>
+            <label>PBO Notification If Budget Updates</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision4</name>
+        <label>myDecision4</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision6</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_5</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>RPR Final Approval Date</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>3.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision6</name>
+        <label>myDecision6</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision8</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_7</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_7</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_A1</targetReference>
+            </connector>
+            <label>RCA Signatures</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>4.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision8</name>
+        <label>myDecision8</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision10</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_9</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_9</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_9_A1</targetReference>
+            </connector>
+            <label>Funds Available</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>OR(
+AND(
+ISNEW(),
+ISPICKVAL([Opportunity].Research_Plan_Approved_by_RGC__c ,&quot;Yes&quot;),
+OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+
+
+),
+AND(ISCHANGED([Opportunity].Research_Plan_Approved_by_RGC__c ),
+ISPICKVAL([Opportunity].Research_Plan_Approved_by_RGC__c ,&quot;Yes&quot;),
+OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+
+
+)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>OR(
+AND(
+ISNEW(),
+ISPICKVAL({!myVariable_current.Research_Plan_Approved_by_RGC__c} ,&quot;Yes&quot;),
+OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+
+
+),
+AND(ISCHANGED({!myVariable_current.Research_Plan_Approved_by_RGC__c} ),
+ISPICKVAL({!myVariable_current.Research_Plan_Approved_by_RGC__c} ,&quot;Yes&quot;),
+OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+
+
+)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Budget_Itemization_Information_Available__c ))
+	),
+	AND(ISCHANGED([Opportunity].Budget_Itemization_Information_Available__c ),
+    NOT(ISBLANK([Opportunity].Budget_Itemization_Information_Available__c ))
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_11</name>
+        <dataType>Boolean</dataType>
+        <expression>OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Budget_Itemization_Information_Available__c} ))
+	),
+	AND(ISCHANGED({!myVariable_current.Budget_Itemization_Information_Available__c} ),
+    NOT(ISBLANK({!myVariable_current.Budget_Itemization_Information_Available__c} ))
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].ICFs_Ready_for_Legal_Review__c )),
+		OR(
+		NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+		NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+		NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+		NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+		NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+		NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+		NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+		NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) 
+		)
+	),
+	AND(ISCHANGED([Opportunity].ICFs_Ready_for_Legal_Review__c ),
+    NOT(ISBLANK([Opportunity].ICFs_Ready_for_Legal_Review__c )),
+		OR(
+	NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+	NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+	NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+	NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+	NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+	NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+	NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+	NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_13</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.ICFs_Ready_for_Legal_Review__c} )),
+		OR(
+		NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+		NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+		NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+		NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+		NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+		NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+		NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+		NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) 
+		)
+	),
+	AND(ISCHANGED({!myVariable_current.ICFs_Ready_for_Legal_Review__c} ),
+    NOT(ISBLANK({!myVariable_current.ICFs_Ready_for_Legal_Review__c} )),
+		OR(
+	NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+	NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+	NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+	NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+	NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+	NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+	NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+	NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Collaboration_Agreement_ready_for_Legal__c ))
+	),
+	AND(ISCHANGED([Opportunity].Collaboration_Agreement_ready_for_Legal__c ),
+    NOT(ISBLANK([Opportunity].Collaboration_Agreement_ready_for_Legal__c ))
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_15</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Collaboration_Agreement_ready_for_Legal__c} ))
+	),
+	AND(ISCHANGED({!myVariable_current.Collaboration_Agreement_ready_for_Legal__c} ),
+    NOT(ISBLANK({!myVariable_current.Collaboration_Agreement_ready_for_Legal__c} ))
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Proceed_Based_on_Initial_Assessment__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].Proceed_Based_on_Initial_Assessment__c ),
+    NOT(ISBLANK([Opportunity].Proceed_Based_on_Initial_Assessment__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_17</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Proceed_Based_on_Initial_Assessment__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.Proceed_Based_on_Initial_Assessment__c} ),
+    NOT(ISBLANK({!myVariable_current.Proceed_Based_on_Initial_Assessment__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Proceed_Based_on_Research_Plan__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].Proceed_Based_on_Research_Plan__c ),
+    NOT(ISBLANK([Opportunity].Proceed_Based_on_Research_Plan__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_19</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Proceed_Based_on_Research_Plan__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.Proceed_Based_on_Research_Plan__c} ),
+    NOT(ISBLANK({!myVariable_current.Proceed_Based_on_Research_Plan__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Term_Sheet_Agreed__c ))
+	),
+	AND(ISCHANGED([Opportunity].Term_Sheet_Agreed__c ),
+    NOT(ISBLANK([Opportunity].Term_Sheet_Agreed__c ))
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_21</name>
+        <dataType>Boolean</dataType>
+        <expression>OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Term_Sheet_Agreed__c} ))
+	),
+	AND(ISCHANGED({!myVariable_current.Term_Sheet_Agreed__c} ),
+    NOT(ISBLANK({!myVariable_current.Term_Sheet_Agreed__c} ))
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Informed_Consent_Forms_Approved__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].Informed_Consent_Forms_Approved__c ),
+    NOT(ISBLANK([Opportunity].Informed_Consent_Forms_Approved__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_23</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Informed_Consent_Forms_Approved__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.Informed_Consent_Forms_Approved__c} ),
+    NOT(ISBLANK({!myVariable_current.Informed_Consent_Forms_Approved__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Research_Plan_Finalized__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	
+	
+	),
+	AND(ISCHANGED([Opportunity].Research_Plan_Finalized__c ),
+    NOT(ISBLANK([Opportunity].Research_Plan_Finalized__c )),
+	
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_25</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Research_Plan_Finalized__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	
+	
+	),
+	AND(ISCHANGED({!myVariable_current.Research_Plan_Finalized__c} ),
+    NOT(ISBLANK({!myVariable_current.Research_Plan_Finalized__c} )),
+	
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].All_RCA_Components_Completed__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].All_RCA_Components_Completed__c ),
+    NOT(ISBLANK([Opportunity].All_RCA_Components_Completed__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_27</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.All_RCA_Components_Completed__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.All_RCA_Components_Completed__c} ),
+    NOT(ISBLANK({!myVariable_current.All_RCA_Components_Completed__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Term_Sheet_agreed_by_RGC_LT__c ))
+	),
+	AND(ISCHANGED([Opportunity].Term_Sheet_agreed_by_RGC_LT__c ),
+    NOT(ISBLANK([Opportunity].Term_Sheet_agreed_by_RGC_LT__c ))
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_29</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Term_Sheet_agreed_by_RGC_LT__c} ))
+	),
+	AND(ISCHANGED({!myVariable_current.Term_Sheet_agreed_by_RGC_LT__c} ),
+    NOT(ISBLANK({!myVariable_current.Term_Sheet_agreed_by_RGC_LT__c} ))
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(), 
+	ISPICKVAL([Opportunity].Budget_Agreement__c ,&quot;Completed&quot;),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].Budget_Agreement__c ),
+    ISPICKVAL([Opportunity].Budget_Agreement__c ,&quot;Completed&quot;),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(), 
+	ISPICKVAL({!myVariable_current.Budget_Agreement__c} ,&quot;Completed&quot;),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.Budget_Agreement__c} ),
+    ISPICKVAL({!myVariable_current.Budget_Agreement__c} ,&quot;Completed&quot;),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].ICFs_Available__c  )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].ICFs_Available__c  ),
+    NOT(ISBLANK([Opportunity].ICFs_Available__c  )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_31</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.ICFs_Available__c}  )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.ICFs_Available__c}  ),
+    NOT(ISBLANK({!myVariable_current.ICFs_Available__c}  )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>  AND(   ISBLANK([Opportunity].Budget_Leader__c),
+              NOT(   ISBLANK( [Opportunity].PBO_Associate__c)),
+OR(
+    OR(
+
+      ISCHANGED([Opportunity].Total_Cost_Collaborator_Proposed__c),
+      ISCHANGED([Opportunity].Cost_per_Year_Collaborator_Proposed__c),
+      ISCHANGED([Opportunity].Total_Cost_Agreed__c),
+      ISCHANGED([Opportunity].Cost_per_Year_Agreed__c),
+      ISCHANGED([Opportunity].Total_Cost_RGC_Proposed__c),
+      ISCHANGED([Opportunity].Cost_per_Year_RGC_Proposed__c)
+      ),
+     AND(
+       ISNEW(),
+       NOT(ISBLANK([Opportunity].Total_Cost_Collaborator_Proposed__c)),
+       NOT(ISBLANK([Opportunity].Cost_per_Year_Collaborator_Proposed__c)),
+       NOT(ISBLANK([Opportunity].Total_Cost_Agreed__c)),
+       NOT(ISBLANK([Opportunity].Cost_per_Year_Agreed__c)),
+       NOT(ISBLANK([Opportunity].Total_Cost_RGC_Proposed__c)),
+       NOT(ISBLANK([Opportunity].Cost_per_Year_RGC_Proposed__c))
+      )
+  ),
+  OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+  )</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_33</name>
+        <dataType>Boolean</dataType>
+        <expression>  AND(   ISBLANK({!myVariable_current.Budget_Leader__c}),
+              NOT(   ISBLANK( {!myVariable_current.PBO_Associate__c})),
+OR(
+    OR(
+
+      ISCHANGED({!myVariable_current.Total_Cost_Collaborator_Proposed__c}),
+      ISCHANGED({!myVariable_current.Cost_per_Year_Collaborator_Proposed__c}),
+      ISCHANGED({!myVariable_current.Total_Cost_Agreed__c}),
+      ISCHANGED({!myVariable_current.Cost_per_Year_Agreed__c}),
+      ISCHANGED({!myVariable_current.Total_Cost_RGC_Proposed__c}),
+      ISCHANGED({!myVariable_current.Cost_per_Year_RGC_Proposed__c})
+      ),
+     AND(
+       ISNEW(),
+       NOT(ISBLANK({!myVariable_current.Total_Cost_Collaborator_Proposed__c})),
+       NOT(ISBLANK({!myVariable_current.Cost_per_Year_Collaborator_Proposed__c})),
+       NOT(ISBLANK({!myVariable_current.Total_Cost_Agreed__c})),
+       NOT(ISBLANK({!myVariable_current.Cost_per_Year_Agreed__c})),
+       NOT(ISBLANK({!myVariable_current.Total_Cost_RGC_Proposed__c})),
+       NOT(ISBLANK({!myVariable_current.Cost_per_Year_RGC_Proposed__c}))
+      )
+  ),
+  OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+  )</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].RPR_Final_Approval_Date__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].RPR_Final_Approval_Date__c ),
+    NOT(ISBLANK([Opportunity].RPR_Final_Approval_Date__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_5</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.RPR_Final_Approval_Date__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.RPR_Final_Approval_Date__c} ),
+    NOT(ISBLANK({!myVariable_current.RPR_Final_Approval_Date__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>OR(
+	AND(
+	ISNEW(), 
+        ISPICKVAL([Opportunity].RCA_Signatures__c ,&quot;Completed&quot;),
+		OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(
+                 ISCHANGED([Opportunity].RCA_Signatures__c ),
+                 ISPICKVAL([Opportunity].RCA_Signatures__c ,&quot;Completed&quot;),
+				 OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_7</name>
+        <dataType>Boolean</dataType>
+        <expression>OR(
+	AND(
+	ISNEW(), 
+        ISPICKVAL({!myVariable_current.RCA_Signatures__c} ,&quot;Completed&quot;),
+		OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(
+                 ISCHANGED({!myVariable_current.RCA_Signatures__c} ),
+                 ISPICKVAL({!myVariable_current.RCA_Signatures__c} ,&quot;Completed&quot;),
+				 OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK([Opportunity].Funds_Available__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	),
+	AND(ISCHANGED([Opportunity].Funds_Available__c ),
+    NOT(ISBLANK([Opportunity].Funds_Available__c )),
+	OR(
+NOT(ISBLANK([Opportunity].RGC_Champion__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion__c )),
+NOT(ISBLANK([Opportunity].PBO_Associate__c)),
+NOT(ISBLANK([Opportunity].RPM_Leader__c )),
+NOT(ISBLANK( [Opportunity].Legal_Leader__c )),
+NOT(ISBLANK( [Opportunity].Budget_Leader__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion1__c )),
+NOT(ISBLANK( [Opportunity].RGC_Co_Champion2__c )) )
+	)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_9</name>
+        <dataType>Boolean</dataType>
+        <expression>
+OR(
+	AND(
+	ISNEW(),
+	NOT(ISBLANK({!myVariable_current.Funds_Available__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	),
+	AND(ISCHANGED({!myVariable_current.Funds_Available__c} ),
+    NOT(ISBLANK({!myVariable_current.Funds_Available__c} )),
+	OR(
+NOT(ISBLANK({!myVariable_current.RGC_Champion__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion__c} )),
+NOT(ISBLANK({!myVariable_current.PBO_Associate__c})),
+NOT(ISBLANK({!myVariable_current.RPM_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Legal_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.Budget_Leader__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion1__c} )),
+NOT(ISBLANK( {!myVariable_current.RGC_Co_Champion2__c} )) )
+	)
+)</expression>
+    </formulas>
+    <interviewLabel>Research_Plan_Successfully_Agreed-2_InterviewLabel</interviewLabel>
+    <label>Research Plan Successfully Agreed</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Opportunity</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myDecision</startElementReference>
+    <status>Obsolete</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+</Flow>

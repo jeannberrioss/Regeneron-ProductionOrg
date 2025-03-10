@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_Data_Reqs_for_Active_Stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Total_Amendment_Budget__c &lt; 1 ,
+AND(
+(
+ISPICKVAL (StageName,&quot;7- Active&quot;)),
+OR(
+ISPICKVAL( Agreement_Type__c ,&quot;&quot;),
+ISPICKVAL( Geographic_Area__c ,&quot;&quot;),
+ISPICKVAL( Budget__c,&quot;&quot;)
+)))</errorConditionFormula>
+    <errorMessage>Please ensure Agreement Type, Geographic Area and Budget Type are selected for Active Collaborations.</errorMessage>
+</ValidationRule>

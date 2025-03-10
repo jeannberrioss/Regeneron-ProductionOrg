@@ -1,0 +1,53 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <script src="https://unpkg.com/amazon-quicksight-embedding-sdk@2.0.0/dist/quicksight-embedding-js-sdk.min.js"></script>
+<script type="text/javascript">
+    const embedDashboard = async () => {
+        const response = await fetch("https://api.dev.rgctools.regeneron.com/quicksight/embed/rgc-agds/dashboard/5375157c-5d88-492d-98ef-a85cea8b8aaa?allowedDomains[]=https://*.vf.force.com&allowedDomains[]=https://rgc.lightning.force.com");
+        const { data: dashboard } = await response.json();
+        console.log({ dashboard });
+
+        if (!dashboard.EmbedUrl) {
+            console.error('Embed URL does not exist...', dashboard);
+        }
+
+        const {
+            createEmbeddingContext,
+        } = QuickSightEmbedding;
+
+        const embeddingContext = await createEmbeddingContext({
+            onChange: (changeEvent, metadata) => {
+                console.log('Context received a change', changeEvent, metadata);
+            },
+        });
+
+        const frameOptions = {
+            url: `${dashboard.EmbedUrl}#p.Username=anita.pandit`,
+            container: '#experience-container',
+            height: "900px",
+            width: "1400px",
+            onChange: (changeEvent, metadata) => {
+                switch (changeEvent.eventName) {
+                    case 'FRAME_MOUNTED': {
+                        console.log("Do something when the experience frame is mounted.");
+                        break;
+                    }
+                    case 'FRAME_LOADED': {
+                        console.log("Do something when the experience frame is loaded.");
+                        break;
+                    }
+                }
+            },
+        };
+
+        const embeddedDashboardExperience = await embeddingContext.embedDashboard(frameOptions);
+    };
+</script>
+
+<div id="experience-container"></div>
+
+<script type="text/javascript">
+    embedDashboard(); 
+</script>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

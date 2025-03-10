@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Diligence_Agreement_LEGACY</fullName>
+    <active>false</active>
+    <description>Please update the Informed Consent Form Approval,Finalize Research Plan, RCA Agreement values are &quot;Completed&quot; and Negotiate Term Sheet,Budget Agreement,ABAC Approval values are &quot;Completed&quot; or &quot;Not Applicable&quot;</description>
+    <errorConditionFormula>AND(
+ISCHANGED( StageName ),
+OR(
+ISPICKVAL(PRIORVALUE(StageName),&quot;3- Due Diligence &amp; Agreement&quot;),
+ISPICKVAL(PRIORVALUE(StageName),&quot;2- Research Plan&quot;),
+ISPICKVAL(PRIORVALUE(StageName),&quot;1- Early Discussions&quot;)
+),
+
+
+ISPICKVAL(StageName , &quot;4- Signatures&quot;),
+
+OR(
+NOT(ISPICKVAL(Informed_Consent_Forms__c,&quot;Completed&quot;)),
+NOT(ISPICKVAL(Finalize_Research_Plan__c,&quot;Completed&quot;)),
+NOT(ISPICKVAL(Research_Collaboration_Agreement__c,&quot;Completed&quot;)),
+
+
+OR((ISPICKVAL(Term_Sheet__c,&quot;Not Started&quot;)),
+ISPICKVAL(Term_Sheet__c,&quot;In Progress&quot;)),
+
+	OR( (ISPICKVAL(Budget_Assessment__c,&quot;Not Started&quot;)),
+(ISPICKVAL(Budget_Assessment__c,&quot;In Progress&quot;))
+),
+
+OR((ISPICKVAL(Budget_Agreement__c,&quot;Not Started&quot;)),
+ISPICKVAL(Budget_Agreement__c,&quot;In Progress&quot;)),
+
+OR((ISPICKVAL(ABAC_Compliance__c,&quot;Not Started&quot;)),
+ISPICKVAL(ABAC_Compliance__c,&quot;In Progress&quot;))
+)
+)</errorConditionFormula>
+    <errorMessage>Please update the Finalize Research Plan, RCA Agreement values are &quot;Completed&quot; and Negotiate Term Sheet,Budget Agreement,ABAC Approval values are &quot;Completed&quot; or &quot;Not Applicable&quot; or check &quot;Early Discussions or Research Plan&quot;</errorMessage>
+</ValidationRule>

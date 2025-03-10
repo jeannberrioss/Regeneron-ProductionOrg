@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Production Asset Type --></label>
+    <name>Production_Asset_Type__c</name>
+    <picklistValues>
+        <masterLabel>All X All Refresh</masterLabel>
+        <translation><!-- All X All Refresh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genetic Data Freeze</masterLabel>
+        <translation><!-- Genetic Data Freeze --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phenotype Matrix</masterLabel>
+        <translation><!-- Phenotype Matrix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production Run</masterLabel>
+        <translation><!-- Production Run --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sequencing Update</masterLabel>
+        <translation><!-- Sequencing Update --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

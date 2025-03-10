@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Therapeutic Area --></label>
+    <name>Therapeutic_Area__c</name>
+    <picklistValues>
+        <masterLabel>(No T.A.)</masterLabel>
+        <translation><!-- (No T.A.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aging</masterLabel>
+        <translation><!-- Aging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiovascular and Metabolism</masterLabel>
+        <translation><!-- Cardiovascular and Metabolism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Medicine_Metabolic and Muscle Disease</masterLabel>
+        <translation><!-- General Medicine_Metabolic and Muscle Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hearing</masterLabel>
+        <translation><!-- Hearing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immuno-Oncology</masterLabel>
+        <translation><!-- Immuno-Oncology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immunology and Inflammation</masterLabel>
+        <translation><!-- Immunology and Inflammation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Disease</masterLabel>
+        <translation><!-- Infectious Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muscular Metabolism</masterLabel>
+        <translation><!-- Muscular Metabolism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurology</masterLabel>
+        <translation><!-- Neurology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oncology</masterLabel>
+        <translation><!-- Oncology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmology</masterLabel>
+        <translation><!-- Ophthalmology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skeletal</masterLabel>
+        <translation><!-- Skeletal --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

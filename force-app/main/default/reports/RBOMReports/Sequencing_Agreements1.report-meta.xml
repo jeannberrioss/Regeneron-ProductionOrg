@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.RGC_Champion__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Effective_Date__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Active_End_Date__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Future_Collaboration_Considerations__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Jurisdiction__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Collaboration_Status_1__c</field>
+    </columns>
+    <description>This report includes Sequencing Agreements</description>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,1- Early Discussions,2- Due Diligence,3- Research &amp; Ops Planning,4- Agreement,5- Collaboration Signoff,6- Signatures &amp; Execution,7- Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Agreement_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>SA - Sequencing Agreement</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Sequencing Agreements</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>STAGE_NAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

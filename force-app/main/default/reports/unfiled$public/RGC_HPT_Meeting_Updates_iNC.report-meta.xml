@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>TAG_Meeting_Updates__c.Date__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Discussion_TopicRT__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Meeting__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Time__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Link_to__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Link_to_Meeting_Summary__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>TAG_Meeting_Updates__c.Meeting__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>RGC High Priority Topics</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>RGC HPT Meeting Updates</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$TAG_Meeting_Updates__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>TAG_Meeting_Updates__c.Date__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>TAG_Meeting_Updates__c.Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

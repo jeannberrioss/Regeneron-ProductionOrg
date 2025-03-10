@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ECD Medical Director --></label>
+    <name>ECD_Medical_Director__c</name>
+    <picklistValues>
+        <masterLabel>Aaron Kithcart</masterLabel>
+        <translation><!-- Aaron Kithcart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andreja Avbersek</masterLabel>
+        <translation><!-- Andreja Avbersek --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charles Harris</masterLabel>
+        <translation><!-- Charles Harris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cynthia Portal Celhay</masterLabel>
+        <translation><!-- Cynthia Portal Celhay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Georgios Kalliolias</masterLabel>
+        <translation><!-- Georgios Kalliolias --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonathan Weyne</masterLabel>
+        <translation><!-- Jonathan Weyne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meagan O&apos;Brien</masterLabel>
+        <translation><!-- Meagan O&apos;Brien --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Odelya Pagovich</masterLabel>
+        <translation><!-- Odelya Pagovich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oren Levy</masterLabel>
+        <translation><!-- Oren Levy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selin Somersan-Karakaya</masterLabel>
+        <translation><!-- Selin Somersan-Karakaya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_ECD Medical Director (GEN)</masterLabel>
+        <translation><!-- _ECD Medical Director (GEN) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

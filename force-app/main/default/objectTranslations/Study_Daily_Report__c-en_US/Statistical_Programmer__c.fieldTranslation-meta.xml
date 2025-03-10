@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Statistical Programmer --></label>
+    <name>Statistical_Programmer__c</name>
+    <picklistValues>
+        <masterLabel>Alice Wang-External</masterLabel>
+        <translation><!-- Alice Wang-External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Archana Gowdar-External</masterLabel>
+        <translation><!-- Archana Gowdar-External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baole Fan</masterLabel>
+        <translation><!-- Baole Fan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brijesh Ravi</masterLabel>
+        <translation><!-- Brijesh Ravi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bryan (Hang) Zhu</masterLabel>
+        <translation><!-- Bryan (Hang) Zhu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charan Veluri</masterLabel>
+        <translation><!-- Charan Veluri --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chiyou Ni</masterLabel>
+        <translation><!-- Chiyou Ni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dale LeSueur</masterLabel>
+        <translation><!-- Dale LeSueur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Esther Wang</masterLabel>
+        <translation><!-- Esther Wang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fan Xu (Ben)</masterLabel>
+        <translation><!-- Fan Xu (Ben) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guanlong Ren</masterLabel>
+        <translation><!-- Guanlong Ren --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guodong Wei</masterLabel>
+        <translation><!-- Guodong Wei --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Haixin Zhang</masterLabel>
+        <translation><!-- Haixin Zhang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hui Jing</masterLabel>
+        <translation><!-- Hui Jing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Izabella Peszek-External</masterLabel>
+        <translation><!-- Izabella Peszek-External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jia Li</masterLabel>
+        <translation><!-- Jia Li --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jianguo Wei</masterLabel>
+        <translation><!-- Jianguo Wei --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jimil Desai</masterLabel>
+        <translation><!-- Jimil Desai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jingchun Yu</masterLabel>
+        <translation><!-- Jingchun Yu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jinghua Yuan</masterLabel>
+        <translation><!-- Jinghua Yuan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joo Young Yim</masterLabel>
+        <translation><!-- Joo Young Yim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Junjia Bai</masterLabel>
+        <translation><!-- Junjia Bai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Krishna Avula</masterLabel>
+        <translation><!-- Krishna Avula --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lu Zhang</masterLabel>
+        <translation><!-- Lu Zhang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mi Young Kwon</masterLabel>
+        <translation><!-- Mi Young Kwon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michael Klingler</masterLabel>
+        <translation><!-- Michael Klingler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ming Yang</masterLabel>
+        <translation><!-- Ming Yang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pu Wang</masterLabel>
+        <translation><!-- Pu Wang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Richard Senecal</masterLabel>
+        <translation><!-- Richard Senecal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rohit Kamath</masterLabel>
+        <translation><!-- Rohit Kamath --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rujia Liu</masterLabel>
+        <translation><!-- Rujia Liu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rupinder Singh</masterLabel>
+        <translation><!-- Rupinder Singh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ryan Yu</masterLabel>
+        <translation><!-- Ryan Yu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sri Vemuri</masterLabel>
+        <translation><!-- Sri Vemuri --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Srinivas Koduru</masterLabel>
+        <translation><!-- Srinivas Koduru --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Statistical Programmer (GEN)</masterLabel>
+        <translation><!-- Statistical Programmer (GEN) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steve Chen</masterLabel>
+        <translation><!-- Steve Chen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tingting Tian</masterLabel>
+        <translation><!-- Tingting Tian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vishnu Battini</masterLabel>
+        <translation><!-- Vishnu Battini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xiang Li - External</masterLabel>
+        <translation><!-- Xiang Li - External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xinran Hu - External</masterLabel>
+        <translation><!-- Xinran Hu - External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yanhui Yang</masterLabel>
+        <translation><!-- Yanhui Yang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yilong Sun</masterLabel>
+        <translation><!-- Yilong Sun --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yun Zhang</masterLabel>
+        <translation><!-- Yun Zhang --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

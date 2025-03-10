@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Phenotype --></label>
+    <name>Phenotype__c</name>
+    <picklistValues>
+        <masterLabel>Asthma</masterLabel>
+        <translation><!-- Asthma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autoimmune Disease</masterLabel>
+        <translation><!-- Autoimmune Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Pressure</masterLabel>
+        <translation><!-- Blood Pressure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brain Malformations</masterLabel>
+        <translation><!-- Brain Malformations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CADASIL</masterLabel>
+        <translation><!-- CADASIL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COPD</masterLabel>
+        <translation><!-- COPD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COPD, mucus clearance</masterLabel>
+        <translation><!-- COPD, mucus clearance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiomyopathy</masterLabel>
+        <translation><!-- Cardiomyopathy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cartilage loss</masterLabel>
+        <translation><!-- Cartilage loss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chronic Liver Disease</masterLabel>
+        <translation><!-- Chronic Liver Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chronic Obstructive Pulmonary Disease</masterLabel>
+        <translation><!-- Chronic Obstructive Pulmonary Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cognition</masterLabel>
+        <translation><!-- Cognition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coronary Artery Disease</masterLabel>
+        <translation><!-- Coronary Artery Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Depression</masterLabel>
+        <translation><!-- Depression --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Energy expenditure</masterLabel>
+        <translation><!-- Energy expenditure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fibromyalgia</masterLabel>
+        <translation><!-- Fibromyalgia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glaucoma</masterLabel>
+        <translation><!-- Glaucoma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glycemic traits</masterLabel>
+        <translation><!-- Glycemic traits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hearing loss</masterLabel>
+        <translation><!-- Hearing loss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Height and Muscle Mass</masterLabel>
+        <translation><!-- Height and Muscle Mass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hypothyroidism</masterLabel>
+        <translation><!-- Hypothyroidism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IBD</masterLabel>
+        <translation><!-- IBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kidney and Liver Function</masterLabel>
+        <translation><!-- Kidney and Liver Function --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LDL Cholesterol</masterLabel>
+        <translation><!-- LDL Cholesterol --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liver Disease</masterLabel>
+        <translation><!-- Liver Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nasal Polyps</masterLabel>
+        <translation><!-- Nasal Polyps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurodevelopmental Disorder</masterLabel>
+        <translation><!-- Neurodevelopmental Disorder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Obesity</masterLabel>
+        <translation><!-- Obesity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Obesity (protection)</masterLabel>
+        <translation><!-- Obesity (protection) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Obesity and diabetes</masterLabel>
+        <translation><!-- Obesity and diabetes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oct</masterLabel>
+        <translation><!-- Oct --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PAH and Congenital Heart Disease</masterLabel>
+        <translation><!-- PAH and Congenital Heart Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSC/IBD</masterLabel>
+        <translation><!-- PSC/IBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psoriasis</masterLabel>
+        <translation><!-- Psoriasis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulmonary Arterial Hypertension</masterLabel>
+        <translation><!-- Pulmonary Arterial Hypertension --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulmonary Disease</masterLabel>
+        <translation><!-- Pulmonary Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rare Disease</masterLabel>
+        <translation><!-- Rare Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rare Disease: ganglioside deficiency</masterLabel>
+        <translation><!-- Rare Disease: ganglioside deficiency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reduction in diastolic blood pressure</masterLabel>
+        <translation><!-- Reduction in diastolic blood pressure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Respiratory Infections</masterLabel>
+        <translation><!-- Respiratory Infections --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel Syndrome</masterLabel>
+        <translation><!-- Steel Syndrome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type2 Diabetes</masterLabel>
+        <translation><!-- Type2 Diabetes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Varicose veins</masterLabel>
+        <translation><!-- Varicose veins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vasculitis</masterLabel>
+        <translation><!-- Vasculitis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eBMD</masterLabel>
+        <translation><!-- eBMD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

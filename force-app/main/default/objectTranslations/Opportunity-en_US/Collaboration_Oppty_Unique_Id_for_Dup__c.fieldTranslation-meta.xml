@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Collaboration Oppty Unique Id for Dup --></label>
+    <name>Collaboration_Oppty_Unique_Id_for_Dup__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,3617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Opportunity</baseObject>
+    <category>opportunities</category>
+    <deployed>true</deployed>
+    <description>Opportunity with Account details</description>
+    <join>
+        <outerJoin>true</outerJoin>
+        <relationship>Collaborations__r</relationship>
+    </join>
+    <label>Opportunity with Details</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Opportunity ID</displayNameOverride>
+            <field>Id</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaborator Institution Name</displayNameOverride>
+            <field>Account</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Opportunity Record Type</displayNameOverride>
+            <field>RecordType</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Private</displayNameOverride>
+            <field>IsPrivate</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Collaboration Opportunity Name</displayNameOverride>
+            <field>Name</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Description</displayNameOverride>
+            <field>Description</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Stage</displayNameOverride>
+            <field>StageName</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Stage Sort Order</displayNameOverride>
+            <field>StageSortOrder</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Amount</displayNameOverride>
+            <field>Amount</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Probability (%)</displayNameOverride>
+            <field>Probability</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Expected Revenue</displayNameOverride>
+            <field>ExpectedRevenue</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Quantity</displayNameOverride>
+            <field>TotalOpportunityQuantity</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Close Date</displayNameOverride>
+            <field>CloseDate</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Type</displayNameOverride>
+            <field>Type</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Next Step</displayNameOverride>
+            <field>NextStep</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Lead Source</displayNameOverride>
+            <field>LeadSource</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Closed</displayNameOverride>
+            <field>IsClosed</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Won</displayNameOverride>
+            <field>IsWon</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Forecast Category</displayNameOverride>
+            <field>ForecastCategoryName</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary Campaign Source</displayNameOverride>
+            <field>Campaign</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Has Line Item</displayNameOverride>
+            <field>HasOpportunityLineItem</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Price Book</displayNameOverride>
+            <field>Pricebook2</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Opportunity Owner</displayNameOverride>
+            <field>Owner</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Created Date</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Created By</displayNameOverride>
+            <field>CreatedBy</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Modified Date</displayNameOverride>
+            <field>LastModifiedDate</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Modified By</displayNameOverride>
+            <field>LastModifiedBy</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Activity</displayNameOverride>
+            <field>LastActivityDate</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Push Count</displayNameOverride>
+            <field>PushCount</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Collaboration Stage Change Date</displayNameOverride>
+            <field>LastStageChangeDate</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaborator Contact</displayNameOverride>
+            <field>Contact</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary Partner Account</displayNameOverride>
+            <field>PrimaryPartnerAccount</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Synced Quote</displayNameOverride>
+            <field>SyncedQuote</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Contract</displayNameOverride>
+            <field>Contract</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Confirmed</displayNameOverride>
+            <field>Budget_Confirmed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Discovery Completed</displayNameOverride>
+            <field>Discovery_Completed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ROI Analysis Completed</displayNameOverride>
+            <field>ROI_Analysis_Completed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Champion</displayNameOverride>
+            <field>RGC_Champion__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Loss Reason</displayNameOverride>
+            <field>Loss_Reason__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ABAC Approval</displayNameOverride>
+            <field>ABAC_Compliance__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Expiration Date</displayNameOverride>
+            <field>Active_End_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Aging</displayNameOverride>
+            <field>Aging__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agnostic Description</displayNameOverride>
+            <field>Agnostic__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agreement Type</displayNameOverride>
+            <field>Agreement_Type__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>All Collaboration Agreement Components C</displayNameOverride>
+            <field>All_Collaboration_Agreement_Components_C__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>All RCA Components Completed Date</displayNameOverride>
+            <field>All_RCA_Components_Completed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agnostic TAG Team</displayNameOverride>
+            <field>All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assignment</displayNameOverride>
+            <field>Assignment__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Autism</displayNameOverride>
+            <field>Autism__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other TFA/Biology</displayNameOverride>
+            <field>Biology_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Birdshot</displayNameOverride>
+            <field>Birdshot__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Approval</displayNameOverride>
+            <field>Budget_Agreement__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Assessment</displayNameOverride>
+            <field>Budget_Assessment__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Itemization Info Available Date</displayNameOverride>
+            <field>Budget_Itemization_Information_Available__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Leader</displayNameOverride>
+            <field>Budget_Leader__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget (only when applicable)</displayNameOverride>
+            <field>Budget_only_when_applicable__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Shipment Origin US/Non-US</displayNameOverride>
+            <field>COSO_US_Non_US__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CVD/F</displayNameOverride>
+            <field>CVD_F__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotypes Represented</displayNameOverride>
+            <field>CV_Signoff_Phenotypes_Represented__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CV Signoff Updated</displayNameOverride>
+            <field>CV_Signoff_Updated__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget</displayNameOverride>
+            <field>CV_signoff_Budget__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cardiovascular/Fibrosis</displayNameOverride>
+            <field>Cardiovascular_Fibrosis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases - Archived (RGN Archived) (S)</displayNameOverride>
+            <field>Cases_Archived_RGN_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Archived) (S)</displayNameOverride>
+            <field>Cases_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Prospective) (S)</displayNameOverride>
+            <field>Cases_Prospective__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Received (Committed) (S)</displayNameOverride>
+            <field>Cases_Received_Committed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Received (RGN Archived) (S)</displayNameOverride>
+            <field>Cases_Received_RGN_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Sequenced (Committed) (S)</displayNameOverride>
+            <field>Cases_Sequenced_Committed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Sequenced (RGN Archived) (S)</displayNameOverride>
+            <field>Cases_Sequenced_RGN_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Finalized Date</displayNameOverride>
+            <field>Collaboration_Agreement_ready_for_Legal__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Data Access &amp; IT Environment</displayNameOverride>
+            <field>Collaboration_Data_Access_and_IT__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary Collaboration Type</displayNameOverride>
+            <field>Primary_Collaboration_Type__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Disease Area</displayNameOverride>
+            <field>Collaboration_Description_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Description</displayNameOverride>
+            <field>Collaboration_Description_Text__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary TAG Team [LEGACY]</displayNameOverride>
+            <field>Primary_TAG_Team__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration ID</displayNameOverride>
+            <field>Collaboration_ID__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Institution Name</displayNameOverride>
+            <field>Collaboration_Institution_Name_Text__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Oppty Unique Id for Dup</displayNameOverride>
+            <field>Collaboration_Oppty_Unique_Id_for_Dup__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ancestry-AFR</displayNameOverride>
+            <field>Ancestry__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Scope Other</displayNameOverride>
+            <field>Collaboration_Scope_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Scope</displayNameOverride>
+            <field>Collaboration_Scope_Term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Scope</displayNameOverride>
+            <field>Collaboration_Scope_Text__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Champion</displayNameOverride>
+            <field>Champion__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Status</displayNameOverride>
+            <field>Collaboration_Status_1__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Agreement Status</displayNameOverride>
+            <field>Collaboration_Status__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Term (Years)</displayNameOverride>
+            <field>Collaboration_Term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Deal Team</displayNameOverride>
+            <field>Deal_Team__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Type Other</displayNameOverride>
+            <field>Collaboration_Type_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Type</displayNameOverride>
+            <field>Collaboration_Type_Text__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Age-Related Macular Degeneration</displayNameOverride>
+            <field>AMD__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Compliance</displayNameOverride>
+            <field>Compliance__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Confidential Information</displayNameOverride>
+            <field>Confidential_Information__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Consenting and Sample Collection</displayNameOverride>
+            <field>Consenting_and_Sample_Collection__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls-Archived (RGN Archived) (S)</displayNameOverride>
+            <field>Controls_Archived_RGN_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Archived) (S)</displayNameOverride>
+            <field>Controls_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Prospective) (S)</displayNameOverride>
+            <field>Controls_Prospective__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Received (Committed) (S)</displayNameOverride>
+            <field>Controls_Received_Committed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Received (RGN Archived) (S)</displayNameOverride>
+            <field>Controls_Received_RGN_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Sequenced (Committed) (S)</displayNameOverride>
+            <field>Controls_Sequenced_Committed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Sequenced (RGN Archived) (S)</displayNameOverride>
+            <field>Controls_Sequenced_RGN_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Agreed (S)</displayNameOverride>
+            <field>Cost_per_Year_Agreed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Collaborator Proposed (S)</displayNameOverride>
+            <field>Cost_per_Year_Collaborator_Proposed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - RGC Proposed (S)</displayNameOverride>
+            <field>Cost_per_Year_RGC_Proposed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Origin US/Non-US</displayNameOverride>
+            <field>Country_of_Sample_Origin_US_Non_US__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Origin [LEGACY]</displayNameOverride>
+            <field>Country_of_Sample_Origin__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Shipment Origin [LEGAC</displayNameOverride>
+            <field>Country_of_Shipment_Origin__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Data Freeze</displayNameOverride>
+            <field>Data_Freeze__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Coronary Artery Disease</displayNameOverride>
+            <field>CAD__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Definitions</displayNameOverride>
+            <field>Definitions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other Description</displayNameOverride>
+            <field>Description_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Diabetic Retinopathy</displayNameOverride>
+            <field>Diabetic_retinopathy__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>EU Processor Model Clauses</displayNameOverride>
+            <field>EU_Model_Clauses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Early Assessment</displayNameOverride>
+            <field>Early_Assessment_Icon__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Erythematosus</displayNameOverride>
+            <field>Erythematosus__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Exome Sequencing Complete</displayNameOverride>
+            <field>Exome_sequencing_complete__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>FSP</displayNameOverride>
+            <field>FSP__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Finalized Research Plan</displayNameOverride>
+            <field>Finalize_Research_Plan__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>First Pass Analysis</displayNameOverride>
+            <field>First_Pass_Analysis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Founder/Special Population</displayNameOverride>
+            <field>Founder_Special_Population__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Functional Modeling</displayNameOverride>
+            <field>Functional_Modeling__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Funding</displayNameOverride>
+            <field>Funding__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Assessment Date</displayNameOverride>
+            <field>Funds_Available__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Future Collaboration Considerations</displayNameOverride>
+            <field>Future_Collaboration_Considerations__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>GDPR Data Process vs. Controller Class</displayNameOverride>
+            <field>GDPR_Classification_of_D_P_vs_Controlle__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>GDPR Data Role</displayNameOverride>
+            <field>GDPR_DataRole__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Data License</displayNameOverride>
+            <field>Genomic_Data_License__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Data Ownership, Rights &amp; License</displayNameOverride>
+            <field>Genomic_Data_Ownership_Rights_and_Licen__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Data Sharing</displayNameOverride>
+            <field>Genomic_Data_Sharing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Data Use</displayNameOverride>
+            <field>Genomic_Data_Use__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Informatics Transfer Approved</displayNameOverride>
+            <field>Genomic_Informatics_Transfer_Approved__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genotyping Complete</displayNameOverride>
+            <field>Genotyping_Complete__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genotyping</displayNameOverride>
+            <field>Genotyping__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Glaucoma</displayNameOverride>
+            <field>Glaucoma__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Governance</displayNameOverride>
+            <field>Governance__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Governing Law</displayNameOverride>
+            <field>Governing_Law__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Government Funding</displayNameOverride>
+            <field>Government_Funding__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>HLA Typing</displayNameOverride>
+            <field>HLA_Typing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Status</displayNameOverride>
+            <field>ICF_Status__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Link [Legacy]</displayNameOverride>
+            <field>ICF__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICFs Available Date</displayNameOverride>
+            <field>ICFs_Available__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Certification Start Date</displayNameOverride>
+            <field>ICFs_Ready_for_Legal_Review__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>IRB Protocol Status</displayNameOverride>
+            <field>IRB_Protocol_Status__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>I&amp;I</displayNameOverride>
+            <field>I_I__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>I/O</displayNameOverride>
+            <field>I_O__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Immune &amp; Respiratory</displayNameOverride>
+            <field>Immune_Respiratory__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Infectious Diseases</displayNameOverride>
+            <field>Infectious_Diseases__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Inflammatory Bowel Disease</displayNameOverride>
+            <field>Inflammatory_Bowel_Disease__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Approved Date</displayNameOverride>
+            <field>Informed_Consent_Forms_Approved__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Informed Consent Forms Available</displayNameOverride>
+            <field>Informed_Consent_Forms_Available__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Informed Consent Forms Ready for Legal R</displayNameOverride>
+            <field>Informed_Consent_Forms_Ready_for_Legal_R__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Certification</displayNameOverride>
+            <field>Informed_Consent_Forms__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Iniate Process</displayNameOverride>
+            <field>Iniate_Process__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Initial Assessment</displayNameOverride>
+            <field>Initial_Discussions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>IP/Inventions Ownership,Rights &amp; License</displayNameOverride>
+            <field>Intellectual_Property_Inventions_Ownersh__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Inventions</displayNameOverride>
+            <field>Inventions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Jurisdiction</displayNameOverride>
+            <field>Jurisdiction__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Key Definitions</displayNameOverride>
+            <field>Key_Definitions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Key RCA Terms</displayNameOverride>
+            <field>Key_RCA_Terms__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Large Population</displayNameOverride>
+            <field>Large_Population__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Legal Leader [LEGACY]</displayNameOverride>
+            <field>Legal_Leader__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Liability; Insurance</displayNameOverride>
+            <field>Liability_Insurance__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>M&amp;M</displayNameOverride>
+            <field>M_M__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Materials License</displayNameOverride>
+            <field>Materials_License__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Materials Ownership, Rights &amp; Licenses</displayNameOverride>
+            <field>Materials_Ownership_Rights_and_Licenses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Materials Sharing</displayNameOverride>
+            <field>Materials_Sharing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Materials Use</displayNameOverride>
+            <field>Materials_Use__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Extreme Phenotype Family Studies</displayNameOverride>
+            <field>Mendelian__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Multiple Sclerosis (M)</displayNameOverride>
+            <field>Multiple_Sclerosis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Muscle &amp; Metabolism</displayNameOverride>
+            <field>Muscle_Metabolism__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Neuro</displayNameOverride>
+            <field>Neuro__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Neurosciences</displayNameOverride>
+            <field>Neurosciences__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Party Obligations, Reps &amp; Warranties</displayNameOverride>
+            <field>Obligations_Representations_Warranties__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>On Hold</displayNameOverride>
+            <field>On_Hold__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ophthal</displayNameOverride>
+            <field>Ophthal__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ophthalmology</displayNameOverride>
+            <field>Ophthalmology__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other Link[LEGACY]</displayNameOverride>
+            <field>Other_Link__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other Link[LEGACY]</displayNameOverride>
+            <field>Other_Links__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other Type</displayNameOverride>
+            <field>Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agreement Associate</displayNameOverride>
+            <field>PBO_Associate__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Patent Matters</displayNameOverride>
+            <field>Patent_Matters__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pharmaco Genomics</displayNameOverride>
+            <field>Pharmaco_Genomics__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data License</displayNameOverride>
+            <field>Phenotype_Data_License__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data Ownership,Rights &amp;License</displayNameOverride>
+            <field>Phenotype_Data_Ownership_Rights_and_Lic__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data Sharing</displayNameOverride>
+            <field>Phenotype_Data_Sharing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data Structure &amp; Transfer Appr</displayNameOverride>
+            <field>Phenotype_Data_Structure_Transfer_Appr__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data Use</displayNameOverride>
+            <field>Phenotype_Data_Use__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data Received</displayNameOverride>
+            <field>Phenotype_Data_received__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Matrices</displayNameOverride>
+            <field>Phenotype_Matrix__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype-Specific</displayNameOverride>
+            <field>Phenotype_Specific__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phone_Test</displayNameOverride>
+            <field>Phone_Test__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary Collaborator Institution</displayNameOverride>
+            <field>Primary_Collaboration_Institution__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary Sclerosing Cholangitis</displayNameOverride>
+            <field>Primary_Sclerosing_Cholangitis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Priority</displayNameOverride>
+            <field>Priority__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assessment Completed Date</displayNameOverride>
+            <field>Proceed_Based_on_Initial_Assessment__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Reviewed at ROP Date</displayNameOverride>
+            <field>Proceed_Based_on_Research_Plan__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Project Exclusivity</displayNameOverride>
+            <field>Project_Exclusivity__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Project Timelines</displayNameOverride>
+            <field>Project_Timelines__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Psoriasis</displayNameOverride>
+            <field>Psoriasis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Publications</displayNameOverride>
+            <field>Publications__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Publicity; Nondisclosure of Terms</displayNameOverride>
+            <field>Publicity_Nondisclosure_of_Terms__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Agreement Link</displayNameOverride>
+            <field>RCA_Agreement__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Signatures</displayNameOverride>
+            <field>RCA_Signatures__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Templates Link</displayNameOverride>
+            <field>RCA_Templates__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Co-Champion</displayNameOverride>
+            <field>RGC_Co_Champion1__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Co-Champion</displayNameOverride>
+            <field>RGC_Co_Champion2__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Co-Champion</displayNameOverride>
+            <field>RGC_Co_Champion__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other TAG Team(s)</displayNameOverride>
+            <field>RGC_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cancer</displayNameOverride>
+            <field>Cancer__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TAG Teams Other</displayNameOverride>
+            <field>RGC_Teams_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TAG Team(s)</displayNameOverride>
+            <field>RGC_Teams_Text__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Chronic Liver Disease</displayNameOverride>
+            <field>Chronic_Liver_Disease__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RNA Sequencing</displayNameOverride>
+            <field>RNA_Sequencing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Leader</displayNameOverride>
+            <field>RPM_Leader__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CV Signoff at ROP Date</displayNameOverride>
+            <field>RPR_Final_Approval_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tubes Sent to Collaborator</displayNameOverride>
+            <field>Ready_to_Send_Tubes__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Terms &amp; Agreement</displayNameOverride>
+            <field>Research_Collaboration_Agreement__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CV Signoff at ROP</displayNameOverride>
+            <field>Research_Plan_Approved_by_RGC__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Final Research Plan Completed Date</displayNameOverride>
+            <field>Research_Plan_Finalized__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Link</displayNameOverride>
+            <field>Research_Plan_Link__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Develop Research Plan</displayNameOverride>
+            <field>Research_Plan__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Resources and Deliverables</displayNameOverride>
+            <field>Resources_and_Deliverables__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Results/Research Data License</displayNameOverride>
+            <field>ResultsResearch_Data_License__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Results/Research Data Sharing</displayNameOverride>
+            <field>ResultsResearch_Data_Sharing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Results/Research Data Use</displayNameOverride>
+            <field>ResultsResearch_Data_Use__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Results Ownership, Rights &amp; Licenses</displayNameOverride>
+            <field>Results_Ownership_Rights_and_Licenses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>SD</displayNameOverride>
+            <field>SD__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Sample Received</displayNameOverride>
+            <field>Sample_Received__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Sample Requirements Approved</displayNameOverride>
+            <field>Sample_Requirements_Approved__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Samples (Total) (S)</displayNameOverride>
+            <field>Samples_Total__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Scientific Considerations</displayNameOverride>
+            <field>Scientific_Considerations__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Scleroderma</displayNameOverride>
+            <field>Scleroderma__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other Scope</displayNameOverride>
+            <field>Scope_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Skeletal Diseases</displayNameOverride>
+            <field>Skeletal_Diseases__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Specific Aims</displayNameOverride>
+            <field>Specific_Aims__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Study Rationale</displayNameOverride>
+            <field>Study_Rationale__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Systemic Lupus</displayNameOverride>
+            <field>Systemic_Lupus__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TFA/Biology Other</displayNameOverride>
+            <field>TFA_Biology_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TFA/Biology</displayNameOverride>
+            <field>TFA_Biology_Text__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Endometriosis</displayNameOverride>
+            <field>Endometriosis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tail Phase End Date</displayNameOverride>
+            <field>Tail_Phase_End_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Target End Date</displayNameOverride>
+            <field>Target_End_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Target Start Date</displayNameOverride>
+            <field>Target_Start_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Target Start Qtr</displayNameOverride>
+            <field>Target_Start_Qtr__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Term Sheet Agreed Date</displayNameOverride>
+            <field>Term_Sheet_Agreed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Negotiate Term Sheet</displayNameOverride>
+            <field>Term_Sheet__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Term Sheet Agreed by RGC LT Date</displayNameOverride>
+            <field>Term_Sheet_agreed_by_RGC_LT__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Termination</displayNameOverride>
+            <field>Termination__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Archived (RGN Archived) (S)</displayNameOverride>
+            <field>Total_Archived_RGN_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Archived (RGN Archived) (M)</displayNameOverride>
+            <field>Total_Archived_RGN_Archived_formula__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Archived (S)</displayNameOverride>
+            <field>Total_Archived__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cases (Committed) (M)</displayNameOverride>
+            <field>Total_Cases_Committed_RollupFormula__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cases (Committed) (S)</displayNameOverride>
+            <field>Total_Cases_Committed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Cases (S)</displayNameOverride>
+            <field>Total_Cases__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Committed (S)</displayNameOverride>
+            <field>Total_Committed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Committed (M)</displayNameOverride>
+            <field>Total_Committed_rollupformula__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Controls (Committed) (S)</displayNameOverride>
+            <field>Total_Controls_Committed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Controls (Committed) (M)</displayNameOverride>
+            <field>Total_Controls_Committed_rollupformula__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Controls (S)</displayNameOverride>
+            <field>Total_Controls__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Agreed (S)</displayNameOverride>
+            <field>Total_Cost_Agreed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Collaborator Proposed (S)</displayNameOverride>
+            <field>Total_Cost_Collaborator_Proposed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - RGC Proposed (S)</displayNameOverride>
+            <field>Total_Cost_RGC_Proposed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Prospective (S)</displayNameOverride>
+            <field>Total_Prospective__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Samples or # of Families</displayNameOverride>
+            <field>Total_Samples_or_of_Families__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>US/Non-US</displayNameOverride>
+            <field>US_Non_US__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Uploaded to Results Browser</displayNameOverride>
+            <field>Uploaded_to_Results_Browser__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Vitiligo</displayNameOverride>
+            <field>Vitiligo__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Whole Exome Sequencing</displayNameOverride>
+            <field>Whole_Exome_Sequencing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Whole Genome Sequencing</displayNameOverride>
+            <field>Whole_Genome_Sequencing__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases - Archived (RGN Archived) (M)</displayNameOverride>
+            <field>Cases_Archived_RGN_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Archived) (M)</displayNameOverride>
+            <field>Cases_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Prospective) (M)</displayNameOverride>
+            <field>Cases_Prospective_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Received (Committed) (M)</displayNameOverride>
+            <field>Cases_Received_Committed_rollup__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Received (RGN Archived) (M)</displayNameOverride>
+            <field>Cases_Received_RGN_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Sequenced (Committed) (M)</displayNameOverride>
+            <field>Cases_Sequenced_Committed_rollup__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Sequenced (RGN Archived) (M)</displayNameOverride>
+            <field>Cases_Sequenced_RGN_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls-Archived (RGN Archived) (M)</displayNameOverride>
+            <field>Controls_Archived_RGN_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Archived) (M)</displayNameOverride>
+            <field>Controls_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Prospective) (M)</displayNameOverride>
+            <field>Controls_Prospective_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Received (Committed) (M)</displayNameOverride>
+            <field>Controls_Received_Committed_rollup__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Received (RGN Archived) (M)</displayNameOverride>
+            <field>Controls_Received_RGN_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Sequenced (Committed) (M)</displayNameOverride>
+            <field>Controls_Sequenced_Committed_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Sequenced (RGN Archived) (M)</displayNameOverride>
+            <field>Controls_Sequenced_RGN_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Agreed (M)</displayNameOverride>
+            <field>Cost_per_Year_Agreed_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Collaborator Proposed (M)</displayNameOverride>
+            <field>Cost_per_Year_Collaborator_Proposed_Roll__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - RGC Proposed (M)</displayNameOverride>
+            <field>Cost_per_Year_RGC_Proposed_rollup__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Samples (Total) (M)</displayNameOverride>
+            <field>Samples_Total_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Archived (M)</displayNameOverride>
+            <field>Total_Archived_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Cases (M)</displayNameOverride>
+            <field>Total_Cases_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Controls (M)</displayNameOverride>
+            <field>Total_Controls_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Agreed (M)</displayNameOverride>
+            <field>Total_Cost_Agreed_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Collaborator Proposed (M)</displayNameOverride>
+            <field>Total_Cost_Collaborator_Proposed_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - RGC Proposed (M)</displayNameOverride>
+            <field>Total_Cost_RGC_Proposed_Rollup__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Prospective (M)</displayNameOverride>
+            <field>Total_Prospective_RollUp__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giant Cell Arteritis</displayNameOverride>
+            <field>Giant_Cell_Arteritis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Hidradenitis</displayNameOverride>
+            <field>Hidradenitis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Keloids</displayNameOverride>
+            <field>Keloids__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Longevity</displayNameOverride>
+            <field>Longevity__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Lupus</displayNameOverride>
+            <field>Lupus__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Monogenic</displayNameOverride>
+            <field>Monogenic__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Parkinson&apos;s</displayNameOverride>
+            <field>Parkinson_s__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary Biliary Cholangitis</displayNameOverride>
+            <field>Primary_Biliary_Cholangitis__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pulmonary Arterial Hypertension</displayNameOverride>
+            <field>Pulmonary_Arterial_Hypertension__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Stroke</displayNameOverride>
+            <field>Stroke__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Type 1 Diabetes</displayNameOverride>
+            <field>Type_1_Diabetes__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Renal Disease</displayNameOverride>
+            <field>Renal_Disease__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary TFA/Biology [LEGACY]</displayNameOverride>
+            <field>Primary_TFA_Biology__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agnostic TFA/Biology</displayNameOverride>
+            <field>Agnostic_TFA_Biology__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Oncology</displayNameOverride>
+            <field>Oncology__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaborator Scientific Contact</displayNameOverride>
+            <field>Collaborator_Scientific_Contact_Names__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Committed</displayNameOverride>
+            <field>Samples_Total_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Archived</displayNameOverride>
+            <field>Total_Archived_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Cases</displayNameOverride>
+            <field>Total_Cases_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Controls</displayNameOverride>
+            <field>Total_Controls_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Prospective</displayNameOverride>
+            <field>Total_Prospective_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Archived)</displayNameOverride>
+            <field>Cases_Archived_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Prospective)</displayNameOverride>
+            <field>Cases_Prospective_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Archived)</displayNameOverride>
+            <field>Controls_Archived_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Prospective)</displayNameOverride>
+            <field>Controls_Prospective_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Agreed</displayNameOverride>
+            <field>Cost_per_Year_Agreed_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Collaborator Proposed</displayNameOverride>
+            <field>Cost_per_Year_Collaborator_Proposed_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Agreed</displayNameOverride>
+            <field>Total_Cost_Agreed_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Collaborator Proposed</displayNameOverride>
+            <field>Total_Cost_Collaborator_Proposed_All__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cohort Description</displayNameOverride>
+            <field>Cohort_Description__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ABAC Approval Date</displayNameOverride>
+            <field>ABAC_Approval_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Analysis Limited to Described Phenotype</displayNameOverride>
+            <field>Analysis_Limited_to_Described_Phenotype__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ancestry-AMR</displayNameOverride>
+            <field>AMR__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Biospecimen Source</displayNameOverride>
+            <field>Biospecimen_Source__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Approval Date</displayNameOverride>
+            <field>Budget_Approval_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Can Perform Mega Analyses</displayNameOverride>
+            <field>Can_Perform_Mega_Analyses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Can Perform Meta Analyses</displayNameOverride>
+            <field>Can_Perform_Meta_Analyses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Can Perform Phenotype Analyses</displayNameOverride>
+            <field>Can_Perform_Phenotype_Analyses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Can upload to Eve</displayNameOverride>
+            <field>Can_upload_to_Eve__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Status Updated Date</displayNameOverride>
+            <field>Collaboration_Status_Updated_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Confidentiality Period Ends</displayNameOverride>
+            <field>Confidentiality_Period_Ends__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Data Dictionary Obtained Date</displayNameOverride>
+            <field>Data_Dictionary_Obtained_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Effective Date</displayNameOverride>
+            <field>Effective_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Execution Date</displayNameOverride>
+            <field>Execution_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ext Can Share Results w/ Acad Source</displayNameOverride>
+            <field>Ext_Can_Share_Results_w_Acad_Source__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ext Can Share Results w/ Comm Source</displayNameOverride>
+            <field>Ext_Can_Share_Results_w_Comm_Source__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>External Can Share Exome Data</displayNameOverride>
+            <field>External_Can_Share_Exome_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>External Can Share Genetic Data</displayNameOverride>
+            <field>External_Can_Share_Genetic_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>External Can Share Genomic Data</displayNameOverride>
+            <field>External_Can_Share_Genomic_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>External Can Share Phenotype Data</displayNameOverride>
+            <field>External_Can_Share_Phenotype_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>External Can Share Results</displayNameOverride>
+            <field>External_Can_Share_Results__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>External Share Phenotype Data</displayNameOverride>
+            <field>External_Share_Phenotype_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fully Executed Date</displayNameOverride>
+            <field>Fully_Executed_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Inform Key Stakeholders</displayNameOverride>
+            <field>Inform_Key_Stakeholders__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Key Stakeholders Informed Date</displayNameOverride>
+            <field>Key_Stakeholders_Informed_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Kickoff Activities</displayNameOverride>
+            <field>Kickoff_Activities__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Kickoff Initiated Date</displayNameOverride>
+            <field>Kickoff_Initiated_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Obtain Data Dictionary</displayNameOverride>
+            <field>Obtain_Data_Dictionary__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agreement Key Updates</displayNameOverride>
+            <field>PBO_Key_Updates__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Project Title</displayNameOverride>
+            <field>Project_Title__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Signature Date</displayNameOverride>
+            <field>RCA_Signature_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Perform Mega Analyses</displayNameOverride>
+            <field>RGC_Can_Perform_Mega_Analyses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Perform Meta Analyses</displayNameOverride>
+            <field>RGC_Can_Perform_Meta_Analyses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Perform Phenotype Analyses</displayNameOverride>
+            <field>RGC_Can_Perform_Phenotype_Analyses__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Exome Data</displayNameOverride>
+            <field>RGC_Can_Share_Exome_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Genetic Data</displayNameOverride>
+            <field>RGC_Can_Share_Genetic_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Genomic Data</displayNameOverride>
+            <field>RGC_Can_Share_Genomic_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Phenotype Data</displayNameOverride>
+            <field>RGC_Can_Share_Phenotype_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Results</displayNameOverride>
+            <field>RGC_Can_Share_Results__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Results w/ Acad Source</displayNameOverride>
+            <field>RGC_Can_Share_Results_w_Acad_Source__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Results w/ Comm Source</displayNameOverride>
+            <field>RGC_Can_Share_Results_w_Comm_Source__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Share Results with Collaborator</displayNameOverride>
+            <field>RGC_Can_Share_Results_with_Collaborator__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Can Upload Results to RGC Databases</displayNameOverride>
+            <field>RGC_Can_Upload_Results_to_RGC_Databases__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Must Delete Genetic Data at RCA Term</displayNameOverride>
+            <field>RGC_Must_Delete_Genetic_Data_at_RCA_Term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Must Delete Genomic Data at Term</displayNameOverride>
+            <field>RGC_Must_Delete_Genomic_Data_at_Term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Must Delete Phenotype Data at Term</displayNameOverride>
+            <field>RGC_Must_Delete_Phenotype_Data_at_Term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Must Return/Destroy Samples at Term</displayNameOverride>
+            <field>RGC_Must_Return_Destroy_Samples_at_Term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Req to Share Results with Collab</displayNameOverride>
+            <field>RGC_Required_to_Share_Results_w_Collab__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Key Updates</displayNameOverride>
+            <field>RPM_Key_Updates__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Developed Date</displayNameOverride>
+            <field>Research_Plan_Developed_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Reviewed at ROP</displayNameOverride>
+            <field>Research_Plan_Review__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ancestry-EAS</displayNameOverride>
+            <field>EAS__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ancestry-SAS</displayNameOverride>
+            <field>Ancestry_SAS__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ancestry-EUR</displayNameOverride>
+            <field>Ancestry_EUR__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ancestry-UNK</displayNameOverride>
+            <field>Ancestry_UNK__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ancestry-NON-EUR</displayNameOverride>
+            <field>Ancestry_NON_EUR__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agreement Sub-Type</displayNameOverride>
+            <field>Agreement_Sub_Type__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Termination Email Sent</displayNameOverride>
+            <field>Termination_Email_Sent__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Termination Date Processed</displayNameOverride>
+            <field>Termination_Date_Processed__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Expended to Date</displayNameOverride>
+            <field>Total_Budget_Expended_to_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Remaining Budget (S)</displayNameOverride>
+            <field>Remaining_Budget__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget</displayNameOverride>
+            <field>Budget__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Geographic Area</displayNameOverride>
+            <field>Geographic_Area__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Revenue</displayNameOverride>
+            <field>Revenue__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CLIA Capabilities</displayNameOverride>
+            <field>CLIA_Capabilities__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Description w/ Amendment</displayNameOverride>
+            <field>Collaboration_Description_w_Amendment__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Scope w/ Amendments</displayNameOverride>
+            <field>Collaboration_Scope_w_Amendments__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Remaining Budget (M)</displayNameOverride>
+            <field>Remaining_Budget_M__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Budget (M)</displayNameOverride>
+            <field>TOTAL_Collaboration_Budget_M__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Budget (S)</displayNameOverride>
+            <field>TOTAL_Collaboration_Budget_S__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Cases (M)</displayNameOverride>
+            <field>TOTAL_Collaboration_Cases_M__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Cases (S)</displayNameOverride>
+            <field>TOTAL_Collaboration_Cases_S__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Committed (M)</displayNameOverride>
+            <field>TOTAL_Collaboration_Committed_M__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Committed (S)</displayNameOverride>
+            <field>TOTAL_Collaboration_Committed_S__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Controls (M)</displayNameOverride>
+            <field>TOTAL_Collaboration_Controls_M__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Controls (S)</displayNameOverride>
+            <field>TOTAL_Collaboration_Controls_S__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Samples (M)</displayNameOverride>
+            <field>TOTAL_Collaboration_Samples_M__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOTAL Collaboration Samples (S)</displayNameOverride>
+            <field>TOTAL_Collaboration_Samples_S__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Expiration Date Original</displayNameOverride>
+            <field>Termination_Date_Original__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Amendment Budget</displayNameOverride>
+            <field>Total_Amendment_Budget__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Amendment Cases</displayNameOverride>
+            <field>Total_Amendment_Cases__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Amendment Controls</displayNameOverride>
+            <field>Total_Amendment_Controls__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Amendment Samples</displayNameOverride>
+            <field>Total_Amendment_Samples2__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Amendment Samples [LEGACY]</displayNameOverride>
+            <field>Total_Amendment_Samples__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Amendments</displayNameOverride>
+            <field>Total_Amendments__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Biospecimen Source</displayNameOverride>
+            <field>Biospecimen_SourcePL__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Biospecimen Source Other</displayNameOverride>
+            <field>Biospecimen_Source_Other__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genetic Material</displayNameOverride>
+            <field>Genetic_Material__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Will Samples be Shipped Extracted?</displayNameOverride>
+            <field>Will_samples_be_shipped_extracted__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Strategic Initiatives</displayNameOverride>
+            <field>Strategic_Initiatives__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Health System</displayNameOverride>
+            <field>Health_System__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Reporting</displayNameOverride>
+            <field>Reporting__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Legal Leader</displayNameOverride>
+            <field>Legal_LeaderPL__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaborator Key</displayNameOverride>
+            <field>Collaborator_Key__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>PO Number</displayNameOverride>
+            <field>PO_Number__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Contracted Budget</displayNameOverride>
+            <field>Total_Budget_Master__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Contracted # of Samples</displayNameOverride>
+            <field>Total_Samples_Master__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Samples Received</displayNameOverride>
+            <field>Total_Samples_Received__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Link</displayNameOverride>
+            <field>ICF_Link__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other Link</displayNameOverride>
+            <field>Other_LinkRT__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Other Link</displayNameOverride>
+            <field>Other_LinksRT__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity ID</displayNameOverride>
+            <field>Opportunity_ID__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary TAG Team</displayNameOverride>
+            <field>TAG_Team__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary TFA/Biology</displayNameOverride>
+            <field>TFA_Team__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Agreement &amp; ICF allow WGS &amp; other omics</displayNameOverride>
+            <field>Agreement_ICF_allow_WGS_other_omics__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Are material rights sublicensable</displayNameOverride>
+            <field>Are_material_rights_sublicensable__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assay Data sharable internationally</displayNameOverride>
+            <field>Assay_Data_sharable_internationally__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Can RGC sublicense RGC results</displayNameOverride>
+            <field>Can_RGC_sublicense_RGC_results__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Can the Phenotype Data be analyzed alone</displayNameOverride>
+            <field>Can_the_Phenotype_Data_be_analyzed_alone__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaborator Location</displayNameOverride>
+            <field>Collaborator_Location__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Is Assay Data sublicensable</displayNameOverride>
+            <field>Is_Assay_Data_sublicensable__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Is Phenotype Data License Sublicensable</displayNameOverride>
+            <field>Is_Phenotype_Data_License_Sublicensable__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>License to Assay Data Extend past term</displayNameOverride>
+            <field>License_to_Assay_Data_Extend_past_term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Material deletion requirement</displayNameOverride>
+            <field>Material_deletion_requirement__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Material license include validation</displayNameOverride>
+            <field>Material_license_include_validation__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data License extend past term</displayNameOverride>
+            <field>Phenotype_Data_License_extend_past_term__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data sharable internationally</displayNameOverride>
+            <field>Phenotype_Data_sharable_internationally__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Sharing of RGC Results with Collaborator</displayNameOverride>
+            <field>Sharing_of_RGC_Results_with_Collaborator__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>State/Territory</displayNameOverride>
+            <field>State_Territory__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TAG Priority Collaboration</displayNameOverride>
+            <field>High_Priority_Collaboration__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ABAC Expiration Date</displayNameOverride>
+            <field>ABAC_Expiration_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Any carve-outs that heighten RGC’s risk</displayNameOverride>
+            <field>Any_carve_outs_that_heighten_RGC_s_risk__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assay Data deletion requirement</displayNameOverride>
+            <field>Assay_Data_deletion_requirement__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Type</displayNameOverride>
+            <field>Budget_Type__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collab have license to RGC inventions</displayNameOverride>
+            <field>Collab_have_license_to_RGC_inventions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF allows research in the agreement</displayNameOverride>
+            <field>ICF_allows_research_in_the_agreement__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF allows samples &amp; data use for R&amp;PD</displayNameOverride>
+            <field>ICF_allows_samples_data_use_for_R_PD__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF explains privacy risks</displayNameOverride>
+            <field>ICF_explains_privacy_risks__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF states no profit to subjects</displayNameOverride>
+            <field>ICF_states_no_profit_to_subjects__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF states subjects can withdraw consent</displayNameOverride>
+            <field>ICF_states_subjects_can_withdraw_consent__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Info given to RGC will be de-identified</displayNameOverride>
+            <field>Info_given_to_RGC_will_be_de_identified__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Is any other entity providing funding</displayNameOverride>
+            <field>Is_any_other_entity_providing_funding__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Must RGC cooperate on Patent Prosecution</displayNameOverride>
+            <field>Must_RGC_cooperate_on_Patent_Prosecution__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>No government funding will be used</displayNameOverride>
+            <field>No_government_funding_will_be_used__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>No use of Genomic data for Clinical Care</displayNameOverride>
+            <field>No_use_of_Genomic_data_for_Clinical_Care__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Option to Collaborator &amp; or Joint IP</displayNameOverride>
+            <field>Option_to_Collaborator_or_Joint_IP__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Per Sample Cost</displayNameOverride>
+            <field>Per_Sample_Cost__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Pheno data analyzable with other data</displayNameOverride>
+            <field>Pheno_data_analyzable_with_other_data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Public database upload requirement</displayNameOverride>
+            <field>Public_database_upload_requirement__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RGC Exclusive commercial to Assay Data</displayNameOverride>
+            <field>RGC_Exclusive_commercial_to_Assay_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Regeneron NERF for Collab Inventions</displayNameOverride>
+            <field>Regeneron_NERF_for_Collab_Inventions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>They have no conflicting obligations</displayNameOverride>
+            <field>They_have_no_conflicting_obligations__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Who can terminate</displayNameOverride>
+            <field>Who_can_terminate__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Who owns Inventions</displayNameOverride>
+            <field>Who_owns_Inventions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Who owns Research Data &amp; Results</displayNameOverride>
+            <field>Who_owns_Research_Data_Results__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Who owns the Assay Data</displayNameOverride>
+            <field>Who_owns_the_Assay_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Who owns the Phenotype Data</displayNameOverride>
+            <field>Who_owns_the_Phenotype_Data__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Who owns the materials</displayNameOverride>
+            <field>Who_owns_the_materials__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity ID (18 Digit)</displayNameOverride>
+            <field>Opportunity_ID_18_Digit__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>All RGC Champions</displayNameOverride>
+            <field>All_RGC_Champions__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>External Scientific Collaborator</displayNameOverride>
+            <field>External_Scientific_Collaborator__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Origin</displayNameOverride>
+            <field>Country_of_Sample_Origin_Global__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Shipment Origin</displayNameOverride>
+            <field>Country_of_Sample_Shipment_Origin_global__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Spit Kit Requested</displayNameOverride>
+            <field>Spit_Kit_Requested__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>DNA Extraction Requested</displayNameOverride>
+            <field>DNA_Extraction_Requested__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>T4C Collaboration</displayNameOverride>
+            <field>T4C_Collaboration__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Additional Details</displayNameOverride>
+            <field>Additional_Details__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CES Collaboration</displayNameOverride>
+            <field>CES_Collaboration__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>DTP Collaboration</displayNameOverride>
+            <field>DTP_Collaboration__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Priority Flag</displayNameOverride>
+            <field>Priority_Flag__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>TOPMed Imputation Eligible</displayNameOverride>
+            <field>TOPMed_Imputation_Eligible__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Link to DNAnexus Project</displayNameOverride>
+            <field>Link_to_DNAnexus_Project__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Link to Data Dictionary</displayNameOverride>
+            <field>Link_to_Data_Dictionary__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>EHR Data Available</displayNameOverride>
+            <field>EHR_Data_Available__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account.US_Non_US__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <masterLabel>Collaboration Opportunities</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Details by Institution ID</displayNameOverride>
+            <field>Id</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Collaboration Details by Institution</displayNameOverride>
+            <field>Name</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Created Date</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Created By</displayNameOverride>
+            <field>CreatedBy</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Modified Date</displayNameOverride>
+            <field>LastModifiedDate</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Modified By</displayNameOverride>
+            <field>LastModifiedBy</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaborator Institution</displayNameOverride>
+            <field>Collaborator_Institution__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ABAC Approval</displayNameOverride>
+            <field>ABAC_Compliance__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>All RCA Components Completed Date</displayNameOverride>
+            <field>All_RCA_Components_Completed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Approval</displayNameOverride>
+            <field>Budget_Agreement__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Assessment</displayNameOverride>
+            <field>Budget_Assessment__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Itemization Info Available Date</displayNameOverride>
+            <field>Budget_Itemization_Information_Available__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases - Archived (RGN Archived) (I)</displayNameOverride>
+            <field>Cases_Archived_RGN_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Archived) (I)</displayNameOverride>
+            <field>Cases_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases (Prospective) (I)</displayNameOverride>
+            <field>Cases_Prospective__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Received (Committed) (I)</displayNameOverride>
+            <field>Cases_Received_Committed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Received (RGN Archived) (I)</displayNameOverride>
+            <field>Cases_Received_RGN_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Sequenced (Committed) (I)</displayNameOverride>
+            <field>Cases_Sequenced_Committed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cases Sequenced (RGN Archived) (I)</displayNameOverride>
+            <field>Cases_Sequenced_RGN_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>City</displayNameOverride>
+            <field>City__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaborator Institution</displayNameOverride>
+            <field>Collaboration_Institution_Link__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Collaboration Status</displayNameOverride>
+            <field>Collaboration_Status__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls-Archived (RGN Archived) (I)</displayNameOverride>
+            <field>Controls_Archived_RGN_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Archived) (I)</displayNameOverride>
+            <field>Controls_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls (Prospective) (I)</displayNameOverride>
+            <field>Controls_Prospective__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Received (Committed) (I)</displayNameOverride>
+            <field>Controls_Received_Committed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Received (RGN Archived) (I)</displayNameOverride>
+            <field>Controls_Received_RGN_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Sequenced (Committed) (I)</displayNameOverride>
+            <field>Controls_Sequenced_Committed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Controls Sequenced (RGN Archived) (I)</displayNameOverride>
+            <field>Controls_Sequenced_RGN_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Agreed (I)</displayNameOverride>
+            <field>Cost_per_Year_Agreed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - Collaborator Proposed (I)</displayNameOverride>
+            <field>Cost_per_Year_Collaborator_Proposed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cost / Year - RGC Proposed (I)</displayNameOverride>
+            <field>Cost_per_Year_RGC_Proposed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country</displayNameOverride>
+            <field>Country_Formula__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country</displayNameOverride>
+            <field>Country__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Origin US/Non-US</displayNameOverride>
+            <field>Country_of_Sample_Origin_US_Non_US__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Origin [LEGACY]</displayNameOverride>
+            <field>Country_of_Sample_Origin__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Shipment Origin US/Non-US</displayNameOverride>
+            <field>Country_of_Shipment_Origin_US_Non_US__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Shipment Origin [LEGAC</displayNameOverride>
+            <field>Country_of_Shipment_Origin__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Data Freeze</displayNameOverride>
+            <field>Data_Freeze__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Exome Sequencing Complete</displayNameOverride>
+            <field>Exome_Sequencing_Complete__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Finalized Research Plan</displayNameOverride>
+            <field>Finalize_Research_Plan__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>First Name</displayNameOverride>
+            <field>First_Name__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>First Pass Analysis</displayNameOverride>
+            <field>First_Pass_Analysis__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Assessment Date</displayNameOverride>
+            <field>Funds_available__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>GDPR Data Role</displayNameOverride>
+            <field>GDPR_Data_Role__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genomic Informatics Transfer Approved</displayNameOverride>
+            <field>Genomic_Informatics_Transfer_Approved__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Genotyping Complete</displayNameOverride>
+            <field>Genotyping_Complete__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Status</displayNameOverride>
+            <field>ICF_Status__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICFs Available</displayNameOverride>
+            <field>ICFs_Available__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Certification Start Date</displayNameOverride>
+            <field>ICFs_Ready_for_Legal_Review__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>IRB Protocol Status</displayNameOverride>
+            <field>IRB_Protocol_Status__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Informed Consent Forms Approved</displayNameOverride>
+            <field>Informed_Consent_Forms_Approved__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Certification</displayNameOverride>
+            <field>Informed_Consent_Forms__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Iniate Process</displayNameOverride>
+            <field>Iniate_Process__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Initial Assessment</displayNameOverride>
+            <field>Initial_Discussions__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Institution Logo</displayNameOverride>
+            <field>Institution_Logo__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Last Name</displayNameOverride>
+            <field>Last_Name__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>On Hold</displayNameOverride>
+            <field>On_Hold__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data Received</displayNameOverride>
+            <field>Phenotype_Data_Received__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Data Structure &amp; Transfer Appr</displayNameOverride>
+            <field>Phenotype_Data_Structure_Transfer_Appr__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phenotype Matrices</displayNameOverride>
+            <field>Phenotype_Matrix__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Phone </displayNameOverride>
+            <field>Phone__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary</displayNameOverride>
+            <field>Primary_Collaboration_Institution_Flag__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary email</displayNameOverride>
+            <field>Primary_email__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Primary fax</displayNameOverride>
+            <field>Primary_fax__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Assessment Completed Date</displayNameOverride>
+            <field>Proceed_Based_on_Initial_Assessment__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Reviewed at ROP Date</displayNameOverride>
+            <field>Proceed_Based_on_research_plan__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Terms &amp; Agreement</displayNameOverride>
+            <field>RCA_Agreement__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Finalized Date</displayNameOverride>
+            <field>RCA_Ready_for_Legal_Review__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Signatures</displayNameOverride>
+            <field>RCA_Signatures__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tubes Sent to Collaborator</displayNameOverride>
+            <field>Ready_to_Send_Tubes__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Approved by RGC</displayNameOverride>
+            <field>Research_Plan_Approved_by_RGC__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Final Research Plan Completed Date</displayNameOverride>
+            <field>Research_Plan_Finalized__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Develop Research Plan</displayNameOverride>
+            <field>Research_Plan__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Sample Received</displayNameOverride>
+            <field>Sample_Received__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Sample Requirements Approved</displayNameOverride>
+            <field>Sample_Requirements_Approved__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Committed (I)</displayNameOverride>
+            <field>Samples_Total__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>State/Province</displayNameOverride>
+            <field>State_Province__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Street Address (Line 1)</displayNameOverride>
+            <field>Street_Address_Line1__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Street Address (Line 2)</displayNameOverride>
+            <field>Street_Address_Line_2__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Term Sheet Agreed Date</displayNameOverride>
+            <field>Term_Sheet_Agreed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Negotiate Term Sheet</displayNameOverride>
+            <field>Term_Sheet__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Term Sheet Agreed by RGC LT Date</displayNameOverride>
+            <field>Term_Sheet_agreed_by_RGC_LT__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Archived (RGN Archived) (I)</displayNameOverride>
+            <field>Total_Archived_RGN_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Archived (I)</displayNameOverride>
+            <field>Total_Archived__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cases (Committed) (I)</displayNameOverride>
+            <field>Total_Cases_Committed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Cases (I)</displayNameOverride>
+            <field>Total_Cases__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Committed (I)</displayNameOverride>
+            <field>Total_Committed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Controls (Committed) (I)</displayNameOverride>
+            <field>Total_Controls_Committed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Controls (I)</displayNameOverride>
+            <field>Total_Controls__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Agreed (I)</displayNameOverride>
+            <field>Total_Cost_Agreed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - Collaborator Proposed (I)</displayNameOverride>
+            <field>Total_Cost_Collaborator_Proposed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Cost - RGC Proposed (I)</displayNameOverride>
+            <field>Total_Cost_RGC_Proposed__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total Prospective (I)</displayNameOverride>
+            <field>Total_Prospective__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Total # Samples or # of Families</displayNameOverride>
+            <field>Total_Samples_or_of_Families__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>US/Non-US</displayNameOverride>
+            <field>US_Non_US_Formula__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>US/Non-US</displayNameOverride>
+            <field>US_Non_US__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Uploaded to Results Browser</displayNameOverride>
+            <field>Uploaded_to_Results_Browser__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Zip Code</displayNameOverride>
+            <field>Zip_Code__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ABAC Approval Date</displayNameOverride>
+            <field>ABAC_Approval_Date__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Budget Approval Date</displayNameOverride>
+            <field>Budget_Approval_Date__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CV Signoff at ROP Date</displayNameOverride>
+            <field>CV_Signoff_at_ROP_Date__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>CV Signoff at ROP</displayNameOverride>
+            <field>CV_Signoff_at_ROP__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Confidentiality Period Ends</displayNameOverride>
+            <field>Confidentiality_Period_Ends__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Data Dictionary Obtained Date</displayNameOverride>
+            <field>Data_Dictionary_Obtained_Date__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ICF Approved Date</displayNameOverride>
+            <field>ICF_Approved_Date__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Obtain Data Dictionary</displayNameOverride>
+            <field>Obtain_Data_Dictionary__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>RCA Signature Date</displayNameOverride>
+            <field>RCA_Signature_Date__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Developed Date</displayNameOverride>
+            <field>Research_Plan_Developed_Date__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Research Plan Reviewed at ROP</displayNameOverride>
+            <field>Research_Plan_Reviewed_at_ROP__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Origin</displayNameOverride>
+            <field>Country_of_Sample_Origin_global__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Country of Sample Shipment Origin</displayNameOverride>
+            <field>Country_of_Sample_Shipment_Origin_global__c</field>
+            <table>Opportunity.Collaborations__r</table>
+        </columns>
+        <masterLabel>Collaboration Details by Institution</masterLabel>
+    </sections>
+</ReportType>

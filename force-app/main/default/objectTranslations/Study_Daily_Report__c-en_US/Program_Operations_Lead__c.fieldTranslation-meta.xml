@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Program Operations Lead --></label>
+    <name>Program_Operations_Lead__c</name>
+    <picklistValues>
+        <masterLabel>Alison Brown</masterLabel>
+        <translation><!-- Alison Brown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allison Mulcahy</masterLabel>
+        <translation><!-- Allison Mulcahy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anit Bajwa</masterLabel>
+        <translation><!-- Anit Bajwa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anna Labrosciano</masterLabel>
+        <translation><!-- Anna Labrosciano --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charlotte Lyon</masterLabel>
+        <translation><!-- Charlotte Lyon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christina Perry</masterLabel>
+        <translation><!-- Christina Perry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christopher Powell</masterLabel>
+        <translation><!-- Christopher Powell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David Parker</masterLabel>
+        <translation><!-- David Parker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Daya Gulabani</masterLabel>
+        <translation><!-- Daya Gulabani --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dominique Duchesne</masterLabel>
+        <translation><!-- Dominique Duchesne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grainne Power</masterLabel>
+        <translation><!-- Grainne Power --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ingeborg Heirman</masterLabel>
+        <translation><!-- Ingeborg Heirman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jaclyn Patterson</masterLabel>
+        <translation><!-- Jaclyn Patterson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jeannie Yo</masterLabel>
+        <translation><!-- Jeannie Yo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Katharine Nunnink</masterLabel>
+        <translation><!-- Katharine Nunnink --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keri Aitchison</masterLabel>
+        <translation><!-- Keri Aitchison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kristy Macci</masterLabel>
+        <translation><!-- Kristy Macci --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maria Rubino</masterLabel>
+        <translation><!-- Maria Rubino --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maria Rubino Cornhill</masterLabel>
+        <translation><!-- Maria Rubino Cornhill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michelle Wong</masterLabel>
+        <translation><!-- Michelle Wong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moetaz Albizem</masterLabel>
+        <translation><!-- Moetaz Albizem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nazmul Haque</masterLabel>
+        <translation><!-- Nazmul Haque --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ngan Trinh</masterLabel>
+        <translation><!-- Ngan Trinh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ori Yellin</masterLabel>
+        <translation><!-- Ori Yellin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paul Curtis</masterLabel>
+        <translation><!-- Paul Curtis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paula Harding</masterLabel>
+        <translation><!-- Paula Harding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shaun Langdon</masterLabel>
+        <translation><!-- Shaun Langdon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Siobhan Nolan</masterLabel>
+        <translation><!-- Siobhan Nolan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Susie Dorricott</masterLabel>
+        <translation><!-- Susie Dorricott --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vilma Hernandez</masterLabel>
+        <translation><!-- Vilma Hernandez --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wilson Caldwell</masterLabel>
+        <translation><!-- Wilson Caldwell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_Program Operations Leader (GEN)</masterLabel>
+        <translation><!-- _Program Operations Leader (GEN) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

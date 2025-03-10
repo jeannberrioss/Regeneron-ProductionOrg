@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>RGC_Data_Assets__c$Clinical_Informatics_Lead__c</field>
+    </columns>
+    <columns>
+        <field>RGC_Data_Assets__c$Name</field>
+    </columns>
+    <columns>
+        <field>RGC_Data_Assets__c.FeedItems$Body</field>
+    </columns>
+    <columns>
+        <field>RGC_Data_Assets__c$Matrix_Stage__c</field>
+    </columns>
+    <columns>
+        <field>RGC_Data_Assets__c$Matrix_Priority__c</field>
+    </columns>
+    <columns>
+        <field>RGC_Data_Assets__c.FeedItems$LastModifiedDate</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>RGC_Data_Assets__c$Production_Asset_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Phenotype Matrix</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RGC_Data_Assets__c$Phenotype_Matrices__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>In Progress</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Data Asset Chatter Feed</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>RGC_Data_Asset_Chatter_Feed__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>RGC_Data_Assets__c$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>RGC_Data_Assets__c$AllxAll_Completion_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

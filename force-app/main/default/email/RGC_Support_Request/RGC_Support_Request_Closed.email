@@ -1,0 +1,7 @@
+Your RGC Support Request is now {!RGC_Salesforce_Support__c.Status__c}. <br><br>
+
+Request#: {!RGC_Salesforce_Support__c.Name} <br>
+Subject: {!RGC_Salesforce_Support__c.Subject__c} <br> <br>
+Resolution Details: {!RGC_Salesforce_Support__c.Resolution_Details__c} <br><br>
+
+Check your support request in Salesforce to view status updated and details regarding your submission. You can access your request <b><a href="{!RGC_Salesforce_Support__c.Link}">here</a></b>.

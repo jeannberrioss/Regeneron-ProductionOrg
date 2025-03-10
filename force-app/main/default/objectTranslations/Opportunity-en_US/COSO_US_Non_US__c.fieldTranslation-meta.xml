@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Country of Shipment Origin US/Non-US --></label>
+    <name>COSO_US_Non_US__c</name>
+    <picklistValues>
+        <masterLabel>Non-US</masterLabel>
+        <translation><!-- Non-US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US</masterLabel>
+        <translation><!-- US --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

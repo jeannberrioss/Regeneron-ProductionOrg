@@ -1,0 +1,6 @@
+***UPDATE NOTIFICATION***
+
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Budget itemization details have been added or updated. Please take next steps as appropriate.

@@ -1,0 +1,6 @@
+***UPDATE NOTIFICATION***
+
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Term Sheet has been agreed. Proceeding to Collaboration Agreement formation.

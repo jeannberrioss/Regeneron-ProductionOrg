@@ -1,0 +1,9 @@
+***UPDATE NOTIFICATION***
+
+Notification Details:
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Informed Consent Forms available.
+
+Informed Consent Form Link: {!Opportunity.ICF__c}

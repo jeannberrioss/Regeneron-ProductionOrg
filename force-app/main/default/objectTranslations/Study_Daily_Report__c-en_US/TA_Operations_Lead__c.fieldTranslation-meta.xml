@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TA Operations Lead --></label>
+    <name>TA_Operations_Lead__c</name>
+    <picklistValues>
+        <masterLabel>Amy Harman</masterLabel>
+        <translation><!-- Amy Harman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cynthia Pan</masterLabel>
+        <translation><!-- Cynthia Pan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David Parker</masterLabel>
+        <translation><!-- David Parker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Derek Depelteau</masterLabel>
+        <translation><!-- Derek Depelteau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jaclyn Patterson</masterLabel>
+        <translation><!-- Jaclyn Patterson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keri Aitchison</masterLabel>
+        <translation><!-- Keri Aitchison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miriam Kore</masterLabel>
+        <translation><!-- Miriam Kore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moetaz Albizem</masterLabel>
+        <translation><!-- Moetaz Albizem --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

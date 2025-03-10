@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collaboration_Scope_Value_Other</fullName>
+    <active>true</active>
+    <description>If Collaboration Scope selected as &quot;Other&quot; then please enter Collaboration Scope Other Value</description>
+    <errorConditionFormula>AND(Scope_Other__c = true,
+ISBLANK( Collaboration_Scope_Other__c))</errorConditionFormula>
+    <errorDisplayField>Collaboration_Scope_Other__c</errorDisplayField>
+    <errorMessage>If Collaboration Scope selected as &quot;Other&quot; then please enter Collaboration Scope Other Value</errorMessage>
+</ValidationRule>

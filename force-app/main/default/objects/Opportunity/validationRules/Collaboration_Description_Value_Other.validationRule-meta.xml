@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collaboration_Description_Value_Other</fullName>
+    <active>true</active>
+    <description>If Collaboration Description selected as &quot;Other&quot; then please enter Collaboration Description Other Value</description>
+    <errorConditionFormula>AND(Description_Other__c = true,
+ISBLANK( Collaboration_Description_Other__c))</errorConditionFormula>
+    <errorDisplayField>Collaboration_Description_Other__c</errorDisplayField>
+    <errorMessage>If Collaboration Description selected as &quot;Other&quot; then please enter Collaboration Description Other Value</errorMessage>
+</ValidationRule>

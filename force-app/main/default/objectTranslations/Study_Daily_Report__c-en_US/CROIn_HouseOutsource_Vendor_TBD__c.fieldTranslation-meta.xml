@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CRO/In House/Outsource (Vendor TBD) --></label>
+    <name>CROIn_HouseOutsource_Vendor_TBD__c</name>
+    <picklistValues>
+        <masterLabel>ICON</masterLabel>
+        <translation><!-- ICON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IQVIA</masterLabel>
+        <translation><!-- IQVIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>InHouse</masterLabel>
+        <translation><!-- InHouse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optum</masterLabel>
+        <translation><!-- Optum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPD</masterLabel>
+        <translation><!-- PPD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PXL</masterLabel>
+        <translation><!-- PXL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Syneos</masterLabel>
+        <translation><!-- Syneos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBD</masterLabel>
+        <translation><!-- TBD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

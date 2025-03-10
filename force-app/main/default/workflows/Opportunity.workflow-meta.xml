@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Active_Stage</fullName>
+        <description>Active Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>In_Progress/Active_Stage_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Agreement_Stage</fullName>
+        <description>Agreement Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>In_Progress/Agreement_Stage_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Agreement_Terminated_Yesterday</fullName>
+        <description>Agreement Terminated Yesterday</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jason.mighty@regeneron.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>randi.schwartz@regeneron.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Agreement_Terminated_Yesterday</template>
+    </alerts>
+    <alerts>
+        <fullName>Agreement_Terminating_in_180_Days_No_Budget</fullName>
+        <description>Agreement Terminating in 180 Days No Budget</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jason.mighty@regeneron.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>randi.schwartz@regeneron.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Agreement_Terminating_in_180_Days_wo_Budget</template>
+    </alerts>
+    <alerts>
+        <fullName>Agreement_Terminating_in_180_Days_with_Budget</fullName>
+        <description>Agreement Terminating in 180 Days with Budget</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jason.mighty@regeneron.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>randi.schwartz@regeneron.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Agreement_Terminating_in_180_Days</template>
+    </alerts>
+    <alerts>
+        <fullName>Agreement_Terminating_in_90_Days</fullName>
+        <description>Agreement Terminating in 90 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jason.mighty@regeneron.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>randi.schwartz@regeneron.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Agreement_Terminating_in_90_Days</template>
+    </alerts>
+    <alerts>
+        <fullName>All_RCA_Components_Completed</fullName>
+        <description>All RCA Components Completed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/All_RCA_Components_Completed_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Budget_Agreed</fullName>
+        <description>Budget Agreed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Budget_Agreed_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Budget_Itemization_Available</fullName>
+        <description>Budget Itemization Available</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Budget_Leader</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Budget_Itemization_Information_Available_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Collaboration_Signoff_Stage</fullName>
+        <description>Collaboration Signoff Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>In_Progress/Collaboration_Signoff_Stage_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Collaborator_Contact_Role_Info</fullName>
+        <description>Collaborator Contact Role Info</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Collaborator_Business_Contact_Info_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Data_Freeze_Available</fullName>
+        <ccEmails>anthony.marcketta@regeneron.com</ccEmails>
+        <description>Data Freeze Available</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Budget_Agreed</template>
+    </alerts>
+    <alerts>
+        <fullName>Due_Diligence_Stage</fullName>
+        <description>Due Diligence Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>In_Progress/Due_Diligence_Stage_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Early_Discussions_Stage</fullName>
+        <description>Early Discussions Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>In_Progress/Early_Discussions_Stage_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Budget_Details_Team</fullName>
+        <description>Email to Budget Details Team</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Budget_Leader</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Budget_Details_Notification_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_PBO_Associate</fullName>
+        <description>Email to PBO Associate</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Budget_Details_Email_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Funds_Available</fullName>
+        <description>Funds Available</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Funds_Available_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>ICFs_Available</fullName>
+        <description>ICFs Available</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/ICFs_Available_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>ICFs_Ready_for_Legal_Review</fullName>
+        <description>ICFs Ready for Legal Review</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/ICFs_Ready_for_Legal_Review_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Informed_Consent_Forms_Approved</fullName>
+        <description>Informed Consent Forms Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Informed_Consent_Forms_Approved_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Multi_Collaboration_Opportunity_Email_Alert</fullName>
+        <description>Multi-Collaboration Opportunity Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Budget_Leader</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Multi_Collaboration_Email_Alert_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Multi_PBO_Associate_If_Budget_Details_Updated</fullName>
+        <description>Multi-PBO Associate If Budget Details Updated</description>
+        <protected>false</protected>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Multi_PBO_Associate_If_Budget_Details_Updates_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Proceed_Based_on_Research_Plan</fullName>
+        <description>Proceed Based on Research Plan</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Proceed_Based_on_Research_Plan_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Proceed_based_on_Initial_Assessment</fullName>
+        <description>Proceed based on Initial Assessment</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Proceed_based_on_Initial_Assessment_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>RCA_Ready_for_Legal_Review</fullName>
+        <description>RCA Ready for Legal Review</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PBO_Leader</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/RCA_Ready_for_Legal_Review_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>RCA_Signatures</fullName>
+        <description>RCA Signatures</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/RCA_Signatures_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>RPR_Final_Approval_Date</fullName>
+        <description>RPR Final Approval Date</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/RPR_Final_Approval_Date_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Research_Ops_Planning_Stage</fullName>
+        <description>Research &amp; Ops Planning Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>In_Progress/Research_Ops_Planning_Stage_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Research_Plan_Finalized</fullName>
+        <description>Research Plan Finalized</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Research_Plan_Finalized_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Research_Plan_Successfully_Agreed</fullName>
+        <description>Research Plan Successfully Agreed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Research_Plan_Successfully_Agreed_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Signatures_Execution_Stage</fullName>
+        <description>Signatures &amp; Execution Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jason.mighty@regeneron.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>randi.schwartz@regeneron.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>thomas.coleman@regeneron.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>In_Progress/Signatures_Execution_Stage_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Term_Sheet_Agreed</fullName>
+        <description>Term Sheet Agreed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PBO_Leader</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>RGC_Head</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Term_Sheet_Agreed_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Term_Sheet_Agreed_by_RGC_LT</fullName>
+        <description>Term Sheet Agreed by RGC LT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PBO_Leader</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Budget_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Legal_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>PBO_Associate__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion2__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RGC_Co_Champion__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>RPM_Leader__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>HTML_Email_Templates/Term_Sheet_Agreed_by_RGC_LT_HTML</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated</fullName>
+        <field>CV_signoff_Budget__c</field>
+        <formula>IF(CV_Signoff_Updated__c == false &amp;&amp; ISCHANGED(Total_Cost_Collaborator_Proposed__c),Total_Cost_Collaborator_Proposed__c,IF(ISCHANGED(Total_Cost_Agreed__c), Total_Cost_Agreed__c,0) )</formula>
+        <name>CV SignOff Updated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated_1</fullName>
+        <field>CV_Signoff_Updated__c</field>
+        <literalValue>1</literalValue>
+        <name>CV SignOff Updated_1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated_2</fullName>
+        <field>CV_signoff_Budget__c</field>
+        <formula>Total_Cost_Collaborator_Proposed__c</formula>
+        <name>CV SignOff Updated_2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated_3</fullName>
+        <field>CV_Signoff_Updated__c</field>
+        <literalValue>1</literalValue>
+        <name>CV SignOff Updated_3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated_4</fullName>
+        <field>CV_signoff_Budget__c</field>
+        <formula>IF(
+  AND ( NOT ( ISNULL ( Total_Cost_Agreed__c )) ,
+        NOT ( ISNULL ( Total_Amendment_Budget__c )) ),
+      Total_Cost_Agreed__c + Total_Amendment_Budget__c,
+  IF ( 
+      AND ( ISNULL ( Total_Cost_Agreed__c ),
+            NOT ( ISNULL ( Total_Cost_Agreed__c )) ),
+      0 + Total_Amendment_Budget__c,
+  Total_Cost_Agreed__c + 0
+  )
+)</formula>
+        <name>CV SignOff Updated_4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated_MultiRecord_2</fullName>
+        <field>CV_signoff_Budget__c</field>
+        <formula>Total_Cost_Collaborator_Proposed_RollUp__c</formula>
+        <name>CV SignOff Updated_MultiRecord_2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated_Multi_Record</fullName>
+        <field>CV_Signoff_Updated__c</field>
+        <literalValue>1</literalValue>
+        <name>CV SignOff Updated_Multi Record</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CV_SignOff_Updated_Multi_Record_1</fullName>
+        <field>CV_signoff_Budget__c</field>
+        <formula>TOTAL_Collaboration_Budget_M__c</formula>
+        <name>CV SignOff Updated_Multi Record_1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Collaboration_Description_Update</fullName>
+        <field>Collaboration_Description_Text__c</field>
+        <formula>LEFT((IF(Agnostic__c, &quot;Agnostic; &quot;, &quot;&quot;) &amp;
+IF(AMD__c , &quot;Age-Related Macular Degeneration; &quot;, &quot;&quot;) &amp;
+IF(Autism__c , &quot;Autism; &quot;, &quot;&quot;) &amp;
+IF(Birdshot__c , &quot;Birdshot; &quot;, &quot;&quot;) &amp;
+IF(Cancer__c , &quot;Cancer; &quot;, &quot;&quot;) &amp;
+IF(Chronic_Liver_Disease__c , &quot;Chronic Liver Disease; &quot;, &quot;&quot;) &amp;
+IF(CAD__c , &quot;Coronary Artery Disease; &quot;, &quot;&quot;) &amp;
+IF(Diabetic_retinopathy__c , &quot;Diabetic Retinopathy; &quot;, &quot;&quot;) &amp;
+IF(Endometriosis__c , &quot;Endometriosis; &quot;, &quot;&quot;)&amp;
+IF(Giant_Cell_Arteritis__c , &quot;Giant Cell Arteritis; &quot;, &quot;&quot;)&amp;
+IF(Glaucoma__c , &quot;Glaucoma; &quot;, &quot;&quot;)&amp;
+IF(Hidradenitis__c , &quot;Hidradenitis; &quot;, &quot;&quot;)&amp;
+IF(Keloids__c , &quot;Keloids; &quot;, &quot;&quot;)&amp;
+IF(Longevity__c , &quot;Longevity; &quot;, &quot;&quot;)&amp;
+IF(Lupus__c , &quot;Lupus; &quot;, &quot;&quot;)&amp;
+IF(Monogenic__c , &quot;Monogenic; &quot;, &quot;&quot;)&amp;
+IF(Multiple_Sclerosis__c , &quot;Multiple Sclerosis; &quot;, &quot;&quot;)&amp;
+IF(Parkinson_s__c , &quot;Parkinson&apos;s;&quot;, &quot;&quot;)&amp;
+IF(Primary_Biliary_Cholangitis__c , &quot;Primary Biliary Cholangitis; &quot;, &quot;&quot;)&amp;
+IF(Primary_Sclerosing_Cholangitis__c , &quot;Primary Sclerosing Cholangitis; &quot;, &quot;&quot;)&amp;
+IF(Psoriasis__c , &quot;Psoriasis;&quot;, &quot;&quot;)&amp;
+IF(Pulmonary_Arterial_Hypertension__c , &quot;Pulmonary Arterial Hypertension; &quot;, &quot;&quot;)&amp;
+IF(Renal_Disease__c , &quot;Renal Disease; &quot;, &quot;&quot;)&amp;
+IF(Scleroderma__c , &quot;Scleroderma; &quot;, &quot;&quot;)&amp;
+IF(Stroke__c , &quot;Stroke; &quot;, &quot;&quot;)&amp;
+IF(Systemic_Lupus__c , &quot;Systemic Lupus; &quot;, &quot;&quot;)&amp;
+IF(Type_1_Diabetes__c , &quot;Type 1 Diabetes; &quot;, &quot;&quot;)&amp;
+IF(Vitiligo__c , &quot;Vitiligo; &quot;, &quot;&quot;)&amp;
+IF(Description_Other__c , &quot;Other; &quot;, &quot;&quot;)&amp;
+IF(Inflammatory_Bowel_Disease__c , &quot;Inflammatory Bowel Disease; &quot;, &quot;&quot;)),
+LEN(IF(Agnostic__c, &quot;Agnostic; &quot;, &quot;&quot;) &amp;
+IF(AMD__c , &quot;Age-Related Macular Degeneration; &quot;, &quot;&quot;) &amp;
+IF(Autism__c , &quot;Autism; &quot;, &quot;&quot;) &amp;
+IF(Birdshot__c , &quot;Birdshot; &quot;, &quot;&quot;) &amp;
+IF(Cancer__c , &quot;Cancer; &quot;, &quot;&quot;) &amp;
+IF(Chronic_Liver_Disease__c , &quot;Chronic Liver Disease; &quot;, &quot;&quot;) &amp;
+IF(CAD__c , &quot;Coronary Artery Disease; &quot;, &quot;&quot;) &amp;
+IF(Diabetic_retinopathy__c , &quot;Diabetic Retinopathy; &quot;, &quot;&quot;) &amp;
+IF(Endometriosis__c , &quot;Endometriosis; &quot;, &quot;&quot;)&amp;
+IF(Giant_Cell_Arteritis__c , &quot;Giant Cell Arteritis; &quot;, &quot;&quot;)&amp;
+IF(Glaucoma__c , &quot;Glaucoma; &quot;, &quot;&quot;)&amp;
+IF(Hidradenitis__c , &quot;Hidradenitis; &quot;, &quot;&quot;)&amp;
+IF(Keloids__c , &quot;Keloids; &quot;, &quot;&quot;)&amp;
+IF(Longevity__c , &quot;Longevity; &quot;, &quot;&quot;)&amp;
+IF(Lupus__c , &quot;Lupus; &quot;, &quot;&quot;)&amp;
+IF(Monogenic__c , &quot;Monogenic; &quot;, &quot;&quot;)&amp;
+IF(Multiple_Sclerosis__c , &quot;Multiple Sclerosis; &quot;, &quot;&quot;)&amp;
+IF(Parkinson_s__c , &quot;Parkinson&apos;s;&quot;, &quot;&quot;)&amp;
+IF(Primary_Biliary_Cholangitis__c , &quot;Primary Biliary Cholangitis; &quot;, &quot;&quot;)&amp;
+IF(Primary_Sclerosing_Cholangitis__c , &quot;Primary Sclerosing Cholangitis; &quot;, &quot;&quot;)&amp;
+IF(Psoriasis__c , &quot;Psoriasis;&quot;, &quot;&quot;)&amp;
+IF(Pulmonary_Arterial_Hypertension__c , &quot;Pulmonary Arterial Hypertension; &quot;, &quot;&quot;)&amp;
+IF(Renal_Disease__c , &quot;Renal Disease; &quot;, &quot;&quot;)&amp;
+IF(Scleroderma__c , &quot;Scleroderma; &quot;, &quot;&quot;)&amp;
+IF(Stroke__c , &quot;Stroke; &quot;, &quot;&quot;)&amp;
+IF(Systemic_Lupus__c , &quot;Systemic Lupus; &quot;, &quot;&quot;)&amp;
+IF(Type_1_Diabetes__c , &quot;Type 1 Diabetes; &quot;, &quot;&quot;)&amp;
+IF(Vitiligo__c , &quot;Vitiligo; &quot;, &quot;&quot;)&amp;
+IF(Description_Other__c , &quot;Other; &quot;, &quot;&quot;)&amp;
+IF(Inflammatory_Bowel_Disease__c , &quot;Inflammatory Bowel Disease; &quot;, &quot;&quot;))-2 )</formula>
+        <name>Collaboration Description Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Collaboration_Oppty_Id_update_for_Dedup</fullName>
+        <field>Collaboration_Oppty_Unique_Id_for_Dup__c</field>
+        <formula>Name + Account.Name</formula>
+        <name>Collaboration Oppty Id update for Dedup</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Collaboration_RGC_Teams</fullName>
+        <field>RGC_Teams_Text__c</field>
+        <formula>LEFT((IF(Neuro__c, &quot;Neuro; &quot;, &quot;&quot;) &amp;
+IF(All__c , &quot;Agnostic; &quot;, &quot;&quot;) &amp;
+IF(M_M__c , &quot;M&amp;M; &quot;, &quot;&quot;) &amp;
+IF(Ophthal__c , &quot;Ophthal; &quot;, &quot;&quot;) &amp;
+IF(I_O__c , &quot;I/O; &quot;, &quot;&quot;)&amp;
+IF(I_I__c , &quot;I&amp;I; &quot;, &quot;&quot;)&amp;
+IF(SD__c , &quot;SD; &quot;, &quot;&quot;)&amp;
+IF(FSP__c , &quot;FSP; &quot;, &quot;&quot;)&amp;
+IF(RGC_Other__c , &quot;Other; &quot;, &quot;&quot;)&amp;
+IF(CVD_F__c , &quot;CVD/F; &quot;, &quot;&quot;)),
+LEN(IF(Neuro__c, &quot;Neuro; &quot;, &quot;&quot;) &amp;
+IF(All__c , &quot;Agnostic; &quot;, &quot;&quot;) &amp;
+IF(M_M__c , &quot;M&amp;M; &quot;, &quot;&quot;) &amp;
+IF(Ophthal__c , &quot;Ophthal; &quot;, &quot;&quot;) &amp;
+IF(I_O__c , &quot;I/O; &quot;, &quot;&quot;)&amp;
+IF(I_I__c , &quot;I&amp;I; &quot;, &quot;&quot;)&amp;
+IF(SD__c , &quot;SD; &quot;, &quot;&quot;)&amp;
+IF(FSP__c , &quot;FSP; &quot;, &quot;&quot;)&amp;
+IF(RGC_Other__c , &quot;Other; &quot;, &quot;&quot;)&amp;
+IF(CVD_F__c , &quot;CVD/F; &quot;, &quot;&quot;))-2 )</formula>
+        <name>Collaboration TAG Teams</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Collaboration_Scope_Update</fullName>
+        <field>Collaboration_Scope_Text__c</field>
+        <formula>LEFT((IF(Whole_Exome_Sequencing__c, &quot;Whole Exome Sequencing; &quot;, &quot;&quot;) &amp;
+IF(Whole_Genome_Sequencing__c , &quot;Whole Genome Sequencing; &quot;, &quot;&quot;) &amp;
+IF(Genotyping__c , &quot;Genotyping; &quot;, &quot;&quot;) &amp;
+IF(HLA_Typing__c , &quot;HLA Typing; &quot;, &quot;&quot;) &amp;
+IF(RNA_Sequencing__c , &quot;RNA Sequencing; &quot;, &quot;&quot;)&amp;
+IF(Scope_Other__c , &quot;Other; &quot;, &quot;&quot;)),
+LEN(IF(Whole_Exome_Sequencing__c, &quot;Whole Exome Sequencing; &quot;, &quot;&quot;) &amp;
+IF(Whole_Genome_Sequencing__c , &quot;Whole Genome Sequencing; &quot;, &quot;&quot;) &amp;
+IF(Genotyping__c , &quot;Genotyping; &quot;, &quot;&quot;) &amp;
+IF(HLA_Typing__c , &quot;HLA Typing; &quot;, &quot;&quot;) &amp;
+IF(RNA_Sequencing__c , &quot;RNA Sequencing; &quot;, &quot;&quot;)&amp;
+IF(Scope_Other__c , &quot;Other; &quot;, &quot;&quot;))-2 )</formula>
+        <name>Collaboration Scope Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Collaboration_Type_Update</fullName>
+        <field>Collaboration_Type_Text__c</field>
+        <formula>LEFT((IF(Phenotype_Specific__c, &quot;Phenotype-Specific; &quot;, &quot;&quot;) &amp;
+IF(Large_Population__c , &quot;Large Population; &quot;, &quot;&quot;) &amp;
+IF(Founder_Special_Population__c , &quot;Founder/Special Population; &quot;, &quot;&quot;) &amp;
+IF(Mendelian__c , &quot;Mendelian; &quot;, &quot;&quot;)&amp;
+IF(Other__c , &quot;Other; &quot;, &quot;&quot;)),
+LEN(IF(Phenotype_Specific__c, &quot;Phenotype-Specific; &quot;, &quot;&quot;) &amp;
+IF(Large_Population__c , &quot;Large Population; &quot;, &quot;&quot;) &amp;
+IF(Founder_Special_Population__c , &quot;Founder/Special Population; &quot;, &quot;&quot;) &amp;
+IF(Mendelian__c , &quot;Mendelian; &quot;, &quot;&quot;)&amp;
+IF(Health_System__c, &quot;Health System; &quot;, &quot;&quot;)&amp;
+IF(Strategic_Initiatives__c , &quot;Strategic Initiatives; &quot;, &quot;&quot;)&amp;
+IF(Other__c , &quot;Other; &quot;, &quot;&quot;))-2 )</formula>
+        <name>Collaboration Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>TFA_Biology_Update</fullName>
+        <field>TFA_Biology_Text__c</field>
+        <formula>LEFT((
+IF(Agnostic_TFA_Biology__c , &quot;Agnostic; &quot;, &quot;&quot;) &amp;
+IF(Immune_Respiratory__c, &quot;Immune &amp; Respiratory; &quot;, &quot;&quot;) &amp;
+IF(Infectious_Diseases__c , &quot;Infectious Diseases; &quot;, &quot;&quot;) &amp;
+IF(Neurosciences__c , &quot;Neurosciences; &quot;, &quot;&quot;) &amp;
+IF(Ophthalmology__c , &quot;Ophthalmology; &quot;, &quot;&quot;) &amp;
+IF(Oncology__c , &quot;Oncology; &quot;, &quot;&quot;) &amp;
+IF(Cardiovascular_Fibrosis__c , &quot;Cardiovascular/Fibrosis; &quot;, &quot;&quot;)&amp;
+IF(Muscle_Metabolism__c , &quot;Muscle &amp; Metabolism; &quot;, &quot;&quot;) &amp;
+IF(Skeletal_Diseases__c , &quot;Skeletal Diseases; &quot;, &quot;&quot;) &amp;
+IF(Aging__c , &quot;Aging; &quot;, &quot;&quot;) &amp;
+IF(Biology_Other__c , &quot;Other; &quot;, &quot;&quot;)),
+LEN(
+IF(Agnostic_TFA_Biology__c , &quot;Agnostic; &quot;, &quot;&quot;) &amp;
+IF(Immune_Respiratory__c, &quot;Immune &amp; Respiratory; &quot;, &quot;&quot;) &amp;
+IF(Infectious_Diseases__c , &quot;Infectious Diseases; &quot;, &quot;&quot;) &amp;
+IF(Neurosciences__c , &quot;Neurosciences; &quot;, &quot;&quot;) &amp;
+IF(Ophthalmology__c , &quot;Ophthalmology; &quot;, &quot;&quot;) &amp;
+IF(Oncology__c , &quot;Oncology; &quot;, &quot;&quot;) &amp;
+IF(Cardiovascular_Fibrosis__c , &quot;Cardiovascular/Fibrosis; &quot;, &quot;&quot;)&amp;
+IF(Muscle_Metabolism__c , &quot;Muscle &amp; Metabolism; &quot;, &quot;&quot;) &amp;
+IF(Skeletal_Diseases__c , &quot;Skeletal Diseases; &quot;, &quot;&quot;) &amp;
+IF(Aging__c , &quot;Aging; &quot;, &quot;&quot;) &amp;
+IF(Biology_Other__c , &quot;Other; &quot;, &quot;&quot;))-2 )</formula>
+        <name>TFA Biology Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Reporting</fullName>
+        <field>Reporting__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Reporting</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>CV SignOff Budget Updated</fullName>
+        <actions>
+            <name>CV_SignOff_Updated_3</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CV_SignOff_Updated_4</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>OR(   ISCHANGED( Total_Cost_Agreed__c ),   ISCHANGED( Total_Amendment_Budget__c ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CV SignOff Multi Budget Updated</fullName>
+        <actions>
+            <name>CV_SignOff_Updated_Multi_Record</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CV_SignOff_Updated_Multi_Record_1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>ISCHANGED( Total_Cost_Agreed_RollUp__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CV SignOff Multi Record Updated</fullName>
+        <actions>
+            <name>CV_SignOff_Updated_MultiRecord_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( CV_Signoff_Updated__c == false, ISCHANGED( Total_Cost_Collaborator_Proposed_RollUp__c ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CV SignOff Updated</fullName>
+        <actions>
+            <name>CV_SignOff_Updated_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(  CV_Signoff_Updated__c == false,  ISCHANGED( Total_Cost_Collaborator_Proposed__c) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Collaboration Oppty Id Update for Dedup</fullName>
+        <actions>
+            <name>Collaboration_Oppty_Id_update_for_Dedup</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>OR(ISNEW(),ISCHANGED(Name), ISCHANGED( AccountId ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Collaboration Type_Scope_Description_RGCTeam</fullName>
+        <actions>
+            <name>Collaboration_Description_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Collaboration_RGC_Teams</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Collaboration_Scope_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Collaboration_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>TFA_Biology_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Reporting</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>User.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Amd Analysis Lmtd to Described Phenotype --></label>
+    <name>Amd_Analysis_Lmtd_to_Described_Phenotype__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes per Research Plan</masterLabel>
+        <translation><!-- Yes per Research Plan --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

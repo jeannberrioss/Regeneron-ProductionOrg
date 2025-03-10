@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Broad_Status__c</name>
+    <picklistValues>
+        <masterLabel>Analysis</masterLabel>
+        <translation><!-- Analysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical</masterLabel>
+        <translation><!-- Clinical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complete</masterLabel>
+        <translation><!-- Complete --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deep Dive</masterLabel>
+        <translation><!-- Deep Dive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Queue (HTP)</masterLabel>
+        <translation><!-- In Queue (HTP) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Hold</masterLabel>
+        <translation><!-- On Hold --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

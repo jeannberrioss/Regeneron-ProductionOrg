@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cohort [LEGACY] --></label>
+    <name>Cohort__c</name>
+    <picklistValues>
+        <masterLabel>AECOM</masterLabel>
+        <translation><!-- AECOM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMISH-AMD</masterLabel>
+        <translation><!-- AMISH-AMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANZGENE</masterLabel>
+        <translation><!-- ANZGENE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AURORA</masterLabel>
+        <translation><!-- AURORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accelerated Cures</masterLabel>
+        <translation><!-- Accelerated Cures --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ancestry</masterLabel>
+        <translation><!-- Ancestry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AncestryDNA</masterLabel>
+        <translation><!-- AncestryDNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCH</masterLabel>
+        <translation><!-- BCH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCH-CJD</masterLabel>
+        <translation><!-- BCH-CJD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bariatric surgery, GHS</masterLabel>
+        <translation><!-- Bariatric surgery, GHS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boston Childrens</masterLabel>
+        <translation><!-- Boston Childrens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAMBRIDGE</masterLabel>
+        <translation><!-- CAMBRIDGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARMEL</masterLabel>
+        <translation><!-- CARMEL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CCHMC</masterLabel>
+        <translation><!-- CCHMC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CCHMC-ROTHENBERG</masterLabel>
+        <translation><!-- CCHMC-ROTHENBERG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHANGGUNG</masterLabel>
+        <translation><!-- CHANGGUNG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CNCD</masterLabel>
+        <translation><!-- CNCD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CNMC</masterLabel>
+        <translation><!-- CNMC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COL-CHUNG</masterLabel>
+        <translation><!-- COL-CHUNG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COL-RAZA</masterLabel>
+        <translation><!-- COL-RAZA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLORADO</masterLabel>
+        <translation><!-- COLORADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSC</masterLabel>
+        <translation><!-- CSC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSIC</masterLabel>
+        <translation><!-- CSIC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CURES</masterLabel>
+        <translation><!-- CURES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CYPRUS</masterLabel>
+        <translation><!-- CYPRUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DDC</masterLabel>
+        <translation><!-- DDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DENVER</masterLabel>
+        <translation><!-- DENVER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DHS</masterLabel>
+        <translation><!-- DHS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DRCR</masterLabel>
+        <translation><!-- DRCR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DRIFT-NIMH</masterLabel>
+        <translation><!-- DRIFT-NIMH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DUKE</masterLabel>
+        <translation><!-- DUKE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECO</masterLabel>
+        <translation><!-- ECO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EINSTEIN</masterLabel>
+        <translation><!-- EINSTEIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EcoGene 21</masterLabel>
+        <translation><!-- EcoGene 21 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edinburgh</masterLabel>
+        <translation><!-- Edinburgh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FLINDERS</masterLabel>
+        <translation><!-- FLINDERS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FinnGen</masterLabel>
+        <translation><!-- FinnGen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GGC</masterLabel>
+        <translation><!-- GGC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GHS</masterLabel>
+        <translation><!-- GHS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GHS 145K</masterLabel>
+        <translation><!-- GHS 145K --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GHS for DRIFT</masterLabel>
+        <translation><!-- GHS for DRIFT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HACKENSACK</masterLabel>
+        <translation><!-- HACKENSACK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HAUKELAND</masterLabel>
+        <translation><!-- HAUKELAND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOUSTON</masterLabel>
+        <translation><!-- HOUSTON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMPERIAL</masterLabel>
+        <translation><!-- IMPERIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INDIANA-CHALASANI</masterLabel>
+        <translation><!-- INDIANA-CHALASANI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INDIANA-TRAVIS</masterLabel>
+        <translation><!-- INDIANA-TRAVIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IU</masterLabel>
+        <translation><!-- IU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iowa</masterLabel>
+        <translation><!-- Iowa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KAISER</masterLabel>
+        <translation><!-- KAISER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kiel</masterLabel>
+        <translation><!-- Kiel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LABIOMED</masterLabel>
+        <translation><!-- LABIOMED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LABS</masterLabel>
+        <translation><!-- LABS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LEEDS</masterLabel>
+        <translation><!-- LEEDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LUND</masterLabel>
+        <translation><!-- LUND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leuven</masterLabel>
+        <translation><!-- Leuven --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MADGC</masterLabel>
+        <translation><!-- MADGC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MALMO</masterLabel>
+        <translation><!-- MALMO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARIO</masterLabel>
+        <translation><!-- MARIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAYO-CLINIC</masterLabel>
+        <translation><!-- MAYO-CLINIC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAZE</masterLabel>
+        <translation><!-- MAZE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MCPS</masterLabel>
+        <translation><!-- MCPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MSSM</masterLabel>
+        <translation><!-- MSSM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mario Negri</masterLabel>
+        <translation><!-- Mario Negri --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mayo</masterLabel>
+        <translation><!-- Mayo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michigan</masterLabel>
+        <translation><!-- Michigan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mt. Sinai</masterLabel>
+        <translation><!-- Mt. Sinai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NASH-CRN</masterLabel>
+        <translation><!-- NASH-CRN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NHGRI</masterLabel>
+        <translation><!-- NHGRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NIAID</masterLabel>
+        <translation><!-- NIAID --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NIDDK</masterLabel>
+        <translation><!-- NIDDK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NIMH</masterLabel>
+        <translation><!-- NIMH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NORTHWESTER</masterLabel>
+        <translation><!-- NORTHWESTER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NYBC</masterLabel>
+        <translation><!-- NYBC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northwestern</masterLabel>
+        <translation><!-- Northwestern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OMNIGEN</masterLabel>
+        <translation><!-- OMNIGEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OXFORD-HOLM</masterLabel>
+        <translation><!-- OXFORD-HOLM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OXFORD-HPS</masterLabel>
+        <translation><!-- OXFORD-HPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OXFORD-MWS</masterLabel>
+        <translation><!-- OXFORD-MWS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oxford</masterLabel>
+        <translation><!-- Oxford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PITT</masterLabel>
+        <translation><!-- PITT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAMBAM</masterLabel>
+        <translation><!-- RAMBAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RUTGERS</masterLabel>
+        <translation><!-- RUTGERS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SCMC</masterLabel>
+        <translation><!-- SCMC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHEBA</masterLabel>
+        <translation><!-- SHEBA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SINAI</masterLabel>
+        <translation><!-- SINAI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SNRC</masterLabel>
+        <translation><!-- SNRC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPARK</masterLabel>
+        <translation><!-- SPARK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAICHI</masterLabel>
+        <translation><!-- TAICHI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAICHUNG</masterLabel>
+        <translation><!-- TAICHUNG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSK</masterLabel>
+        <translation><!-- TSK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TUM</masterLabel>
+        <translation><!-- TUM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UAB</masterLabel>
+        <translation><!-- UAB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UAB-BRIDGES</masterLabel>
+        <translation><!-- UAB-BRIDGES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UCHC</masterLabel>
+        <translation><!-- UCHC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UCLA</masterLabel>
+        <translation><!-- UCLA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UCLA-FEZJO</masterLabel>
+        <translation><!-- UCLA-FEZJO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UCSD-GLEESON</masterLabel>
+        <translation><!-- UCSD-GLEESON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UCSF</masterLabel>
+        <translation><!-- UCSF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UKB</masterLabel>
+        <translation><!-- UKB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UKB + GHS for DRIFT</masterLabel>
+        <translation><!-- UKB + GHS for DRIFT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UKB 150k</masterLabel>
+        <translation><!-- UKB 150k --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UKB 300k</masterLabel>
+        <translation><!-- UKB 300k --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UKB 450k</masterLabel>
+        <translation><!-- UKB 450k --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UMD</masterLabel>
+        <translation><!-- UMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UMD-HONG</masterLabel>
+        <translation><!-- UMD-HONG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UOHI</masterLabel>
+        <translation><!-- UOHI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPENN</masterLabel>
+        <translation><!-- UPENN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPENN-HLA</masterLabel>
+        <translation><!-- UPENN-HLA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPENN-OBRIEN</masterLabel>
+        <translation><!-- UPENN-OBRIEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPENN-PMBB</masterLabel>
+        <translation><!-- UPENN-PMBB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPITT-XIA</masterLabel>
+        <translation><!-- UPITT-XIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPenn-Danish</masterLabel>
+        <translation><!-- UPenn-Danish --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UTHSC</masterLabel>
+        <translation><!-- UTHSC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UTSW</masterLabel>
+        <translation><!-- UTSW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UTSW-COHEN</masterLabel>
+        <translation><!-- UTSW-COHEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UTSW-GLASS</masterLabel>
+        <translation><!-- UTSW-GLASS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UW-PARIS</masterLabel>
+        <translation><!-- UW-PARIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uconn</masterLabel>
+        <translation><!-- Uconn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utah</masterLabel>
+        <translation><!-- Utah --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VANDERBILT</masterLabel>
+        <translation><!-- VANDERBILT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

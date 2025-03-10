@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TFA_Biology_Value_Other</fullName>
+    <active>true</active>
+    <description>If TFA Biology Selected as &quot;Other&quot; then please enter TFA Biology Other Value</description>
+    <errorConditionFormula>AND(Biology_Other__c = true,
+ISBLANK( TFA_Biology_Other__c))</errorConditionFormula>
+    <errorDisplayField>TFA_Biology_Other__c</errorDisplayField>
+    <errorMessage>If TFA Biology Selected as &quot;Other&quot; then please enter TFA Biology Other Value</errorMessage>
+</ValidationRule>

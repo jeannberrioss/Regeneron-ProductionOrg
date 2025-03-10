@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Therapeutic Focus Area --></label>
+    <name>Therapeutic_Focus_Area__c</name>
+    <picklistValues>
+        <masterLabel>Aging</masterLabel>
+        <translation><!-- Aging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agnostic</masterLabel>
+        <translation><!-- Agnostic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auditory</masterLabel>
+        <translation><!-- Auditory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancer</masterLabel>
+        <translation><!-- Cancer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiovascular</masterLabel>
+        <translation><!-- Cardiovascular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immune/Respir</masterLabel>
+        <translation><!-- Immune/Respir --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Diseases</masterLabel>
+        <translation><!-- Infectious Diseases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Muscle &amp; Metabolism</masterLabel>
+        <translation><!-- Muscle &amp; Metabolism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuroscience</masterLabel>
+        <translation><!-- Neuroscience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmology</masterLabel>
+        <translation><!-- Ophthalmology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rare Diseases</masterLabel>
+        <translation><!-- Rare Diseases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skeletal Disease</masterLabel>
+        <translation><!-- Skeletal Disease --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

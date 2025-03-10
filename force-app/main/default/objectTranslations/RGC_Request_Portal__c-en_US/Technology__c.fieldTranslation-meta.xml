@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Technology --></label>
+    <name>Technology__c</name>
+    <picklistValues>
+        <masterLabel>Alternative Antibody Format</masterLabel>
+        <translation><!-- Alternative Antibody Format --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Analytical Platform</masterLabel>
+        <translation><!-- Analytical Platform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antibody Discovery</masterLabel>
+        <translation><!-- Antibody Discovery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRISPR</masterLabel>
+        <translation><!-- CRISPR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cellular Immunity Rodents</masterLabel>
+        <translation><!-- Cellular Immunity Rodents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gene Variants</masterLabel>
+        <translation><!-- Gene Variants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Precision Medicine</masterLabel>
+        <translation><!-- Precision Medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recombineering Technologies</masterLabel>
+        <translation><!-- Recombineering Technologies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retargeted Viruses</masterLabel>
+        <translation><!-- Retargeted Viruses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rodent Disease and Biochemistry Models</masterLabel>
+        <translation><!-- Rodent Disease and Biochemistry Models --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T Cell Technologies</masterLabel>
+        <translation><!-- T Cell Technologies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VelociHum Rodents</masterLabel>
+        <translation><!-- VelociHum Rodents --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

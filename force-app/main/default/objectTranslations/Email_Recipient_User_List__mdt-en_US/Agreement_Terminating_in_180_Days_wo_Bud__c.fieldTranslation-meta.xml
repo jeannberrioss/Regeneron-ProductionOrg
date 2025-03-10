@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Agreement_Terminating_in_180_Days_wo_Bud --></label>
+    <name>Agreement_Terminating_in_180_Days_wo_Bud__c</name>
+</CustomFieldTranslation>

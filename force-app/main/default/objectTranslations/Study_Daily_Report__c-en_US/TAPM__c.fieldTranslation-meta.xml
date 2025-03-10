@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TAPM --></label>
+    <name>TAPM__c</name>
+    <picklistValues>
+        <masterLabel>Antonio Irizarry</masterLabel>
+        <translation><!-- Antonio Irizarry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bradford Horton</masterLabel>
+        <translation><!-- Bradford Horton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deganit Shechter</masterLabel>
+        <translation><!-- Deganit Shechter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evelyn Gasparino</masterLabel>
+        <translation><!-- Evelyn Gasparino --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kellie Giles</masterLabel>
+        <translation><!-- Kellie Giles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laura Capicchioni</masterLabel>
+        <translation><!-- Laura Capicchioni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lee Sayers</masterLabel>
+        <translation><!-- Lee Sayers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Linda Pan</masterLabel>
+        <translation><!-- Linda Pan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marissa Mezzancello</masterLabel>
+        <translation><!-- Marissa Mezzancello --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michele Mackenzie</masterLabel>
+        <translation><!-- Michele Mackenzie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monica Alexander</masterLabel>
+        <translation><!-- Monica Alexander --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Samantha Dickon</masterLabel>
+        <translation><!-- Samantha Dickon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Somang Kim</masterLabel>
+        <translation><!-- Somang Kim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tanya Klein</masterLabel>
+        <translation><!-- Tanya Klein --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Victoria Serrano</masterLabel>
+        <translation><!-- Victoria Serrano --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_TA Project Mgmt (GEN)</masterLabel>
+        <translation><!-- _TA Project Mgmt (GEN) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

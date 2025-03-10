@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RGC_Teams_Value_Other</fullName>
+    <active>true</active>
+    <description>If RGC Teams Selected as &quot;Other&quot; then please enter RGC Teams Other Value</description>
+    <errorConditionFormula>AND(RGC_Other__c = true,
+ISBLANK( RGC_Teams_Other__c))</errorConditionFormula>
+    <errorDisplayField>RGC_Teams_Other__c</errorDisplayField>
+    <errorMessage>If RGC Teams Selected as &quot;Other&quot; then please enter RGC Teams Other Value</errorMessage>
+</ValidationRule>

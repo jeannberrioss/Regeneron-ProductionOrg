@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of Request --></label>
+    <name>Type_of_Request__c</name>
+    <picklistValues>
+        <masterLabel>Clinical</masterLabel>
+        <translation><!-- Clinical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External</masterLabel>
+        <translation><!-- External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC</masterLabel>
+        <translation><!-- RGC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sr Mgmt</masterLabel>
+        <translation><!-- Sr Mgmt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TFA - Discovery</masterLabel>
+        <translation><!-- TFA - Discovery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TFA - TRAIN</masterLabel>
+        <translation><!-- TFA - TRAIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TFA - Target Nomination</masterLabel>
+        <translation><!-- TFA - Target Nomination --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

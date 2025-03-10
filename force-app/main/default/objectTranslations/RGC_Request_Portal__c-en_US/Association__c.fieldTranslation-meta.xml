@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Association --></label>
+    <name>Association__c</name>
+    <picklistValues>
+        <masterLabel>Age</masterLabel>
+        <translation><!-- Age --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allergy</masterLabel>
+        <translation><!-- Allergy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Asthma</masterLabel>
+        <translation><!-- Asthma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atopic dermatitis</masterLabel>
+        <translation><!-- Atopic dermatitis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Pressure</masterLabel>
+        <translation><!-- Blood Pressure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bone Mineral Density</masterLabel>
+        <translation><!-- Bone Mineral Density --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAD</masterLabel>
+        <translation><!-- CAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COPD</masterLabel>
+        <translation><!-- COPD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coagulation</masterLabel>
+        <translation><!-- Coagulation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DTE</masterLabel>
+        <translation><!-- DTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fibrotic disease</masterLabel>
+        <translation><!-- Fibrotic disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fungal Infections</masterLabel>
+        <translation><!-- Fungal Infections --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand Grip Strength</masterLabel>
+        <translation><!-- Hand Grip Strength --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infection</masterLabel>
+        <translation><!-- Infection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liver Disease</masterLabel>
+        <translation><!-- Liver Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lysosomal Disease</masterLabel>
+        <translation><!-- Lysosomal Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MI</masterLabel>
+        <translation><!-- MI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PAH</masterLabel>
+        <translation><!-- PAH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PheWAS</masterLabel>
+        <translation><!-- PheWAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renal Disease</masterLabel>
+        <translation><!-- Renal Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scleroderma</masterLabel>
+        <translation><!-- Scleroderma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skin Disorders</masterLabel>
+        <translation><!-- Skin Disorders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type 1 Diabetes</masterLabel>
+        <translation><!-- Type 1 Diabetes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type 2 Diabetes</masterLabel>
+        <translation><!-- Type 2 Diabetes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VTE</masterLabel>
+        <translation><!-- VTE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

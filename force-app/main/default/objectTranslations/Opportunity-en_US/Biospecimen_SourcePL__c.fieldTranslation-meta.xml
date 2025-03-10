@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Biospecimen Source --></label>
+    <name>Biospecimen_SourcePL__c</name>
+    <picklistValues>
+        <masterLabel>Buccal</masterLabel>
+        <translation><!-- Buccal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cells - Organoids</masterLabel>
+        <translation><!-- Cells - Organoids --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cells - PBMC</masterLabel>
+        <translation><!-- Cells - PBMC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cells - Tissue</masterLabel>
+        <translation><!-- Cells - Tissue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saliva</masterLabel>
+        <translation><!-- Saliva --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Whole Blood</masterLabel>
+        <translation><!-- Whole Blood --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

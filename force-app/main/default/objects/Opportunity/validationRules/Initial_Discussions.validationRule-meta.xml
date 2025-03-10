@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Discussions</fullName>
+    <active>false</active>
+    <description>Please mark the Initial Assessment Value as &quot;Completed&quot; and Please mark Budget Assessment values as &quot;Not Applicable&quot; or &quot;Completed&quot;</description>
+    <errorConditionFormula>AND( 
+ISCHANGED( StageName ), 
+ISPICKVAL(PRIORVALUE(StageName),&quot;1- Early Discussions&quot;), 
+ISPICKVAL(StageName , &quot;2- Research Plan&quot;), 
+OR( NOT(ISPICKVAL(Initial_Discussions__c,&quot;Completed&quot;)), 
+OR( (ISPICKVAL(Budget_Assessment__c,&quot;Not Started&quot;)), 
+(ISPICKVAL(Budget_Assessment__c,&quot;In Progress&quot;)) 
+)) 
+)</errorConditionFormula>
+    <errorMessage>Please mark the Initial Assessment Value as &quot;Completed&quot; and Please mark Budget Assessment values as &quot;Not Applicable&quot; or &quot;Completed&quot;</errorMessage>
+</ValidationRule>

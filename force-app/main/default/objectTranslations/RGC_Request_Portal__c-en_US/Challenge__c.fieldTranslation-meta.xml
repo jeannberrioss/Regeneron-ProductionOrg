@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please provide a high level description of your technical challenge (maximum 3 sentences) --></help>
+    <label><!-- Challenge --></label>
+    <name>Challenge__c</name>
+</CustomFieldTranslation>

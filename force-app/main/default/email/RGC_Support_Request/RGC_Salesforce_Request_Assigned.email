@@ -1,0 +1,16 @@
+An RGC Salesforce Support Request has been assigned to you. Please follow up as appropriate.  <br><br>
+
+Request#: <a href="{!RGC_Salesforce_Support__c.Link}">{!RGC_Salesforce_Support__c.Name}</a>
+<br><br>
+
+Subject: {!RGC_Salesforce_Support__c.Subject__c} <br><br>
+
+Description: {!RGC_Salesforce_Support__c.Description__c} <br><br>
+
+Created By: {!RGC_Salesforce_Support__c.CreatedBy}  <br><br>
+
+Created on Behalf Of: {!RGC_Salesforce_Support__c.Created_on_Behalf_Of__c}  <br><br>
+
+Created Date: {!RGC_Salesforce_Support__c.CreatedDate}  <br><br>
+
+Assigned To: {!RGC_Salesforce_Support__c.Assigned_To__c} <br><br>

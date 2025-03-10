@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Publication Type --></label>
+    <name>Publication_Type__c</name>
+    <picklistValues>
+        <masterLabel>Abstract</masterLabel>
+        <translation><!-- Abstract --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lecture</masterLabel>
+        <translation><!-- Lecture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Letter</masterLabel>
+        <translation><!-- Letter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manuscript</masterLabel>
+        <translation><!-- Manuscript --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oral Presentation</masterLabel>
+        <translation><!-- Oral Presentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Platform</masterLabel>
+        <translation><!-- Platform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poster</masterLabel>
+        <translation><!-- Poster --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Results Sharing</masterLabel>
+        <translation><!-- Results Sharing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seminar Talk</masterLabel>
+        <translation><!-- Seminar Talk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Student Manuscript</masterLabel>
+        <translation><!-- Student Manuscript --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Student Paper</masterLabel>
+        <translation><!-- Student Paper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Student Presentation</masterLabel>
+        <translation><!-- Student Presentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Student Research Project</masterLabel>
+        <translation><!-- Student Research Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBD</masterLabel>
+        <translation><!-- TBD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

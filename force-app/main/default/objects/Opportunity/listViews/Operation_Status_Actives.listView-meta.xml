@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operation_Status_Actives</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Sample_Received__c</columns>
+    <columns>Phenotype_Data_received__c</columns>
+    <columns>Data_Freeze__c</columns>
+    <columns>Phenotype_Matrix__c</columns>
+    <columns>First_Pass_Analysis__c</columns>
+    <columns>Uploaded_to_Results_Browser__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>7- Active</value>
+    </filters>
+    <filters>
+        <field>Samples_Total_All__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Operation Status Actives</label>
+</ListView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Department --></label>
+    <name>Department__c</name>
+    <picklistValues>
+        <masterLabel>0288-Research Mgmt &amp; Operations</masterLabel>
+        <translation><!-- 0288-Research Mgmt &amp; Operations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0400-Sequencing &amp; Lab Operations</masterLabel>
+        <translation><!-- 0400-Sequencing &amp; Lab Operations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0410-Genome Informatics &amp; Data Engineering</masterLabel>
+        <translation><!-- 0410-Genome Informatics &amp; Data Engineering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0420-Analytical Genetics</masterLabel>
+        <translation><!-- 0420-Analytical Genetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0430-Therapeutic Area Genetics</masterLabel>
+        <translation><!-- 0430-Therapeutic Area Genetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0440-RGC Biology</masterLabel>
+        <translation><!-- 0440-RGC Biology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0450-Clinical Informatics</masterLabel>
+        <translation><!-- 0450-Clinical Informatics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0490-RGC Management</masterLabel>
+        <translation><!-- 0490-RGC Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0495-RGC Research, Business &amp; Operations Mgmt</masterLabel>
+        <translation><!-- 0495-RGC Research, Business &amp; Operations Mgmt --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

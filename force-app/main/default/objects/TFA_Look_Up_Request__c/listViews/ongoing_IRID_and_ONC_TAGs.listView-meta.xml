@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ongoing_IRID_and_ONC_TAGs</fullName>
+    <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+    <columns>NAME</columns>
+    <columns>TAG__c</columns>
+    <columns>Date_of_Request__c</columns>
+    <columns>Type_of_Request__c</columns>
+    <columns>Requestor__c</columns>
+    <columns>RGC_Champion__c</columns>
+    <columns>Stage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TAG__c</field>
+        <operation>equals</operation>
+        <value>&quot;Immune, Respiratory &amp; Infectious Diseases&quot;,Oncology</value>
+    </filters>
+    <filters>
+        <field>TFA__c</field>
+        <operation>equals</operation>
+        <value>Immune &amp; Inflammation,Infectious Disease,Oncology</value>
+    </filters>
+    <filters>
+        <field>Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Completed - Follow-up Needed,Completed</value>
+    </filters>
+    <label>ongoing IRID and ONC TAGs</label>
+</ListView>

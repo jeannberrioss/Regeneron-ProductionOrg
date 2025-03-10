@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Date__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Discussion_TopicRT__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Meeting__c</field>
+    </columns>
+    <columns>
+        <field>TAG_Meeting_Updates__c.Link_to_Meeting_Summary_RT__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>TAG Meeting Report 05/01- 06/21</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$TAG_Meeting_Updates__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>TAG_Meeting_Updates__c.Date__c</dateColumn>
+        <endDate>2024-06-21</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2024-05-01</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,6 @@
+***UPDATE NOTIFICATION***
+
+Collaboration ID: {!Opportunity.Id}
+Collaboration Name: {!Opportunity.Name}
+
+Research Plan has been agreed by Collaborator, Internal Partners and Deal Team. Proceeding to next steps.

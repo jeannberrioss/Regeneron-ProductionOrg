@@ -1,0 +1,9 @@
+<b><u>UPDATE NOTIFICATION</u></b>
+<br/><br/>
+<table>
+<tr><td>Collaboration Name </td><td>{!Opportunity.Name} </td></tr>
+<tr><td>Collaborator Institution </td><td>{!Opportunity.Account} </td></tr>
+<tr><td>Collaborator Scientific Contacts:</td><td>{!Opportunity.Collaborator_Scientific_Contact_Names__c} </td></tr>
+<tr><td>Collaboration URL </td><td><a href="{!Opportunity.Link}">Click Here</a> </td></tr>
+</table>
+<p style="color:black;font-size:17px;"><u>Collaboration Agreement has been fully executed. Proceed to active phase activities.</u></p>

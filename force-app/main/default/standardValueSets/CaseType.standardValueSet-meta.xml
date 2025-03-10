@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Update Milestone Status</fullName>
+        <default>false</default>
+        <label>Update Milestone Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Update Milestone Date</fullName>
+        <default>false</default>
+        <label>Update Milestone Date</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Additional Info Needed</fullName>
+        <default>false</default>
+        <label>Additional Info Needed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decision not to proceed with Research Plan Issue/Reason</fullName>
+        <default>false</default>
+        <label>Decision not to proceed with Research Plan Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Plan Issue/Reason</fullName>
+        <default>false</default>
+        <label>Research Plan Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RPR decision not to proceed Issue/Reason</fullName>
+        <default>false</default>
+        <label>RPR decision not to proceed Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Info needed prior to decision to proceed</fullName>
+        <default>false</default>
+        <label>Info needed prior to decision to proceed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Info needed on ICFs prior to Legal Review</fullName>
+        <default>false</default>
+        <label>Info needed on ICFs prior to Legal Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ICF Issue/Reason</fullName>
+        <default>false</default>
+        <label>ICF Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ABAC Compliance Issue/Reason</fullName>
+        <default>false</default>
+        <label>ABAC Compliance Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Budget Approval Issue/Reason</fullName>
+        <default>false</default>
+        <label>Budget Approval Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agreement Terms Issue/Reason</fullName>
+        <default>false</default>
+        <label>Agreement Terms Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Final Review Issue/Reason</fullName>
+        <default>false</default>
+        <label>Final Review Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Components not successfully completed</fullName>
+        <default>false</default>
+        <label>Components not successfully completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RCA Signature Issue/Reason</fullName>
+        <default>false</default>
+        <label>RCA Signature Issue/Reason</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Active Collaboration Issue</fullName>
+        <default>false</default>
+        <label>Active Collaboration Issue</label>
+    </standardValue>
+</StandardValueSet>

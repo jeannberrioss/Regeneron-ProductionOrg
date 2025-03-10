@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EclairGeoData xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <maps>
+        <boundingBoxBottom>18.768997192382812</boundingBoxBottom>
+        <boundingBoxLeft>-179.14891052246094</boundingBoxLeft>
+        <boundingBoxRight>-63.43500900268555</boundingBoxRight>
+        <boundingBoxTop>71.4277114868164</boundingBoxTop>
+        <mapLabel>US Divisions</mapLabel>
+        <mapName>map_1679064245103</mapName>
+        <projection>Mercator</projection>
+    </maps>
+    <masterLabel>cb_2018_us_division_500k</masterLabel>
+</EclairGeoData>

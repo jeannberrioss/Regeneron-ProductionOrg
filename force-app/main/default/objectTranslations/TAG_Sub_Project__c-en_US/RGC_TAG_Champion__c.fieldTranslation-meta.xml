@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RGC Champion [LEGACY] --></label>
+    <name>RGC_TAG_Champion__c</name>
+    <picklistValues>
+        <masterLabel>Alan Shuldiner</masterLabel>
+        <translation><!-- Alan Shuldiner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alessandro</masterLabel>
+        <translation><!-- Alessandro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charles Paulding</masterLabel>
+        <translation><!-- Charles Paulding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claudia Gonzaga-Jauregui</masterLabel>
+        <translation><!-- Claudia Gonzaga-Jauregui --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eric Jorgensen</masterLabel>
+        <translation><!-- Eric Jorgensen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gannie Tzoneva</masterLabel>
+        <translation><!-- Gannie Tzoneva --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>George Hindy</masterLabel>
+        <translation><!-- George Hindy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giovanni Coppola</masterLabel>
+        <translation><!-- Giovanni Coppola --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goncalo Abecasis</masterLabel>
+        <translation><!-- Goncalo Abecasis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jan Freudenberg</masterLabel>
+        <translation><!-- Jan Freudenberg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonas Bovjin</masterLabel>
+        <translation><!-- Jonas Bovjin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonas Nielson</masterLabel>
+        <translation><!-- Jonas Nielson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Juan Rodriguez-Flores</masterLabel>
+        <translation><!-- Juan Rodriguez-Flores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Julie Horowitz</masterLabel>
+        <translation><!-- Julie Horowitz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Katherine Siminovich</masterLabel>
+        <translation><!-- Katherine Siminovich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kavita Praveen</masterLabel>
+        <translation><!-- Kavita Praveen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luca Lotta</masterLabel>
+        <translation><!-- Luca Lotta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manuel Ferreira</masterLabel>
+        <translation><!-- Manuel Ferreira --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mary Haas</masterLabel>
+        <translation><!-- Mary Haas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moeen</masterLabel>
+        <translation><!-- Moeen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Niek Verweij</masterLabel>
+        <translation><!-- Niek Verweij --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nila Banerjee</masterLabel>
+        <translation><!-- Nila Banerjee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patrick Shuldiner</masterLabel>
+        <translation><!-- Patrick Shuldiner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sahar Gelfman</masterLabel>
+        <translation><!-- Sahar Gelfman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suganthi</masterLabel>
+        <translation><!-- Suganthi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tanima De</masterLabel>
+        <translation><!-- Tanima De --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veera Rajagopal</masterLabel>
+        <translation><!-- Veera Rajagopal --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

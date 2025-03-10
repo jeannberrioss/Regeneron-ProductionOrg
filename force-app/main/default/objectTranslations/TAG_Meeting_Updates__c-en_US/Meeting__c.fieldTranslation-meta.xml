@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Meeting Title --></label>
+    <name>Meeting__c</name>
+    <picklistValues>
+        <masterLabel>Ad hoc Meeting</masterLabel>
+        <translation><!-- Ad hoc Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aging TAG</masterLabel>
+        <translation><!-- Aging TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auditory TAG</masterLabel>
+        <translation><!-- Auditory TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CV/F TAG</masterLabel>
+        <translation><!-- CV/F TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Connective Tissue Diseases TAG</masterLabel>
+        <translation><!-- Connective Tissue Diseases TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Architecture and Engineering</masterLabel>
+        <translation><!-- Data Architecture and Engineering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immune/Respiratory TAG</masterLabel>
+        <translation><!-- Immune/Respiratory TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Disease TAG</masterLabel>
+        <translation><!-- Infectious Disease TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M&amp;M TAG</masterLabel>
+        <translation><!-- M&amp;M TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAGICS TAG</masterLabel>
+        <translation><!-- MAGICS TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuroscience TAG</masterLabel>
+        <translation><!-- Neuroscience TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oncology TAG</masterLabel>
+        <translation><!-- Oncology TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmology TAG</masterLabel>
+        <translation><!-- Ophthalmology TAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production Genomics</masterLabel>
+        <translation><!-- Production Genomics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC High Priority Topics</masterLabel>
+        <translation><!-- RGC High Priority Topics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC Weekly Review</masterLabel>
+        <translation><!-- RGC Weekly Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROAD to Target Discovery</masterLabel>
+        <translation><!-- ROAD to Target Discovery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working Group</masterLabel>
+        <translation><!-- Working Group --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

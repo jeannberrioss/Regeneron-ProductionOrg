@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Therapeutic Area --></label>
+    <name>Therapeutic_Area__c</name>
+    <picklistValues>
+        <masterLabel>Autoimmune/Inflammation</masterLabel>
+        <translation><!-- Autoimmune/Inflammation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autoimmune/Inflammation; CNS</masterLabel>
+        <translation><!-- Autoimmune/Inflammation; CNS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autoimmune/Inflammation; Infectious Disease</masterLabel>
+        <translation><!-- Autoimmune/Inflammation; Infectious Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CNS</masterLabel>
+        <translation><!-- CNS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CNS; Metabolic/Endocrinology</masterLabel>
+        <translation><!-- CNS; Metabolic/Endocrinology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiovascular</masterLabel>
+        <translation><!-- Cardiovascular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiovascular; Metabolic/Endocrinology</masterLabel>
+        <translation><!-- Cardiovascular; Metabolic/Endocrinology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Disease</masterLabel>
+        <translation><!-- Infectious Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Disease; Oncology</masterLabel>
+        <translation><!-- Infectious Disease; Oncology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Disease; Vaccines (Infectious Disease)</masterLabel>
+        <translation><!-- Infectious Disease; Vaccines (Infectious Disease) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabolic/Endocrinology</masterLabel>
+        <translation><!-- Metabolic/Endocrinology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metabolic/Endocrinology; Ophthalmology</masterLabel>
+        <translation><!-- Metabolic/Endocrinology; Ophthalmology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oncology</masterLabel>
+        <translation><!-- Oncology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmology</masterLabel>
+        <translation><!-- Ophthalmology --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

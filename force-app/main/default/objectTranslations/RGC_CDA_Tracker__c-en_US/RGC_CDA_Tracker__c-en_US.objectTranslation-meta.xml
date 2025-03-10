@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RGC CDA Tracker</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RGC CDA Trackers</value>
+    </caseValues>
+    <layouts>
+        <layout>RGC CDA Tracker Layout</layout>
+        <sections>
+            <label><!-- Agreement Dates --></label>
+            <section>Agreement Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

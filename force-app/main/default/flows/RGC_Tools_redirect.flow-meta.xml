@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>RGC Tools redirect {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RGC Tools redirect</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>RGC_Tools_Redirect_Image</name>
+        <label>RGC Tools Redirect Image</label>
+        <locationX>680</locationX>
+        <locationY>341</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>RGC_Tools_site</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://rgctools.regeneron.com/self-service/ec2&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://rgc.file.force.com/sfc/servlet.shepherd/version/download/068R3000000jsIo?asPdf=false&amp;amp;operationContext=CHATTER&quot; alt=&quot;RGC Tools size reduction.jpg&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>RGC_tools_text</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;The RGC Tools page is a hub for Information technology and Data Governance functions. Find pre cleared data sets for analysis, RGC suite of applications and tools, self service options such as creating new EC2 instances.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>554</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>RGC_Tools_Redirect_Image</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TFA --></label>
+    <name>TFA__c</name>
+    <picklistValues>
+        <masterLabel>CV</masterLabel>
+        <translation><!-- CV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hearing</masterLabel>
+        <translation><!-- Hearing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I&amp;I</masterLabel>
+        <translation><!-- I&amp;I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M&amp;M</masterLabel>
+        <translation><!-- M&amp;M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuro</masterLabel>
+        <translation><!-- Neuro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophth</masterLabel>
+        <translation><!-- Ophth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SD</masterLabel>
+        <translation><!-- SD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

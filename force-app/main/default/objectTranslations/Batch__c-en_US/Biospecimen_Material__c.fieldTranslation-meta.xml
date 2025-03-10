@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Biospecimen Material --></label>
+    <name>Biospecimen_Material__c</name>
+    <picklistValues>
+        <masterLabel>Blood</masterLabel>
+        <translation><!-- Blood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cells</masterLabel>
+        <translation><!-- Cells --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DNA</masterLabel>
+        <translation><!-- DNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protein</masterLabel>
+        <translation><!-- Protein --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RNA</masterLabel>
+        <translation><!-- RNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saliva</masterLabel>
+        <translation><!-- Saliva --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tissue</masterLabel>
+        <translation><!-- Tissue --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

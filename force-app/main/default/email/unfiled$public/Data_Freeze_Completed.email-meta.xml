@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Genetic Data Freeze Completed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Data Freeze Completed</name>
+    <style>none</style>
+    <subject>Data Freeze Completed</subject>
+    <textOnly>A new genetic data freeze has been completed. Please reach to xiaodong.bai@regeneron.com to request access. Details are shown below:  {!Data_Freeze__c.Collaboration_Opportunity__c}  {!Data_Freeze__c.Name} {!Data_Freeze__c.Samples_Received__c} {!Data_Freeze__c.Samples_Sequenced__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

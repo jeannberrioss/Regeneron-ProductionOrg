@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Top Level Classification --></label>
+    <name>Top_Level_Classification__c</name>
+    <picklistValues>
+        <masterLabel>Manufacturing Technologies</masterLabel>
+        <translation><!-- Manufacturing Technologies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Platform Technologies (Non manufacturing/non-mouse)</masterLabel>
+        <translation><!-- Platform Technologies (Non manufacturing/non-mouse) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rodent Technologies</masterLabel>
+        <translation><!-- Rodent Technologies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Therapeutics</masterLabel>
+        <translation><!-- Therapeutics --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

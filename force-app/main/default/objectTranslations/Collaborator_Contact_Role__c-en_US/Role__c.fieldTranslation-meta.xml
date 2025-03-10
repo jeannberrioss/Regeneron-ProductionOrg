@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>Role__c</name>
+    <picklistValues>
+        <masterLabel>Collaborator Business Contact</masterLabel>
+        <translation><!-- Collaborator Business Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaborator Data Contact</masterLabel>
+        <translation><!-- Collaborator Data Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaborator Finance Contact</masterLabel>
+        <translation><!-- Collaborator Finance Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaborator Laboratory Contact</masterLabel>
+        <translation><!-- Collaborator Laboratory Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaborator Legal Contact</masterLabel>
+        <translation><!-- Collaborator Legal Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaborator Scientific Contact</masterLabel>
+        <translation><!-- Collaborator Scientific Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Collaborator Technology Transfer Office Contact</masterLabel>
+        <translation><!-- Collaborator Technology Transfer Office Contact --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RGC Can Perform Phenotype Analyses --></label>
+    <name>RGC_Can_Perform_Phenotype_Analyses__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes per RCA Agreement</masterLabel>
+        <translation><!-- Yes per RCA Agreement --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

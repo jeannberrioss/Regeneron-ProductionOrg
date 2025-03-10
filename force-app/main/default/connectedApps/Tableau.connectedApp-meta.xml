@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jason.mighty@regeneron.com</contactEmail>
+    <label>Tableau</label>
+    <samlConfig>
+        <acsUrl>https://sso.online.tableau.com/public/sp/SSO/a873274b-61b2-454d-b047-c53173e8abc9</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>https://sso.online.tableau.com/public/sp/metadata/a873274b-61b2-454d-b047-c53173e8abc9</entityUrl>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSigningAlgoType>SHA256</samlSigningAlgoType>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>

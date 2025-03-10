@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Research Group --></label>
+    <name>Research_Group__c</name>
+    <picklistValues>
+        <masterLabel>ADC &amp; ARC</masterLabel>
+        <translation><!-- ADC &amp; ARC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Analytical Chemistry</masterLabel>
+        <translation><!-- Analytical Chemistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assay Development / Bioassay</masterLabel>
+        <translation><!-- Assay Development / Bioassay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bioanalytical Strategy Group</masterLabel>
+        <translation><!-- Bioanalytical Strategy Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biostatistics and Data Management</masterLabel>
+        <translation><!-- Biostatistics and Data Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bispecifics</masterLabel>
+        <translation><!-- Bispecifics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Fibrosis</masterLabel>
+        <translation><!-- Blood Fibrosis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical – Cardiovascular &amp; Metabolism</masterLabel>
+        <translation><!-- Clinical – Cardiovascular &amp; Metabolism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical – Immunology &amp; Inflammation</masterLabel>
+        <translation><!-- Clinical – Immunology &amp; Inflammation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical – Oncology &amp; Translational Sciences</masterLabel>
+        <translation><!-- Clinical – Oncology &amp; Translational Sciences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early Clinical Development and Experimental Sciences</masterLabel>
+        <translation><!-- Early Clinical Development and Experimental Sciences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genomic Engineering Technology</masterLabel>
+        <translation><!-- Genomic Engineering Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Study Strategy &amp; Optimization</masterLabel>
+        <translation><!-- Global Study Strategy &amp; Optimization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IOPS</masterLabel>
+        <translation><!-- IOPS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IOPS – Devices</masterLabel>
+        <translation><!-- IOPS – Devices --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Diseases</masterLabel>
+        <translation><!-- Infectious Diseases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Molecular Profiling and Bioinformatics</masterLabel>
+        <translation><!-- Molecular Profiling and Bioinformatics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuroscience</masterLabel>
+        <translation><!-- Neuroscience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OB, Metabolic &amp; Muscle Diseases</masterLabel>
+        <translation><!-- OB, Metabolic &amp; Muscle Diseases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oligo Therapy</masterLabel>
+        <translation><!-- Oligo Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmology</masterLabel>
+        <translation><!-- Ophthalmology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDPC – Analytical Chemistry</masterLabel>
+        <translation><!-- PDPC – Analytical Chemistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDPC – Bioanalytical Sciences</masterLabel>
+        <translation><!-- PDPC – Bioanalytical Sciences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDPC – Formulation Development</masterLabel>
+        <translation><!-- PDPC – Formulation Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDPC – Preclinical Manufacturing &amp; Process Development</masterLabel>
+        <translation><!-- PDPC – Preclinical Manufacturing &amp; Process Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PES – Protein Expression Sciences</masterLabel>
+        <translation><!-- PES – Protein Expression Sciences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMPD - Analytical Chemistry</masterLabel>
+        <translation><!-- PMPD - Analytical Chemistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMPD - Cell Culture</masterLabel>
+        <translation><!-- PMPD - Cell Culture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMPD – Bioreactor</masterLabel>
+        <translation><!-- PMPD – Bioreactor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMPD – Preclinical Manufacturing &amp; Process Development</masterLabel>
+        <translation><!-- PMPD – Preclinical Manufacturing &amp; Process Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMPD – Purification</masterLabel>
+        <translation><!-- PMPD – Purification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacology / PK</masterLabel>
+        <translation><!-- Pharmacology / PK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacometrics</masterLabel>
+        <translation><!-- Pharmacometrics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Therapeutic Target Discovery</masterLabel>
+        <translation><!-- Pre-Therapeutic Target Discovery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preclinical Development &amp; Protein Chemistry</masterLabel>
+        <translation><!-- Preclinical Development &amp; Protein Chemistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality Assurance</masterLabel>
+        <translation><!-- Quality Assurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGC- Regeneron Genetics Center</masterLabel>
+        <translation><!-- RGC- Regeneron Genetics Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory Affairs</masterLabel>
+        <translation><!-- Regulatory Affairs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research – Cardio / Renal Diseases</masterLabel>
+        <translation><!-- Research – Cardio / Renal Diseases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research – Inflammation &amp; Immune Diseases</masterLabel>
+        <translation><!-- Research – Inflammation &amp; Immune Diseases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research – Oncology and Angiogenesis</masterLabel>
+        <translation><!-- Research – Oncology and Angiogenesis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skeletal Diseases</masterLabel>
+        <translation><!-- Skeletal Diseases --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Target Gene Delivery</masterLabel>
+        <translation><!-- Target Gene Delivery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Target Information Group</masterLabel>
+        <translation><!-- Target Information Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Therapeutic Proteins</masterLabel>
+        <translation><!-- Therapeutic Proteins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Therapeutic Proteins - Proteomics</masterLabel>
+        <translation><!-- Therapeutic Proteins - Proteomics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VI-NEXT</masterLabel>
+        <translation><!-- VI-NEXT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VelocImmune</masterLabel>
+        <translation><!-- VelocImmune --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VelociGene</masterLabel>
+        <translation><!-- VelociGene --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Viral Vector Technologies</masterLabel>
+        <translation><!-- Viral Vector Technologies --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Follow up on Research Plan Discussions in Progress – 7 days</fullName>
+        <default>false</default>
+        <label>Follow up on Research Plan Discussions in Progress – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow up on Research Plan Feedback Requested – 14 days</fullName>
+        <default>false</default>
+        <label>Follow up on Research Plan Feedback Requested – 14 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ICF Request - No Response Received - 14 days</fullName>
+        <default>false</default>
+        <label>ICF Request - No Response Received - 14 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow up on ICF Discussion with CBC – 7 days</fullName>
+        <default>false</default>
+        <label>Follow up on ICF Discussion with CBC – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on ABAC Information sent to CBC – 14 days</fullName>
+        <default>false</default>
+        <label>Follow-up on ABAC Information sent to CBC – 14 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on ABAC Discussion with CBC – 7 days</fullName>
+        <default>false</default>
+        <label>Follow-up on ABAC Discussion with CBC – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow up on Budget Itemization Discussions – 7 days</fullName>
+        <default>false</default>
+        <label>Follow up on Budget Itemization Discussions – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow up on Term Sheet Feedback from RGC LT – 7 days</fullName>
+        <default>false</default>
+        <label>Follow up on Term Sheet Feedback from RGC LT – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on Term Sheet sent to RGC LT – 14 days</fullName>
+        <default>false</default>
+        <label>Follow-up on Term Sheet sent to RGC LT – 14 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on Term Sheet Discussions with RGC LT – 7 days</fullName>
+        <default>false</default>
+        <label>Follow-up on Term Sheet Discussions with RGC LT – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on Term Sheet sent to CBC – 7 days</fullName>
+        <default>false</default>
+        <label>Follow-up on Term Sheet sent to CBC – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on Term Sheet Feedback from CBC – 7 days</fullName>
+        <default>false</default>
+        <label>Follow-up on Term Sheet Feedback from CBC – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on Term Sheet Discussions with CBC – 14 days</fullName>
+        <default>false</default>
+        <label>Follow-up on Term Sheet Discussions with CBC – 14 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agreement Template feedback not received from CBC – 14 days</fullName>
+        <default>false</default>
+        <label>Agreement Template feedback not received from CBC – 14 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up on Collaboration Agreement negotiation discussions – 7 days</fullName>
+        <default>false</default>
+        <label>Follow-up on Collaboration Agreement negotiation discussions – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up Feedback not received from CBC – 7 days</fullName>
+        <default>false</default>
+        <label>Follow-up Feedback not received from CBC – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow up on Electronic Signatures Process – 7 days</fullName>
+        <default>false</default>
+        <label>Follow up on Electronic Signatures Process – 7 days</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow up on Manual Signatures Process – 7 days</fullName>
+        <default>false</default>
+        <label>Follow up on Manual Signatures Process – 7 days</label>
+    </standardValue>
+</StandardValueSet>

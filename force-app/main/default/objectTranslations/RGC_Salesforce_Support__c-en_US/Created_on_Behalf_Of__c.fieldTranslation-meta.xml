@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Created on Behalf Of --></label>
+    <name>Created_on_Behalf_Of__c</name>
+    <relationshipLabel><!-- RGC Salesforce Support (Created on Behalf Of) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Raw phenotype data DNAnexus project location --></help>
+    <label><!-- Raw phenotype data DNAnexus project --></label>
+    <name>Raw_phenotype_data_DNAnexus_project_loca__c</name>
+</CustomFieldTranslation>

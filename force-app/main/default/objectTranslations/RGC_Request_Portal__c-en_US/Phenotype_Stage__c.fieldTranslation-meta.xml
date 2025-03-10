@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Phenotype Stage --></label>
+    <name>Phenotype_Stage__c</name>
+    <picklistValues>
+        <masterLabel>Stage 1 (created by requestor)</masterLabel>
+        <translation><!-- Stage 1 (created by requestor) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage 2 (need to be created by CI)</masterLabel>
+        <translation><!-- Stage 2 (need to be created by CI) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

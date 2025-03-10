@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Geographic Area --></label>
+    <name>Geographic_Area__c</name>
+    <picklistValues>
+        <masterLabel>Domestic</masterLabel>
+        <translation><!-- Domestic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>European Union</masterLabel>
+        <translation><!-- European Union --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Applicable</masterLabel>
+        <translation><!-- Not Applicable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rest of World</masterLabel>
+        <translation><!-- Rest of World --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

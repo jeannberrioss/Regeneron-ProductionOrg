@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convert_to_Multi_Institution_Collab</fullName>
+    <availability>online</availability>
+    <description>Single to Multi Institution Collaboration Conversion</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Convert to Multi-Institution Collab</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Single_To_Multi_Institution_Collaboration_Opportunity?varOpportunityID={!Opportunity.Id}&amp;retURL=/{!Opportunity.Id}</url>
+</WebLink>

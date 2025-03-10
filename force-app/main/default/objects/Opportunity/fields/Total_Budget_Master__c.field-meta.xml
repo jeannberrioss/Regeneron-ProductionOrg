@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Budget_Master__c</fullName>
+    <description>exists to show the total budget in a collab contract on the Forecast LWC regardless of record type</description>
+    <formula>IF ( TOTAL_Collaboration_Budget_M__c &gt; TOTAL_Collaboration_Budget_S__c , TOTAL_Collaboration_Budget_M__c, TOTAL_Collaboration_Budget_S__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contracted Budget</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

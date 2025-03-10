@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Operations Queue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Operations Queues</value>
+    </caseValues>
+    <layouts>
+        <layout>Operations Queue Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Month &amp; Year --></label>
+            <section>Month &amp; Year</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Queues --></label>
+            <section>Queues</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Operation Queue Name must include Month and Year (ie. &quot;January 2022&quot;) --></errorMessage>
+        <name>Operation_Name_is_Month</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Early_Discussions_Stage_Gate_1_to_2</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISCHANGED( StageName ), 
+NOT (ISPICKVAL (StageName,&quot;1- Early Discussions&quot;)),
+OR( NOT(ISPICKVAL(Initial_Discussions__c,&quot;Completed&quot;))))</errorConditionFormula>
+    <errorMessage>Please mark the Initial Assessment value as &quot;Completed&quot;.</errorMessage>
+</ValidationRule>

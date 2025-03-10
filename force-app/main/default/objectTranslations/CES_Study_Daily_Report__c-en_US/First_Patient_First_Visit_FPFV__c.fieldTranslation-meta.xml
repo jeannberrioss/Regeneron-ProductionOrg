@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- First Patient First Visit (FPFV) --></label>
+    <name>First_Patient_First_Visit_FPFV__c</name>
+</CustomFieldTranslation>

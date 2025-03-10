@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RGC Role --></label>
+    <name>RGC_Role__c</name>
+    <picklistValues>
+        <masterLabel>AGDS Analyst</masterLabel>
+        <translation><!-- AGDS Analyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Informatics Analyst</masterLabel>
+        <translation><!-- Clinical Informatics Analyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GIDE Analyst</masterLabel>
+        <translation><!-- GIDE Analyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAG Analyst</masterLabel>
+        <translation><!-- TAG Analyst --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Update Status</fullName>
+        <default>false</default>
+        <label>Update Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Plan Discussions in Progress - Follow up*</fullName>
+        <default>false</default>
+        <label>Research Plan Discussions in Progress - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Plan Feedback Requested - Follow up*</fullName>
+        <default>false</default>
+        <label>Research Plan Feedback Requested - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ICF Request - No Response Received - Follow up*</fullName>
+        <default>false</default>
+        <label>ICF Request - No Response Received - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ICF discussion with CBC - Follow up*</fullName>
+        <default>false</default>
+        <label>ICF discussion with CBC - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ABAC Information sent to CBC - Follow up*</fullName>
+        <default>false</default>
+        <label>ABAC Information sent to CBC - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ABAC discussion with CBC - Follow up*</fullName>
+        <default>false</default>
+        <label>ABAC discussion with CBC - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Budget Itemization Discussions - Follow up*</fullName>
+        <default>false</default>
+        <label>Budget Itemization Discussions - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Term Sheet sent to RGC LT - Follow up*</fullName>
+        <default>false</default>
+        <label>Term Sheet sent to RGC LT - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Term Sheet feedback from RGC LT - Follow up*</fullName>
+        <default>false</default>
+        <label>Term Sheet feedback from RGC LT - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Term Sheet discussions with RGC LT - Follow up*</fullName>
+        <default>false</default>
+        <label>Term Sheet discussions with RGC LT - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Term Sheet sent to CBC - Follow up*</fullName>
+        <default>false</default>
+        <label>Term Sheet sent to CBC - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Term Sheet feedback from CBC - Follow up*</fullName>
+        <default>false</default>
+        <label>Term Sheet feedback from CBC - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Term Sheet discussions with CBC - Follow up*</fullName>
+        <default>false</default>
+        <label>Term Sheet discussions with CBC - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agreement feedback not received from CBC – Follow up*</fullName>
+        <default>false</default>
+        <label>Agreement feedback not received from CBC – Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RCA negotiation discussions feedback – Follow up*</fullName>
+        <default>false</default>
+        <label>RCA negotiation discussions feedback – Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feedback not received from CBC - Follow up*</fullName>
+        <default>false</default>
+        <label>Feedback not received from CBC - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electronic Signatures Process - Follow up*</fullName>
+        <default>false</default>
+        <label>Electronic Signatures Process - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manual Signatures Process - Follow up*</fullName>
+        <default>false</default>
+        <label>Manual Signatures Process - Follow up*</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Collaborator Contact - Follow up*</fullName>
+        <default>false</default>
+        <label>Collaborator Contact - Follow up*</label>
+    </standardValue>
+</StandardValueSet>

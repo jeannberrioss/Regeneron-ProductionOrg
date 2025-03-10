@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Milestone_Dates_Cannot_Be_In_The_Future</fullName>
+    <active>true</active>
+    <description>JG DN MR DB 12.17.20</description>
+    <errorConditionFormula>OR (Proceed_Based_on_Initial_Assessment__c &gt; TODAY(),
+Funds_Available__c &gt; TODAY(),
+Data_Dictionary_Obtained_Date__c &gt; TODAY(),
+Research_Plan_Developed_Date__c &gt; TODAY(),
+ICFs_Ready_for_Legal_Review__c &gt; TODAY(),
+Proceed_Based_on_Research_Plan__c &gt; TODAY(),
+ABAC_Approval_Date__c &gt; TODAY(),
+Budget_Approval_Date__c &gt; TODAY(),
+Research_Plan_Finalized__c &gt; TODAY(),
+Informed_Consent_Forms_Approved__c &gt; TODAY(),
+Collaboration_Agreement_ready_for_Legal__c &gt; TODAY(),
+Term_Sheet_agreed_by_RGC_LT__c &gt; TODAY(),
+All_RCA_Components_Completed__c &gt; TODAY(),
+RPR_Final_Approval_Date__c &gt; TODAY(),
+Collaboration_Status_Updated_Date__c &gt; TODAY(),
+RCA_Signature_Date__c &gt; TODAY(),
+Term_Sheet_Agreed__c &gt; TODAY (),
+Key_Stakeholders_Informed_Date__c &gt; TODAY(),
+Execution_Date__c &gt; TODAY (),
+Kickoff_Initiated_Date__c &gt; TODAY (),
+Effective_Date__c &gt; TODAY (),
+Budget_Itemization_Information_Available__c &gt; TODAY())</errorConditionFormula>
+    <errorMessage>A Milestone date cannot be in the future.</errorMessage>
+</ValidationRule>

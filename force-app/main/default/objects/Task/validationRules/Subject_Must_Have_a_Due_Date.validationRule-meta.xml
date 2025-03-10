@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_Must_Have_a_Due_Date</fullName>
+    <active>true</active>
+    <description>Task requires a due date in order to save</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Subject)),
+    ISBLANK( ActivityDate ),
+    NOT(CONTAINS(Subject,&apos;up*&apos; ))
+   )</errorConditionFormula>
+    <errorDisplayField>ActivityDate</errorDisplayField>
+    <errorMessage>Task requires a due date in order to save</errorMessage>
+</ValidationRule>

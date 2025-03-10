@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>single collaboration</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Initial_Discussions__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Initial Assessment - Completed&lt;/li&gt;&lt;li&gt;&lt;b&gt;Next Step:&lt;/b&gt; Proceed to Due Diligence&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>1- Early Discussions</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Research_Plan__c</fieldNames>
+        <fieldNames>Informed_Consent_Forms__c</fieldNames>
+        <fieldNames>Obtain_Data_Dictionary__c</fieldNames>
+        <fieldNames>Budget_Assessment__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Develop Research Plan - Completed&lt;/li&gt;&lt;li&gt;ICF Certification - In Progress (if Applicable)&lt;/li&gt;&lt;li&gt;Obtain Data Dictionary - In Progress&lt;/li&gt;&lt;li&gt;Budget Assessment - &lt;span style=&quot;font-size: 13px;&quot;&gt;In Progress&lt;/span&gt; (if Applicable)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Next Step:&lt;/b&gt; Review Research Plan with Leadership Team&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>2- Due Diligence</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Research_Plan_Review__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Research Plan Reviewed at ROP - Approved&lt;/li&gt;&lt;li&gt;&lt;b&gt;Next Step:&lt;/b&gt; Proceed to Agreement Including Legal and Budget (if Applicable)&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>3- Research &amp; Ops Planning</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Informed_Consent_Forms__c</fieldNames>
+        <fieldNames>Research_Collaboration_Agreement__c</fieldNames>
+        <fieldNames>ABAC_Compliance__c</fieldNames>
+        <fieldNames>Budget_Agreement__c</fieldNames>
+        <fieldNames>Finalize_Research_Plan__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;ICF Certification - Approved &lt;span style=&quot;font-size: 13px;&quot;&gt;(if Applicable)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;RCA Terms &amp;amp; Agreement - Completed&lt;/li&gt;&lt;li&gt;ABAC Approval - Completed (if Applicable)&lt;/li&gt;&lt;li&gt;Budget Approval - Approved (if Applicable)&lt;/li&gt;&lt;li&gt;Finalized Research Plan - Completed&lt;/li&gt;&lt;li&gt;&lt;b&gt;Next Step:&lt;/b&gt; Collaboration Signoff at ROP&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>4- Agreement</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Research_Plan_Approved_by_RGC__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;CV Signoff at ROP - Approved&lt;/li&gt;&lt;li&gt;&lt;b&gt;Next Step:&lt;/b&gt; RCA Signatures&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>5- Collaboration Signoff</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>RCA_Signatures__c</fieldNames>
+        <fieldNames>Collaboration_Status_1__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;RCA Signatures - Completed&lt;/li&gt;&lt;li&gt;Collaboration Status - Active&lt;/li&gt;&lt;li&gt;&lt;b&gt;Next Step:&lt;/b&gt; Active Collaboration&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>6- Signatures &amp; Execution</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Inform_Key_Stakeholders__c</fieldNames>
+        <fieldNames>Kickoff_Activities__c</fieldNames>
+        <info>&lt;p&gt;Active Collaboration - &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Inform Key Stakeholders&lt;/li&gt;&lt;li&gt;Kickoff Activities&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>7- Active</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Single_Collaboration_Opportunity</recordTypeName>
+</PathAssistant>

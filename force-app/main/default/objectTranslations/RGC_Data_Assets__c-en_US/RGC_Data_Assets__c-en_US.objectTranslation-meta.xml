@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RGC Data Assets</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RGC Data Assets</value>
+    </caseValues>
+    <layouts>
+        <layout>Clinical Informatics User</layout>
+        <sections>
+            <label><!-- Completed --></label>
+            <section>Completed</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Matrix Evaluation --></label>
+            <section>Matrix Evaluation</section>
+        </sections>
+        <sections>
+            <label><!-- Matrix Generation --></label>
+            <section>Matrix Generation</section>
+        </sections>
+        <sections>
+            <label><!-- Phenotype Data --></label>
+            <section>Phenotype Data</section>
+        </sections>
+        <sections>
+            <label><!-- Registration --></label>
+            <section>Registration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>RGC Data Assets Layout</layout>
+        <sections>
+            <label><!-- Association Analysis --></label>
+            <section>Association Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Browsers and Tools --></label>
+            <section>Browsers and Tools</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Genetic Freeze Data --></label>
+            <section>Genetic Freeze Data</section>
+        </sections>
+        <sections>
+            <label><!-- Phenotype Data --></label>
+            <section>Phenotype Data</section>
+        </sections>
+        <sections>
+            <label><!-- Sequencing Data --></label>
+            <section>Sequencing Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>RGC Platform Active User</layout>
+        <sections>
+            <label><!-- Association Analysis --></label>
+            <section>Association Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Browsers and Tools --></label>
+            <section>Browsers and Tools</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Genetic Freeze Data --></label>
+            <section>Genetic Freeze Data</section>
+        </sections>
+        <sections>
+            <label><!-- Phenotype Data --></label>
+            <section>Phenotype Data</section>
+        </sections>
+        <sections>
+            <label><!-- Sequencing Data --></label>
+            <section>Sequencing Data</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

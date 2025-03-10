@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Research_Plan</fullName>
+    <active>false</active>
+    <description>Please update the Develop Research Plan Value as &quot;Completed&quot;</description>
+    <errorConditionFormula>AND(
+ISCHANGED( StageName ),
+OR(
+ISPICKVAL(PRIORVALUE(StageName),&quot;2- Research Plan&quot;),
+ISPICKVAL(PRIORVALUE(StageName),&quot;1- Early Discussions&quot;)
+
+)
+
+,
+ISPICKVAL(StageName , &quot;3- Due Diligence &amp; Agreement&quot;),
+OR( 
+NOT(ISPICKVAL(Research_Plan__c,&quot;Completed&quot;)),
+NOT(ISPICKVAL(Informed_Consent_Forms__c,&quot;Completed&quot;)),
+NOT(ISPICKVAL(Initial_Discussions__c,&quot;Completed&quot;)),
+OR( (ISPICKVAL(Budget_Assessment__c,&quot;Not Started&quot;)),
+(ISPICKVAL(Budget_Assessment__c,&quot;In Progress&quot;))
+)
+
+
+)
+)</errorConditionFormula>
+    <errorMessage>Please update the Develop Research Plan Value as &quot;Completed&quot; and Informed Consent Form as &quot;Completed&quot; or  please check the Early Discussion values</errorMessage>
+</ValidationRule>

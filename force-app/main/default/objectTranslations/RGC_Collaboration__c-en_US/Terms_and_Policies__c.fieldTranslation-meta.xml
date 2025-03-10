@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Terms and Policies --></label>
+    <name>Terms_and_Policies__c</name>
+    <picklistValues>
+        <masterLabel>Deletion</masterLabel>
+        <translation><!-- Deletion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phenotype Restriction</masterLabel>
+        <translation><!-- Phenotype Restriction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarantine</masterLabel>
+        <translation><!-- Quarantine --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

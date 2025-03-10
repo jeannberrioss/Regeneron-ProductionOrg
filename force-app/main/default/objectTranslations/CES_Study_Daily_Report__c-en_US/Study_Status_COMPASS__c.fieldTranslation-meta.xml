@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Study Status (COMPASS) --></label>
+    <name>Study_Status_COMPASS__c</name>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endorsed Scenario</masterLabel>
+        <translation><!-- Endorsed Scenario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On-Hold</masterLabel>
+        <translation><!-- On-Hold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ongoing</masterLabel>
+        <translation><!-- Ongoing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Placeholder</masterLabel>
+        <translation><!-- Placeholder --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

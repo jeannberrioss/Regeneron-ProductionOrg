@@ -1,0 +1,34 @@
+<template>
+    <template if:true={isLoaded}>
+        <lightning-spinner lternative-text="Loading" size="large"></lightning-spinner>
+    </template>
+    <lightning-card variant="Narrow" icon-name="standard:file" title="File Upload" >
+        <div style="margin: 25px; width: 90%; height: 200px; outline: dashed 1px black; position: relative;">
+            <p class="slds-var-p-horizontal_small" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);">
+                <lightning-file-upload accept={acceptedFormats} label="Upload Order Recivied File (CSV)" multiple="multiple" onuploadfinished={uploadFileHandler}></lightning-file-upload>
+            </p>
+        </div>
+        <template if:true={isvalidData}>
+            <template if:true={visibleRecords}>
+                <div style="height: 100%;">
+                    <lightning-datatable key-field="Id" data={visibleRecords} 
+                    hide-checkbox-column
+                    show-row-number-column
+                    row-number-offset={rowOffset}
+                    onrowaction={delRecord} columns={columns}
+                    onsave={saveHandleAction}
+                    draft-values={fldsItemValues}></lightning-datatable>
+                </div>
+            </template>
+        
+            <!--Pagination Code Starts-->
+            <div class="slds-align_absolute-center">
+                        <lightning-button label="Previous" class="slds-p-right_xx-large slds-p-top_medium" icon-name="utility:chevronleft" onclick={previousHandler} disabled={disablePrevious}></lightning-button>
+                            <p class="slds-p-top_medium">Displaying {currentPage} of {totalPage} Page</p>
+                        <lightning-button label="Next" class="slds-p-left_xx-large  slds-p-top_medium" icon-name="utility:chevronright" icon-position="right" onclick={nextHandler} disabled={disableNext}></lightning-button>
+                        <lightning-button label="Upload" class="slds-p-left_xx-large slds-p-top_medium" onclick={UploadCompleteandler}></lightning-button>
+            </div>
+            <!--Pagination Code Ends-->
+        </template>
+    </lightning-card>
+</template>

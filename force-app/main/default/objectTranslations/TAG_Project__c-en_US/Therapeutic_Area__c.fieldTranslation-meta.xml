@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Therapeutic Area [LEGACY] --></label>
+    <name>Therapeutic_Area__c</name>
+    <picklistValues>
+        <masterLabel>Aging</masterLabel>
+        <translation><!-- Aging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agnostic</masterLabel>
+        <translation><!-- Agnostic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auditory</masterLabel>
+        <translation><!-- Auditory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CV/F</masterLabel>
+        <translation><!-- CV/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immune, Resp</masterLabel>
+        <translation><!-- Immune, Resp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Disease</masterLabel>
+        <translation><!-- Infectious Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M&amp;M</masterLabel>
+        <translation><!-- M&amp;M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuro</masterLabel>
+        <translation><!-- Neuro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oncology</masterLabel>
+        <translation><!-- Oncology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthal</masterLabel>
+        <translation><!-- Ophthal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SD</masterLabel>
+        <translation><!-- SD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Inventor(s) --></label>
+    <name>Inventor_s__c</name>
+    <picklistValues>
+        <masterLabel>Adam Castoreno</masterLabel>
+        <translation><!-- Adam Castoreno --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adam Locke</masterLabel>
+        <translation><!-- Adam Locke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alan Shuldiner</masterLabel>
+        <translation><!-- Alan Shuldiner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alexander Li</masterLabel>
+        <translation><!-- Alexander Li --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amy Damask</masterLabel>
+        <translation><!-- Amy Damask --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ann J. Ligocki</masterLabel>
+        <translation><!-- Ann J. Ligocki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anthony Marcketta</masterLabel>
+        <translation><!-- Anthony Marcketta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arden Moscati</masterLabel>
+        <translation><!-- Arden Moscati --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aris I Baras</masterLabel>
+        <translation><!-- Aris I Baras --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aristides N. Economides</masterLabel>
+        <translation><!-- Aristides N. Economides --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ashish Yadav</masterLabel>
+        <translation><!-- Ashish Yadav --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bhaumik Pandya</masterLabel>
+        <translation><!-- Bhaumik Pandya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biming Wu</masterLabel>
+        <translation><!-- Biming Wu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blair Zhang</masterLabel>
+        <translation><!-- Blair Zhang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brent Richards</masterLabel>
+        <translation><!-- Brent Richards --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bret Lee Bostwick</masterLabel>
+        <translation><!-- Bret Lee Bostwick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brian Cajes</masterLabel>
+        <translation><!-- Brian Cajes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carmelo Romano</masterLabel>
+        <translation><!-- Carmelo Romano --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charles Paulding</masterLabel>
+        <translation><!-- Charles Paulding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chia-Jen Siao</masterLabel>
+        <translation><!-- Chia-Jen Siao --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christian Benner</masterLabel>
+        <translation><!-- Christian Benner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christopher Snyder</masterLabel>
+        <translation><!-- Christopher Snyder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christy Tise</masterLabel>
+        <translation><!-- Christy Tise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claudia Gonzaga-Jauregui</masterLabel>
+        <translation><!-- Claudia Gonzaga-Jauregui --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claudia Schurmann</masterLabel>
+        <translation><!-- Claudia Schurmann --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Colm O&apos;Dushlaine</masterLabel>
+        <translation><!-- Colm O&apos;Dushlaine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cristopher Van Hout</masterLabel>
+        <translation><!-- Cristopher Van Hout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Da-Wei Gong</masterLabel>
+        <translation><!-- Da-Wei Gong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danish Saleheen</masterLabel>
+        <translation><!-- Danish Saleheen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David J. Glass</masterLabel>
+        <translation><!-- David J. Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elena Castellanos-Rizaldos</masterLabel>
+        <translation><!-- Elena Castellanos-Rizaldos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eli Stahl</masterLabel>
+        <translation><!-- Eli Stahl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eric Jorgenson</masterLabel>
+        <translation><!-- Eric Jorgenson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evan Maxwell</masterLabel>
+        <translation><!-- Evan Maxwell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frederick Dewey</masterLabel>
+        <translation><!-- Frederick Dewey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garen Manvelian</masterLabel>
+        <translation><!-- Garen Manvelian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gaurang Patel</masterLabel>
+        <translation><!-- Gaurang Patel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giovanni Coppola</masterLabel>
+        <translation><!-- Giovanni Coppola --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giusy Della Gatta</masterLabel>
+        <translation><!-- Giusy Della Gatta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goncalo Abecasis</masterLabel>
+        <translation><!-- Goncalo Abecasis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harikiran Nistala</masterLabel>
+        <translation><!-- Harikiran Nistala --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hye In Kim</masterLabel>
+        <translation><!-- Hye In Kim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hyun Min Kang</masterLabel>
+        <translation><!-- Hyun Min Kang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inventor Placeholder Contact Record</masterLabel>
+        <translation><!-- Inventor Placeholder Contact Record --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jack Kosmicki</masterLabel>
+        <translation><!-- Jack Kosmicki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>James McIninch</masterLabel>
+        <translation><!-- James McIninch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>James Perry</masterLabel>
+        <translation><!-- James Perry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jan Freudenberg</masterLabel>
+        <translation><!-- Jan Freudenberg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jeffrey Reid</masterLabel>
+        <translation><!-- Jeffrey Reid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jeffrey Staples</masterLabel>
+        <translation><!-- Jeffrey Staples --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jeremy Rabinowitz</masterLabel>
+        <translation><!-- Jeremy Rabinowitz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jesper Gromada</masterLabel>
+        <translation><!-- Jesper Gromada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonas Bovijn</masterLabel>
+        <translation><!-- Jonas Bovijn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonas Nielsen</masterLabel>
+        <translation><!-- Jonas Nielsen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonathan Marchini</masterLabel>
+        <translation><!-- Jonathan Marchini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonathan Packer</masterLabel>
+        <translation><!-- Jonathan Packer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonathan Weyne</masterLabel>
+        <translation><!-- Jonathan Weyne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jose F. Rojas</masterLabel>
+        <translation><!-- Jose F. Rojas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joshua Backman</masterLabel>
+        <translation><!-- Joshua Backman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Juan Rodriguez-Flores</masterLabel>
+        <translation><!-- Juan Rodriguez-Flores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Julie Horowitz</masterLabel>
+        <translation><!-- Julie Horowitz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kalyan C Nannuru</masterLabel>
+        <translation><!-- Kalyan C Nannuru --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Katherine Siminovitch</masterLabel>
+        <translation><!-- Katherine Siminovitch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kavita Praveen</masterLabel>
+        <translation><!-- Kavita Praveen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lauren Gurski</masterLabel>
+        <translation><!-- Lauren Gurski --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leland Barnard</masterLabel>
+        <translation><!-- Leland Barnard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luca Lotta</masterLabel>
+        <translation><!-- Luca Lotta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lukas Habegger</masterLabel>
+        <translation><!-- Lukas Habegger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lyndon Mitnaul</masterLabel>
+        <translation><!-- Lyndon Mitnaul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manuel Allen Revez Ferreira</masterLabel>
+        <translation><!-- Manuel Allen Revez Ferreira --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marja Puurunen</masterLabel>
+        <translation><!-- Marja Puurunen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mary Haas</masterLabel>
+        <translation><!-- Mary Haas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mathew Barber</masterLabel>
+        <translation><!-- Mathew Barber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matthew D. Healy</masterLabel>
+        <translation><!-- Matthew D. Healy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>May Montasser</masterLabel>
+        <translation><!-- May Montasser --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meghan Drummond Samuelson</masterLabel>
+        <translation><!-- Meghan Drummond Samuelson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michael Cantor</masterLabel>
+        <translation><!-- Michael Cantor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michael Kessler</masterLabel>
+        <translation><!-- Michael Kessler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nehal Gosalia</masterLabel>
+        <translation><!-- Nehal Gosalia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Niek Verweij</masterLabel>
+        <translation><!-- Niek Verweij --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Noura Abul-Husn</masterLabel>
+        <translation><!-- Noura Abul-Husn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>O Gavin Thurston</masterLabel>
+        <translation><!-- O Gavin Thurston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olukayode Sosina</masterLabel>
+        <translation><!-- Olukayode Sosina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omri Gottesman</masterLabel>
+        <translation><!-- Omri Gottesman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parsa Akbari</masterLabel>
+        <translation><!-- Parsa Akbari --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qing Fang</masterLabel>
+        <translation><!-- Qing Fang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ryan White</masterLabel>
+        <translation><!-- Ryan White --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sahar Gelfman</masterLabel>
+        <translation><!-- Sahar Gelfman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Santiago Mendez Huergo</masterLabel>
+        <translation><!-- Santiago Mendez Huergo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sathvik  Ramanan</masterLabel>
+        <translation><!-- Sathvik  Ramanan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sean O&apos;Keeffe</masterLabel>
+        <translation><!-- Sean O&apos;Keeffe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shan Chen</masterLabel>
+        <translation><!-- Shan Chen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shane McCarthy</masterLabel>
+        <translation><!-- Shane McCarthy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shannon Bruse</masterLabel>
+        <translation><!-- Shannon Bruse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shareef Khalid</masterLabel>
+        <translation><!-- Shareef Khalid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sirui Zhou</masterLabel>
+        <translation><!-- Sirui Zhou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sokol Haxhinasto</masterLabel>
+        <translation><!-- Sokol Haxhinasto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stefan Semrau</masterLabel>
+        <translation><!-- Stefan Semrau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suganthi Balasubramanian</masterLabel>
+        <translation><!-- Suganthi Balasubramanian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tanya Teslovich Dostal</masterLabel>
+        <translation><!-- Tanya Teslovich Dostal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tave van Zyl</masterLabel>
+        <translation><!-- Tave van Zyl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trikaldarshi Persaud</masterLabel>
+        <translation><!-- Trikaldarshi Persaud --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vasant Jadhav</masterLabel>
+        <translation><!-- Vasant Jadhav --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veera Rajagopal</masterLabel>
+        <translation><!-- Veera Rajagopal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vinu Arunachalam</masterLabel>
+        <translation><!-- Vinu Arunachalam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>William Salerno</masterLabel>
+        <translation><!-- William Salerno --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xiping Cheng</masterLabel>
+        <translation><!-- Xiping Cheng --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yajun Tang</masterLabel>
+        <translation><!-- Yajun Tang --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ying Hu</masterLabel>
+        <translation><!-- Ying Hu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yurong Xin</masterLabel>
+        <translation><!-- Yurong Xin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zaruhi Hovhannisyan</masterLabel>
+        <translation><!-- Zaruhi Hovhannisyan --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

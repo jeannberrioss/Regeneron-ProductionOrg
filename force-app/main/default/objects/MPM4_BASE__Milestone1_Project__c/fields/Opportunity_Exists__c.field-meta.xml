@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Exists__c</fullName>
+    <formula>IF(ISBLANK(MPM4_BASE__Opportunity__c) ,false, true)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Opportunity Exists</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

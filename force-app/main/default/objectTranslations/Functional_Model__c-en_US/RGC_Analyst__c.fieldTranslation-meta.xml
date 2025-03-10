@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RGC Analyst --></label>
+    <name>RGC_Analyst__c</name>
+    <picklistValues>
+        <masterLabel>Alan Shuldiner</masterLabel>
+        <translation><!-- Alan Shuldiner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alessandro Di Gioia</masterLabel>
+        <translation><!-- Alessandro Di Gioia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claudia Gonzaga-Jauregui</masterLabel>
+        <translation><!-- Claudia Gonzaga-Jauregui --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cris Van Hout</masterLabel>
+        <translation><!-- Cris Van Hout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harikiran Nistala</masterLabel>
+        <translation><!-- Harikiran Nistala --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jan Freudenberg</masterLabel>
+        <translation><!-- Jan Freudenberg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonas Bovjin</masterLabel>
+        <translation><!-- Jonas Bovjin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joshua Backman</masterLabel>
+        <translation><!-- Joshua Backman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Juan Rodriguez-Flores</masterLabel>
+        <translation><!-- Juan Rodriguez-Flores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Julie Horowitz</masterLabel>
+        <translation><!-- Julie Horowitz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Katherine Siminovich</masterLabel>
+        <translation><!-- Katherine Siminovich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kavita Praveen</masterLabel>
+        <translation><!-- Kavita Praveen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luca Lotta</masterLabel>
+        <translation><!-- Luca Lotta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manuel Ferreira</masterLabel>
+        <translation><!-- Manuel Ferreira --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NA</masterLabel>
+        <translation><!-- NA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nehal</masterLabel>
+        <translation><!-- Nehal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Niek Verweig</masterLabel>
+        <translation><!-- Niek Verweig --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olu Sosna</masterLabel>
+        <translation><!-- Olu Sosna --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parsa Akbari</masterLabel>
+        <translation><!-- Parsa Akbari --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shane McCarthy</masterLabel>
+        <translation><!-- Shane McCarthy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shannon Bruse</masterLabel>
+        <translation><!-- Shannon Bruse --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

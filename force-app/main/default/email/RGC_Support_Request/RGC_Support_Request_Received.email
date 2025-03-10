@@ -1,0 +1,6 @@
+Your RGC Support Request has been received. <br><br>
+
+Request#: {!RGC_Salesforce_Support__c.Name} <br>
+Subject: {!RGC_Salesforce_Support__c.Subject__c} <br> <br>
+
+Check your support request in Salesforce to view status updated and details regarding your submission. You can access your request <b><a href="{!RGC_Salesforce_Support__c.Link}">here</a></b>.

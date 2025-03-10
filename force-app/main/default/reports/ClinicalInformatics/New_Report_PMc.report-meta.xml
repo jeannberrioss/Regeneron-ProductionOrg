@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>RGC_Collaboration__c.RGC_Data_Assets__r$Name</field>
+    </columns>
+    <columns>
+        <field>RGC_Collaboration__c$Collaborator_Institution_Name__c</field>
+    </columns>
+    <columns>
+        <field>RGC_Collaboration__c.RGC_Data_Assets__r$Production_Asset_Type__c</field>
+    </columns>
+    <columns>
+        <field>RGC_Collaboration__c.RGC_Data_Assets__r$Whole_Exome_Sequencing__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>RGC_Collaboration__c.RGC_Data_Assets__r$Samples_Delivered__c</field>
+    </columns>
+    <columns>
+        <field>RGC_Collaboration__c.RGC_Data_Assets__r$Phenotype_Matrices__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <column>RGC_Collaboration__c.RGC_Data_Assets__r$Production_Asset_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Genetic Data Freeze,Phenotype Matrix</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RGC_Collaboration__c.RGC_Data_Assets__r$Whole_Exome_Sequencing__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>In Progress,Not Started</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RGC_Collaboration__c.RGC_Data_Assets__r$Phenotype_Matrices__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>In Progress</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>RGC_Collaboration__c$Collaborator_Key__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CI Sequencing Queue Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>RGC_Collaboration_Details_with_RGC_Data_Assets__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>RGC_Collaboration__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

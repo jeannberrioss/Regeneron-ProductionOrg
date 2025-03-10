@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Phase --></label>
+    <name>Phase__c</name>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 1</masterLabel>
+        <translation><!-- Phase 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 1/2</masterLabel>
+        <translation><!-- Phase 1/2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 1/3</masterLabel>
+        <translation><!-- Phase 1/3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 1b</masterLabel>
+        <translation><!-- Phase 1b --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 1b/2a</masterLabel>
+        <translation><!-- Phase 1b/2a --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 2</masterLabel>
+        <translation><!-- Phase 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 2/3</masterLabel>
+        <translation><!-- Phase 2/3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 2a</masterLabel>
+        <translation><!-- Phase 2a --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 2b</masterLabel>
+        <translation><!-- Phase 2b --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 3</masterLabel>
+        <translation><!-- Phase 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 3b</masterLabel>
+        <translation><!-- Phase 3b --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phase 4</masterLabel>
+        <translation><!-- Phase 4 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

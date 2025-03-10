@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Central Monitor --></label>
+    <name>Central_Monitor__c</name>
+    <picklistValues>
+        <masterLabel>Alexander Kansky</masterLabel>
+        <translation><!-- Alexander Kansky --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anne Smith</masterLabel>
+        <translation><!-- Anne Smith --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christopher Chamak</masterLabel>
+        <translation><!-- Christopher Chamak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elin Cate</masterLabel>
+        <translation><!-- Elin Cate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fung-Yee To</masterLabel>
+        <translation><!-- Fung-Yee To --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jeanelle De Villiers</masterLabel>
+        <translation><!-- Jeanelle De Villiers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jongwhee Lee</masterLabel>
+        <translation><!-- Jongwhee Lee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mary Hasinsky</masterLabel>
+        <translation><!-- Mary Hasinsky --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nicholas Ross</masterLabel>
+        <translation><!-- Nicholas Ross --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nikita Nayudu</masterLabel>
+        <translation><!-- Nikita Nayudu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Violet Vincent</masterLabel>
+        <translation><!-- Violet Vincent --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

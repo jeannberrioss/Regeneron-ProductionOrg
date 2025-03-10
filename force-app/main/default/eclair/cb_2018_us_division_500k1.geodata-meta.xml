@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EclairGeoData xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <maps>
+        <boundingBoxBottom>18.887847900390625</boundingBoxBottom>
+        <boundingBoxLeft>-179.14891052246094</boundingBoxLeft>
+        <boundingBoxRight>-62.720726013183594</boundingBoxRight>
+        <boundingBoxTop>71.3876724243164</boundingBoxTop>
+        <mapLabel>Division</mapLabel>
+        <mapName>map_1679074876957</mapName>
+        <projection>Equirectangular</projection>
+    </maps>
+    <masterLabel>cb_2018_us_division_500k1</masterLabel>
+</EclairGeoData>

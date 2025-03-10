@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CES Study Type --></label>
+    <name>CES_Study_Type__c</name>
+    <picklistValues>
+        <masterLabel>Clinical Study</masterLabel>
+        <translation><!-- Clinical Study --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sample/Data Acquisition</masterLabel>
+        <translation><!-- Sample/Data Acquisition --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,159 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : {
+        "hideThemeFooter" : false,
+        "showThemeFooterAtBottom" : true,
+        "stickyThemeHeader" : false
+      },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"42e6d3f7-787c-472f-b513-43ae55eab390\",\"columns\":[{\"UUID\":\"ee4be619-862d-471c-b434-4902d31ebce9\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "1px",
+                    "left" : "1px",
+                    "right" : "1px",
+                    "top" : "1px"
+                  }
+                },
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"9709cb94-6aa8-4585-8999-44b613be5eca\",\"columns\":[{\"UUID\":\"bcfedfdf-0a22-4ca9-af25-acd587757578\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"1f206c5e-d5be-425d-a7b4-53667b901fbb\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "1%",
+                        "left" : "40%",
+                        "right" : "1%",
+                        "top" : "1%"
+                      }
+                    },
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCQXKLNJK2CNHW5E3SOXLOITWMJU?lastModifiedDate=Mon Nov 18 21:05:23 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCQXKLNJK2CNHW5E3SOXLOITWMJU\",\"contentType\":null}}",
+                    "imageInfoMobile" : "",
+                    "logoWidth" : 250
+                  },
+                  "definition" : "dxp_content_layout:siteLogo",
+                  "id" : "1655e231-c529-4f33-9d9d-9d0f853c1c1a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 28px;\">The Regeneron Genetics Center® (RGC™) is a uniquely integrated research initiative that </span></p><p style=\"text-align: center;\"><span style=\"font-size: 28px;\">﻿seeks to improve patient care by using genomic approaches to speed drug discovery and development.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "e2427801-5e06-4669-93f5-7735f25391dd",
+                  "type" : "component"
+                } ],
+                "id" : "bcfedfdf-0a22-4ca9-af25-acd587757578",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "bannerBackgroundColor" : "rgb(217, 151, 14)",
+                    "bannerPosition" : "top",
+                    "bannerSizePercent" : 15,
+                    "borderRadius" : 20,
+                    "boxShadow" : true,
+                    "haveBanner" : false,
+                    "iconBackgroundColor" : "rgb(255,255,255)",
+                    "iconSize" : "large",
+                    "noImageColor" : "rgb(116,116,116)",
+                    "overlay" : "rgba(0,0,0,0.01)",
+                    "templateType" : "icon",
+                    "tileMenuEditor" : "Default_Navigation4",
+                    "titleColor" : "rgb(0, 0, 0)",
+                    "titleFontSize" : "large",
+                    "titleHorizontalAlign" : "center"
+                  },
+                  "definition" : "community_navigation:tileMenu",
+                  "id" : "39c2c7bb-4b6a-466e-a754-f210c9266fd6",
+                  "type" : "component"
+                } ],
+                "id" : "1f206c5e-d5be-425d-a7b4-53667b901fbb",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "9709cb94-6aa8-4585-8999-44b613be5eca",
+              "scopedBrandingSetId" : "RGC_Color_Palette",
+              "type" : "component"
+            } ],
+            "id" : "ee4be619-862d-471c-b434-4902d31ebce9",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "42e6d3f7-787c-472f-b513-43ae55eab390",
+          "type" : "component"
+        } ],
+        "id" : "d4cc2269-f3f2-432a-a1da-69083b75d831",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"579f2e11-168a-40a3-b3cb-15fd84358b10\",\"columns\":[{\"UUID\":\"ac9f4347-9032-4f6d-831b-296eb1cecafa\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "ac9f4347-9032-4f6d-831b-296eb1cecafa",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "579f2e11-168a-40a3-b3cb-15fd84358b10",
+          "type" : "component"
+        } ],
+        "id" : "149365fd-6192-4195-93f0-d0ab3d9f54b1",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "5a59f53d-57cc-4c2c-8815-6b27419bf659",
+      "type" : "component"
+    }
+  },
+  "urlName" : "scoped-header-and-footer"
+}

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Medical Director --></label>
+    <name>Medical_Director__c</name>
+    <picklistValues>
+        <masterLabel>Aaron Kithcart</masterLabel>
+        <translation><!-- Aaron Kithcart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aditya Athanikar</masterLabel>
+        <translation><!-- Aditya Athanikar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Afshin Farzaneh-Far</masterLabel>
+        <translation><!-- Afshin Farzaneh-Far --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allen Radin</masterLabel>
+        <translation><!-- Allen Radin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alyson Berliner</masterLabel>
+        <translation><!-- Alyson Berliner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andrea Marcus</masterLabel>
+        <translation><!-- Andrea Marcus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andrew Korotzer</masterLabel>
+        <translation><!-- Andrew Korotzer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Angeliki Giannelou</masterLabel>
+        <translation><!-- Angeliki Giannelou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arsalan Shabbir</masterLabel>
+        <translation><!-- Arsalan Shabbir --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ashish Bansal</masterLabel>
+        <translation><!-- Ashish Bansal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Benjamin Olenchock</masterLabel>
+        <translation><!-- Benjamin Olenchock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Benjamin Ortiz</masterLabel>
+        <translation><!-- Benjamin Ortiz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brad Shumel</masterLabel>
+        <translation><!-- Brad Shumel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charles Harris</masterLabel>
+        <translation><!-- Charles Harris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cynthia Portal Celhay</masterLabel>
+        <translation><!-- Cynthia Portal Celhay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David Lederer</masterLabel>
+        <translation><!-- David Lederer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deepti Deshpande</masterLabel>
+        <translation><!-- Deepti Deshpande --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eduardo Forleo Neto</masterLabel>
+        <translation><!-- Eduardo Forleo Neto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elizabeth Miller</masterLabel>
+        <translation><!-- Elizabeth Miller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ethan Marin</masterLabel>
+        <translation><!-- Ethan Marin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flonza Isa</masterLabel>
+        <translation><!-- Flonza Isa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Georgios Kalliolias</masterLabel>
+        <translation><!-- Georgios Kalliolias --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giuseppe Gullo</masterLabel>
+        <translation><!-- Giuseppe Gullo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heather Magnan</masterLabel>
+        <translation><!-- Heather Magnan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Helen Cicirello</masterLabel>
+        <translation><!-- Helen Cicirello --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jaman Maroni</masterLabel>
+        <translation><!-- Jaman Maroni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jonathan Weyne</masterLabel>
+        <translation><!-- Jonathan Weyne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kathryn Gillis</masterLabel>
+        <translation><!-- Kathryn Gillis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kimberly Reed</masterLabel>
+        <translation><!-- Kimberly Reed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manish Ponda</masterLabel>
+        <translation><!-- Manish Ponda --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matthew Fury</masterLabel>
+        <translation><!-- Matthew Fury --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meagan O&apos;Brien</masterLabel>
+        <translation><!-- Meagan O&apos;Brien --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Melissa Mathias</masterLabel>
+        <translation><!-- Melissa Mathias --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nikhil Singh</masterLabel>
+        <translation><!-- Nikhil Singh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oren Levy</masterLabel>
+        <translation><!-- Oren Levy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Petra Rietschel</masterLabel>
+        <translation><!-- Petra Rietschel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priscila Hermont B Goncalves</masterLabel>
+        <translation><!-- Priscila Hermont B Goncalves --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qiufei Ma</masterLabel>
+        <translation><!-- Qiufei Ma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sabina Sandigursky</masterLabel>
+        <translation><!-- Sabina Sandigursky --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selin Somersan-Karakaya</masterLabel>
+        <translation><!-- Selin Somersan-Karakaya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shahid Siddiqui</masterLabel>
+        <translation><!-- Shahid Siddiqui --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stephen DiMartino</masterLabel>
+        <translation><!-- Stephen DiMartino --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stephen Donahue</masterLabel>
+        <translation><!-- Stephen Donahue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Norton</masterLabel>
+        <translation><!-- Thomas Norton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Uldrick</masterLabel>
+        <translation><!-- Thomas Uldrick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timothy Bowler</masterLabel>
+        <translation><!-- Timothy Bowler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tolga Baykal</masterLabel>
+        <translation><!-- Tolga Baykal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_ECD Medical Director (GEN)</masterLabel>
+        <translation><!-- _ECD Medical Director (GEN) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_II Medical Director (GEN)</masterLabel>
+        <translation><!-- _II Medical Director (GEN) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_ONC Medical Director (GEN)</masterLabel>
+        <translation><!-- _ONC Medical Director (GEN) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_TA Medical Director (GEN)</masterLabel>
+        <translation><!-- _TA Medical Director (GEN) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

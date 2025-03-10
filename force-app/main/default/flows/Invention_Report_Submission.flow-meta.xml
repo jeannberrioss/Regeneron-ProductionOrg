@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Invention Report Submission {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Invention Report Submission</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>IP_Submission_Form</name>
+        <label>IP Submission Form</label>
+        <locationX>612</locationX>
+        <locationY>219</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>IP_Submission</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://regn.sharepoint.com/sites/IntellectualProperty/Lists/NewInventionReport/NewForm.aspx?Source=https%3A%2F%2Fregn%2Esharepoint%2Ecom%2Fsites%2FIntellectualProperty%2FLists%2FNewInventionReport%2FAllItems%2Easpx&amp;amp;ContentTypeId=0x010015CE05FC9815254BAC5459E5652452AB&amp;amp;RootFolder=%2Fsites%2FIntellectualProperty%2FLists%2FNewInventionReport&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;strong&gt;&lt;img src=&quot;https://rgc.file.force.com/sfc/servlet.shepherd/version/download/068R3000001hqkL?asPdf=false&amp;amp;operationContext=CHATTER&quot; alt=&quot;intellectual-property (1).png&quot; title=&quot;&quot;&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 18px;&quot;&gt;Please use this &lt;/strong&gt;&lt;a href=&quot;https://regn.sharepoint.com/sites/IntellectualProperty/Lists/NewInventionReport/NewForm.aspx?Source=https%3A%2F%2Fregn%2Esharepoint%2Ecom%2Fsites%2FIntellectualProperty%2FLists%2FNewInventionReport%2FAllItems%2Easpx&amp;amp;ContentTypeId=0x010015CE05FC9815254BAC5459E5652452AB&amp;amp;RootFolder=%2Fsites%2FIntellectualProperty%2FLists%2FNewInventionReport&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;strong&gt;link &lt;/strong&gt;&lt;/a&gt;&lt;strong style=&quot;font-size: 18px;&quot;&gt;to the Invention report submission form to submit directly to the IP team.  &lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>486</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>IP_Submission_Form</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

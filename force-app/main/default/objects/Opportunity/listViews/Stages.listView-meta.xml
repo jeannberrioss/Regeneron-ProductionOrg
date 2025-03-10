@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stages</fullName>
+    <columns>Primary_Collaboration_Type__c</columns>
+    <columns>Collaboration_Status_1__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Research_Plan_Link__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Research_Plan_Review__c</columns>
+    <columns>Proceed_Based_on_Research_Plan__c</columns>
+    <columns>Primary_TFA_Biology__c</columns>
+    <columns>Collaboration_Status_Updated_Date__c</columns>
+    <columns>Collaborator_Scientific_Contact_Names__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Single_Collaboration_Opportunity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>1- Early Discussions,2- Due Diligence,3- Research &amp; Ops Planning,4- Agreement,5- Collaboration Signoff</value>
+    </filters>
+    <filters>
+        <field>Collaboration_Status_1__c</field>
+        <operation>equals</operation>
+        <value>Potential</value>
+    </filters>
+    <filters>
+        <field>Primary_Collaboration_Type__c</field>
+        <operation>equals</operation>
+        <value>Large Population,Health System</value>
+    </filters>
+    <label>Stages</label>
+</ListView>

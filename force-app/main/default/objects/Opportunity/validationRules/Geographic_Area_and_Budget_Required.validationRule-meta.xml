@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geographic_Area_and_Budget_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Total_Amendment_Budget__c &lt; 1 , AND(
+    NOT( ISBLANK( TEXT( Agreement_Type__c ) ) ),
+    OR(
+    ISBLANK( TEXT ( Geographic_Area__c ) ),
+    ISBLANK( TEXT ( Budget__c ) )
+    )
+))</errorConditionFormula>
+    <errorMessage>Geographic Area and Budget is required if an Agreement Type is selected.</errorMessage>
+</ValidationRule>
