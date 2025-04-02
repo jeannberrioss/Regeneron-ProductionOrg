@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_RGC_Champions__c</fullName>
+    <description>RGC Champion pull for Conga CV slide generation</description>
+    <externalId>false</externalId>
+    <formula>IF( NOT (ISBLANK( RGC_Champion__c ) ), RGC_Champion__r.FirstName &amp; &apos; &apos; &amp; RGC_Champion__r.LastName &amp;
+IF ( OR ( NOT ( ISBLANK( RGC_Co_Champion__c ) ), NOT ( ISBLANK( RGC_Co_Champion1__c ) ), NOT ( ISBLANK( RGC_Co_Champion2__c ) ) ) , &apos;, &apos;, &apos;&apos;), &apos;&apos;) &amp;
+
+IF( NOT (ISBLANK( RGC_Co_Champion__c ) ), RGC_Co_Champion__r.FirstName &amp; &apos; &apos; &amp; RGC_Co_Champion__r.LastName &amp;
+IF ( OR ( NOT ( ISBLANK( RGC_Co_Champion1__c ) ), NOT ( ISBLANK( RGC_Co_Champion2__c ) ) ) , &apos;, &apos;, &apos;&apos;), &apos;&apos;) &amp;
+
+IF( NOT (ISBLANK( RGC_Co_Champion1__c ) ), RGC_Co_Champion1__r.FirstName &amp; &apos; &apos; &amp; RGC_Co_Champion1__r.LastName &amp;
+IF ( NOT ( ISBLANK( RGC_Co_Champion2__c ) ) , &apos;, &apos;, &apos;&apos;), &apos;&apos;) &amp;
+
+IF( NOT (ISBLANK( RGC_Co_Champion2__c ) ), RGC_Co_Champion2__r.FirstName &amp; &apos; &apos; &amp; RGC_Co_Champion2__r.LastName, &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>All RGC Champions</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -320,6 +320,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Budget_Types__c</picklist>
+        <values>
+            <fullName>Fixed Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milestone Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prorated by Sample</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revenue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Budget__c</picklist>
         <values>
             <fullName>Budget</fullName>

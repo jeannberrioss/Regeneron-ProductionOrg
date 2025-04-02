@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proceed_Based_on_Research_Plan__c</fullName>
+    <description>Formerly &quot;Proceed Based on Research Plan&quot; - changed by JG April 2020</description>
+    <inlineHelpText>Date approved at ROP to move to the Agreement stage</inlineHelpText>
+    <label>Research Plan Reviewed at ROP Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

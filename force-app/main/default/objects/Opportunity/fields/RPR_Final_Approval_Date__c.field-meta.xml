@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RPR_Final_Approval_Date__c</fullName>
+    <description>Date RGC has signed off
+
+Formerly &quot;Opportunity Approved Date&quot; changed by JG April 2020</description>
+    <inlineHelpText>Date Collaboration approved to move to Signatures and Execution stage.</inlineHelpText>
+    <label>CV Signoff at ROP Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
