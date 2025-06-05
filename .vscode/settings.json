@@ -4,5 +4,13 @@
     "**/bower_components": true,
     "**/.sfdx": true
   },
-  "salesforcedx-vscode-apex.java.home": "/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home"
+  "salesforcedx-vscode-apex.java.home": "/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home",
+  "html.validate.styles": false,
+  "html.validate.scripts": false,
+  "xml.validation.enabled": false,
+  "xml.validation.namespaces.enabled": "never",
+  "xml.validation.schema.enabled": "never",
+  "debug.javascript.terminalOptions": {},
+  "javascript.format.enable": false,
+  "xml.format.enabled": false
 }
